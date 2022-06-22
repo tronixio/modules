@@ -2,8 +2,8 @@
 
 ## GPIO Modules.
 
-- [74HC595-LED]()
-- [74HC595-HEADER]()
+- [74HC595-LED](https://github.com/tronixio/modules/blob/main/gpio-hc595)
+- [74HC595-HEADER](https://github.com/tronixio/modules/blob/main/gpio-hc595)
 
 ## UART Modules.
 

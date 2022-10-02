@@ -28,7 +28,7 @@ CONFIG LVP=ON
 ; -preset_vec=0000h, -pstringtext=3FC0h.
 ; Instruction ~500ns @8MHz.
 
-; HC595 with SPI.
+; HC595 Chase with SPI.
 
 ; GPR BANK0.
 PSECT cstackBANK0,class=BANK0,space=1,delta=1

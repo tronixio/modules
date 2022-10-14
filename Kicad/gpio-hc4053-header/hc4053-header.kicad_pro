@@ -435,7 +435,10 @@
         "microvia_diameter": 0.0,
         "microvia_drill": 0.0,
         "name": "CLASS-04",
-        "nets": [],
+        "nets": [
+          "GND",
+          "VCC"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
@@ -489,9 +492,7 @@
         "microvia_diameter": 0.0,
         "microvia_drill": 0.0,
         "name": "POWER-08",
-        "nets": [
-          "GND"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.8,

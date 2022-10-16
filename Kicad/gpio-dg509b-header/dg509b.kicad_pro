@@ -435,7 +435,24 @@
         "microvia_diameter": 0.0,
         "microvia_drill": 0.0,
         "name": "CLASS-04",
-        "nets": [],
+        "nets": [
+          "GND",
+          "Net-(K1-Pad3)",
+          "Net-(K1-Pad4)",
+          "Net-(K1-Pad5)",
+          "Net-(K2-Pad1)",
+          "Net-(K2-Pad3)",
+          "Net-(K3-Pad1)",
+          "Net-(K3-Pad2)",
+          "Net-(K3-Pad3)",
+          "Net-(K3-Pad4)",
+          "Net-(K3-Pad5)",
+          "Net-(K3-Pad6)",
+          "Net-(K3-Pad7)",
+          "Net-(K3-Pad8)",
+          "VCC",
+          "unconnected-(K1-Pad6)"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
@@ -489,9 +506,7 @@
         "microvia_diameter": 0.0,
         "microvia_drill": 0.0,
         "name": "POWER-08",
-        "nets": [
-          "GND"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.8,
@@ -532,7 +547,7 @@
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "/Users/sly/Nextcloud/Tronix/1.Kicad/layouts/layout3.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,

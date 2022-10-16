@@ -4,6 +4,7 @@
 
 - [74HC595 - LED & Header.](https://github.com/tronixio/modules/blob/main/gpio/hc595.md)
 - [74HC4053 - Header.](https://github.com/tronixio/modules/blob/main/gpio/hc4053.md)
+- [DG509B - Header.](https://github.com/tronixio/modules/blob/main/gpio/dg509b.md)
 - [LCD 4x20 Characters.](https://github.com/tronixio/modules/blob/main/gpio/lcd420.md)
 
 ## UART Modules.

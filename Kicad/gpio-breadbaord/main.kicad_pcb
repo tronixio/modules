@@ -149,7 +149,7 @@
 			)
 		)
 		(property "Value" "GPIO OUT #2"
-			(at 0 40.5 0)
+			(at 0 20.56 -90)
 			(layer "F.Fab")
 			(uuid "81d60e7a-56c0-4415-a043-b81533bcec71")
 			(effects
@@ -168,6 +168,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -180,6 +181,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -192,6 +194,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1505,6 +1508,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1517,6 +1521,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1529,6 +1534,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1538,28 +1544,6 @@
 		(solder_mask_margin 1.5)
 		(clearance 1.5)
 		(attr exclude_from_pos_files)
-		(fp_circle
-			(center 0 0)
-			(end 3.5 0)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill none)
-			(layer "B.SilkS")
-			(uuid "23655537-6808-4255-a94f-3b05c2dec5e8")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 3.5 0)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "76f11da3-2078-4ea6-b226-ffcb9cf3021e")
-		)
 		(fp_circle
 			(center 0 0)
 			(end 3.5 0)
@@ -1596,7 +1580,7 @@
 			)
 		)
 		(property "Value" "GPIO OUT #1"
-			(at 0 40.5 0)
+			(at 0 20.56 90)
 			(layer "F.Fab")
 			(uuid "c188c45c-7698-4283-b34a-e621f8ee2e4c")
 			(effects
@@ -1615,6 +1599,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1627,6 +1612,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1639,6 +1625,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2949,6 +2936,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2961,6 +2949,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2973,6 +2962,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3563,6 +3553,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3575,6 +3566,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3587,6 +3579,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4180,6 +4173,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4192,6 +4186,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4204,6 +4199,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4213,28 +4209,6 @@
 		(solder_mask_margin 1.5)
 		(clearance 1.5)
 		(attr exclude_from_pos_files)
-		(fp_circle
-			(center 0 0)
-			(end 3.5 0)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill none)
-			(layer "B.SilkS")
-			(uuid "708260be-ddc0-41d1-944f-755d35d964ff")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 3.5 0)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "da2f927e-9be1-4304-935b-8bee378a12ca")
-		)
 		(fp_circle
 			(center 0 0)
 			(end 3.5 0)
@@ -4293,6 +4267,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4305,6 +4280,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4317,6 +4293,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4326,28 +4303,6 @@
 		(solder_mask_margin 1.5)
 		(clearance 1.5)
 		(attr exclude_from_pos_files)
-		(fp_circle
-			(center 0 0)
-			(end 3.5 0)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill none)
-			(layer "B.SilkS")
-			(uuid "89d50ebf-eaae-4005-be34-3fa369920d97")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 3.5 0)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "ad09539d-5902-4b01-8e27-7031e5befe4d")
-		)
 		(fp_circle
 			(center 0 0)
 			(end 3.5 0)
@@ -4406,6 +4361,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4418,6 +4374,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4430,6 +4387,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4439,28 +4397,6 @@
 		(solder_mask_margin 1.5)
 		(clearance 1.5)
 		(attr exclude_from_pos_files)
-		(fp_circle
-			(center 0 0)
-			(end 3.5 0)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill none)
-			(layer "B.SilkS")
-			(uuid "e0e7bbee-53ac-4eca-8f8a-dfefa925581b")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 3.5 0)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.SilkS")
-			(uuid "16a264d0-76d3-4929-901e-3311a436c629")
-		)
 		(fp_circle
 			(center 0 0)
 			(end 3.5 0)
@@ -4517,6 +4453,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4529,6 +4466,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4541,6 +4479,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4653,7 +4592,7 @@
 			)
 		)
 		(property "Value" "GPIO IN"
-			(at 0 -40.5 90)
+			(at 0 -19.05 180)
 			(layer "B.Fab")
 			(uuid "9649ac19-2e83-4769-8d3a-335ad1c7cfcb")
 			(effects
@@ -4673,6 +4612,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4685,6 +4625,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4697,6 +4638,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6011,6 +5953,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6023,6 +5966,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6035,6 +5979,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6154,8 +6099,8 @@
 		)
 	)
 	(gr_rect
-		(start 188 101.5)
-		(end 192 103.5)
+		(start 185 100.5)
+		(end 189 102.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -6165,8 +6110,8 @@
 		(uuid "00783fc8-d8ae-4850-a012-79a909921aa8")
 	)
 	(gr_line
-		(start 190 103.5)
-		(end 190 101.5)
+		(start 187 102.5)
+		(end 187 100.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -6175,8 +6120,8 @@
 		(uuid "dc8fd1cc-c837-4cc6-aa81-fdca837a3b89")
 	)
 	(gr_line
-		(start 190 103.5)
-		(end 190 101.5)
+		(start 187 102.5)
+		(end 187 100.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -6185,8 +6130,8 @@
 		(uuid "06848c0e-842c-4665-bcb4-4aba9e7680cb")
 	)
 	(gr_rect
-		(start 188 101.5)
-		(end 192 103.5)
+		(start 185 100.5)
+		(end 189 102.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -6436,7 +6381,7 @@
 		(uuid "f1ad0548-9e9a-48ba-8e24-1c54b7c26bb4")
 	)
 	(gr_text "1"
-		(at 189 102.5 0)
+		(at 186 101.5 0)
 		(layer "F.Cu")
 		(uuid "5665f5db-e3d0-468b-afd7-f6366f56eebb")
 		(effects
@@ -6447,7 +6392,7 @@
 		)
 	)
 	(gr_text "2"
-		(at 191 102.5 0)
+		(at 188 101.5 0)
 		(layer "B.Cu")
 		(uuid "1dd5a12c-e11f-4df0-842d-46a77e29095c")
 		(effects
@@ -6470,7 +6415,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "202301 - Rev.A"
+	(gr_text "012023 - Rev.A"
 		(at 149 83 0)
 		(layer "B.SilkS")
 		(uuid "7a3e5a44-1d11-4627-9ebf-a74cda84af79")
@@ -6586,7 +6531,7 @@
 			)
 		)
 	)
-	(gr_text "202301 - Rev.A"
+	(gr_text "012023 - Rev.A"
 		(at 191.5 95.5 90)
 		(layer "F.SilkS")
 		(uuid "777d73c8-64fc-461f-a990-9766bfac6321")
@@ -6777,16 +6722,16 @@
 	)
 	(via
 		(at 155 55.94)
-		(size 0.8)
-		(drill 0.4)
+		(size 1)
+		(drill 0.5)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
 		(uuid "2a7aedd1-14ba-4b4f-b350-92fa8831183d")
 	)
 	(via
 		(at 110 55.94)
-		(size 0.8)
-		(drill 0.4)
+		(size 1)
+		(drill 0.5)
 		(layers "F.Cu" "B.Cu")
 		(net 1)
 		(uuid "40b42bf9-e273-4f48-a9ef-13aaa45450bc")
@@ -6873,16 +6818,16 @@
 	)
 	(via
 		(at 175 58.48)
-		(size 0.8)
-		(drill 0.4)
+		(size 1)
+		(drill 0.5)
 		(layers "F.Cu" "B.Cu")
 		(net 2)
 		(uuid "d6fa3b94-b884-459e-9981-20e5dbc5f459")
 	)
 	(via
 		(at 112.54 58.48)
-		(size 0.8)
-		(drill 0.4)
+		(size 1)
+		(drill 0.5)
 		(layers "F.Cu" "B.Cu")
 		(net 2)
 		(uuid "df6f71ce-5949-4256-a188-a77abb623b92")
@@ -6961,8 +6906,8 @@
 	)
 	(via
 		(at 145.56 91.5)
-		(size 0.8)
-		(drill 0.4)
+		(size 1)
+		(drill 0.5)
 		(layers "F.Cu" "B.Cu")
 		(net 3)
 		(uuid "373b42a8-5153-4473-b82c-7b989e1a33b0")
@@ -6993,8 +6938,8 @@
 	)
 	(via
 		(at 132.86 78.8)
-		(size 0.8)
-		(drill 0.4)
+		(size 1)
+		(drill 0.5)
 		(layers "F.Cu" "B.Cu")
 		(net 4)
 		(uuid "36b44755-a3db-4cce-809a-e151aceff3d8")
@@ -7025,8 +6970,8 @@
 	)
 	(via
 		(at 117.62 63.56)
-		(size 0.8)
-		(drill 0.4)
+		(size 1)
+		(drill 0.5)
 		(layers "F.Cu" "B.Cu")
 		(net 5)
 		(uuid "04e21cb9-1d50-44c2-b7f3-583581a222fb")
@@ -7057,8 +7002,8 @@
 	)
 	(via
 		(at 137.94 83.88)
-		(size 0.8)
-		(drill 0.4)
+		(size 1)
+		(drill 0.5)
 		(layers "F.Cu" "B.Cu")
 		(net 6)
 		(uuid "904ada5a-05ca-4d19-b4fb-060c6186a4b2")
@@ -7089,8 +7034,8 @@
 	)
 	(via
 		(at 143.02 88.96)
-		(size 0.8)
-		(drill 0.4)
+		(size 1)
+		(drill 0.5)
 		(layers "F.Cu" "B.Cu")
 		(net 7)
 		(uuid "7616a9c5-ad80-4a0b-9e8a-77b2d31529c4")
@@ -7121,8 +7066,8 @@
 	)
 	(via
 		(at 115.08 61.02)
-		(size 0.8)
-		(drill 0.4)
+		(size 1)
+		(drill 0.5)
 		(layers "F.Cu" "B.Cu")
 		(net 8)
 		(uuid "8c048ebb-47db-410e-ace4-816c57f34c98")
@@ -7153,8 +7098,8 @@
 	)
 	(via
 		(at 130.32 76.26)
-		(size 0.8)
-		(drill 0.4)
+		(size 1)
+		(drill 0.5)
 		(layers "F.Cu" "B.Cu")
 		(net 9)
 		(uuid "dd7073b9-c932-4af0-be90-38cdd9f7e2d2")
@@ -7185,8 +7130,8 @@
 	)
 	(via
 		(at 120.16 66.1)
-		(size 0.8)
-		(drill 0.4)
+		(size 1)
+		(drill 0.5)
 		(layers "F.Cu" "B.Cu")
 		(net 10)
 		(uuid "e9821cb1-2f55-4d60-9ba8-2df436db4e59")
@@ -7217,8 +7162,8 @@
 	)
 	(via
 		(at 125.24 71.18)
-		(size 0.8)
-		(drill 0.4)
+		(size 1)
+		(drill 0.5)
 		(layers "F.Cu" "B.Cu")
 		(net 11)
 		(uuid "a8c457de-fb40-49e8-969c-07895431fe7c")
@@ -7249,8 +7194,8 @@
 	)
 	(via
 		(at 122.7 68.64)
-		(size 0.8)
-		(drill 0.4)
+		(size 1)
+		(drill 0.5)
 		(layers "F.Cu" "B.Cu")
 		(net 12)
 		(uuid "185fffca-bce0-41bf-838c-6c911f50fce2")
@@ -7281,8 +7226,8 @@
 	)
 	(via
 		(at 148.1 94.04)
-		(size 0.8)
-		(drill 0.4)
+		(size 1)
+		(drill 0.5)
 		(layers "F.Cu" "B.Cu")
 		(net 13)
 		(uuid "9dc063d3-1b00-482c-ba32-33ba3597f536")
@@ -7313,8 +7258,8 @@
 	)
 	(via
 		(at 140.48 86.42)
-		(size 0.8)
-		(drill 0.4)
+		(size 1)
+		(drill 0.5)
 		(layers "F.Cu" "B.Cu")
 		(net 14)
 		(uuid "7fd91307-a666-42af-ad24-543f980b0ce0")
@@ -7345,8 +7290,8 @@
 	)
 	(via
 		(at 127.78 73.72)
-		(size 0.8)
-		(drill 0.4)
+		(size 1)
+		(drill 0.5)
 		(layers "F.Cu" "B.Cu")
 		(net 15)
 		(uuid "89191e9f-1995-4860-8812-839c14f4dd26")
@@ -7377,8 +7322,8 @@
 	)
 	(via
 		(at 135.4 81.34)
-		(size 0.8)
-		(drill 0.4)
+		(size 1)
+		(drill 0.5)
 		(layers "F.Cu" "B.Cu")
 		(net 16)
 		(uuid "e897cb9d-335a-4b18-8567-9db8103d7ddb")

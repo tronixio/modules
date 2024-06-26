@@ -5549,7 +5549,7 @@
 	)
 	(text "10"
 		(exclude_from_sim no)
-		(at 107.315 102.87 0)
+		(at 106.68 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5560,7 +5560,7 @@
 	)
 	(text "15"
 		(exclude_from_sim no)
-		(at 107.315 115.57 0)
+		(at 106.68 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5568,6 +5568,28 @@
 			(justify right bottom)
 		)
 		(uuid "0ff80a60-d395-491d-ab6f-f7b1cc4982c2")
+	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 193.04 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11ad1ff3-0879-4206-85ee-eb7f07c79531")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 193.04 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11e7a6a1-be77-4993-8c32-da6c380d2de8")
 	)
 	(text "4"
 		(exclude_from_sim no)
@@ -5593,7 +5615,7 @@
 	)
 	(text "14"
 		(exclude_from_sim no)
-		(at 107.315 113.03 0)
+		(at 106.68 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5602,9 +5624,20 @@
 		)
 		(uuid "1e60de42-55bc-4562-8ea5-6feab1aff14c")
 	)
+	(text "15"
+		(exclude_from_sim no)
+		(at 193.04 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f3b5029-6d68-4b11-98db-38f3959fcd74")
+	)
 	(text "8"
 		(exclude_from_sim no)
-		(at 107.315 97.79 0)
+		(at 106.68 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5615,7 +5648,7 @@
 	)
 	(text "4"
 		(exclude_from_sim no)
-		(at 107.315 87.63 0)
+		(at 106.68 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5635,9 +5668,20 @@
 		)
 		(uuid "2fa5c2fb-8bae-490d-aa41-c81fbd21cb73")
 	)
+	(text "7"
+		(exclude_from_sim no)
+		(at 193.04 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32d55298-1590-4a3e-9399-ce6ade1a7c53")
+	)
 	(text "9"
 		(exclude_from_sim no)
-		(at 107.315 100.33 0)
+		(at 106.68 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5646,9 +5690,20 @@
 		)
 		(uuid "33d8eff4-b63f-4109-8996-b1da11297bf0")
 	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 193.04 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "383a812e-9371-49fd-b780-3ec4645925df")
+	)
 	(text "16"
 		(exclude_from_sim no)
-		(at 107.315 118.11 0)
+		(at 106.68 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5656,6 +5711,17 @@
 			(justify right bottom)
 		)
 		(uuid "39e10d33-3d3e-4a83-b8c6-6153b504470f")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 193.04 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42270b92-69d5-438f-a0ca-f62040c0f100")
 	)
 	(text "12"
 		(exclude_from_sim no)
@@ -5668,6 +5734,17 @@
 		)
 		(uuid "42eaa173-6f0d-4dfc-bc3b-0b9cba314297")
 	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 193.04 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "441558f4-ed8f-4458-8432-a079a538e447")
+	)
 	(text "9"
 		(exclude_from_sim no)
 		(at 106.68 54.61 0)
@@ -5679,9 +5756,20 @@
 		)
 		(uuid "49c89272-55a4-4e69-9709-b8099d89f756")
 	)
+	(text "12"
+		(exclude_from_sim no)
+		(at 193.04 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "49de8b91-4f83-405c-9a91-b34924ad7ccb")
+	)
 	(text "3"
 		(exclude_from_sim no)
-		(at 107.315 85.09 0)
+		(at 106.68 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5689,6 +5777,17 @@
 			(justify right bottom)
 		)
 		(uuid "50c79d9b-1cec-4a07-914b-7ad09a9a5d28")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 193.04 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5334d02f-f144-4be4-9609-c263b9cecd42")
 	)
 	(text "6"
 		(exclude_from_sim no)
@@ -5712,6 +5811,28 @@
 		)
 		(uuid "721b23ad-e64b-4418-81ef-f858d59e99e5")
 	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 193.04 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77903827-aa64-4d32-b472-8e30b7e203da")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 193.04 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7b113254-b444-439e-9afb-7c1c86202bf3")
+	)
 	(text "3"
 		(exclude_from_sim no)
 		(at 106.68 39.37 0)
@@ -5722,6 +5843,50 @@
 			(justify right bottom)
 		)
 		(uuid "7d97a238-f2f7-404a-9c7c-6f24abcd214f")
+	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 193.04 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84aaaa95-33c6-4401-b08d-a9c9c8366078")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 193.04 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86b6ff32-1396-4d30-a81a-a4070b4c11a4")
+	)
+	(text "14"
+		(exclude_from_sim no)
+		(at 193.04 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88d5dbaf-b832-453b-925a-5ec8e429147b")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 193.04 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "892eac70-db15-4d25-b103-0dcaee2eabe7")
 	)
 	(text "15"
 		(exclude_from_sim no)
@@ -5758,7 +5923,18 @@
 	)
 	(text "1"
 		(exclude_from_sim no)
-		(at 107.315 80.01 0)
+		(at 193.04 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e8c2e9b-b85a-4d69-abfd-baf399cb1fb2")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 106.68 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5769,7 +5945,7 @@
 	)
 	(text "7"
 		(exclude_from_sim no)
-		(at 107.315 95.25 0)
+		(at 106.68 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5780,7 +5956,7 @@
 	)
 	(text "11"
 		(exclude_from_sim no)
-		(at 107.315 105.41 0)
+		(at 106.68 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5811,6 +5987,17 @@
 		)
 		(uuid "b444db82-f397-4e4b-8c38-c587325ef7b8")
 	)
+	(text "11"
+		(exclude_from_sim no)
+		(at 193.04 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbbaf4fb-29a6-4e33-8828-4e0b769b041f")
+	)
 	(text "2"
 		(exclude_from_sim no)
 		(at 106.68 36.83 0)
@@ -5824,7 +6011,7 @@
 	)
 	(text "2"
 		(exclude_from_sim no)
-		(at 107.315 82.55 0)
+		(at 106.68 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5846,7 +6033,7 @@
 	)
 	(text "6"
 		(exclude_from_sim no)
-		(at 107.315 92.71 0)
+		(at 106.68 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5857,7 +6044,18 @@
 	)
 	(text "13"
 		(exclude_from_sim no)
-		(at 107.315 110.49 0)
+		(at 193.04 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0efc9f8-66cf-4d76-b6d7-fabe54e7cd2d")
+	)
+	(text "13"
+		(exclude_from_sim no)
+		(at 106.68 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5865,6 +6063,28 @@
 			(justify right bottom)
 		)
 		(uuid "d5466cde-7e8e-4250-8ff6-898c2f7b9b9b")
+	)
+	(text "16"
+		(exclude_from_sim no)
+		(at 193.04 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d59a193a-0f7c-4cc9-8eea-12ab2a44cb3b")
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 193.04 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5ae1b1d-fb14-42d3-a409-e4e25e613ac4")
 	)
 	(text "14"
 		(exclude_from_sim no)
@@ -5879,7 +6099,7 @@
 	)
 	(text "12"
 		(exclude_from_sim no)
-		(at 107.315 107.95 0)
+		(at 106.68 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5888,9 +6108,97 @@
 		)
 		(uuid "da8109b3-48fa-4584-94b4-b01df2fa89a7")
 	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 193.04 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dacd69eb-0b1a-441f-95e6-7a2d7f1609ec")
+	)
+	(text "10"
+		(exclude_from_sim no)
+		(at 193.04 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbdc4c99-2d12-4407-be87-ca7395fbd42e")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 193.04 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc26cf56-422f-41c8-a2d8-ee08fda5adf4")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 193.04 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2589b16-984e-4e48-b57f-e28bcba5b13d")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 193.04 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb016409-eb00-4d2b-988b-8f11f45222ae")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 193.04 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebbf8406-f3d3-4b08-ba17-a0bf99cd11fb")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 193.04 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f46af9fa-dd78-4933-bf16-a76cd459b5b2")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 193.04 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5081d5c-1a9d-44cc-b8e8-747dc42dd017")
+	)
 	(text "5"
 		(exclude_from_sim no)
-		(at 107.315 90.17 0)
+		(at 106.68 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6147,7 +6455,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:BREADBOARD-400")
-		(at 152.4 142.24 0)
+		(at 149.86 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6155,7 +6463,7 @@
 		(dnp no)
 		(uuid "954c2365-ac47-442c-8d53-46016be9d5f5")
 		(property "Reference" "BB1"
-			(at 152.4 133.35 0)
+			(at 149.86 133.35 0)
 			(effects
 				(font
 					(size 1.15 1.15)
@@ -6163,7 +6471,7 @@
 			)
 		)
 		(property "Value" "BREADBOARD-400"
-			(at 152.4 152.4 0)
+			(at 149.86 152.4 0)
 			(effects
 				(font
 					(size 1 1)
@@ -6172,7 +6480,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:BREADBOARD-400"
-			(at 152.4 154.94 0)
+			(at 149.86 154.94 0)
 			(effects
 				(font
 					(size 1 1)
@@ -6181,7 +6489,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.busboard.com/BB400"
-			(at 152.4 157.48 0)
+			(at 149.86 157.48 0)
 			(effects
 				(font
 					(size 1 1)
@@ -6190,7 +6498,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 142.24 0)
+			(at 149.86 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6199,7 +6507,7 @@
 			)
 		)
 		(property "Mouser" "854-BB400"
-			(at 152.4 160.02 0)
+			(at 149.86 160.02 0)
 			(effects
 				(font
 					(size 1 1)

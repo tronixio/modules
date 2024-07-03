@@ -9,11 +9,17 @@
 
 ## UART Modules.
 
+- [TODO.](https://tronix.io)
+
 ## I2C Modules.
+
+- [TODO.](https://tronix.io)
 
 ## SPI Modules.
 
-## Note.
+- [TODO.](https://tronix.io)
+
+## Notes.
 
 - DRAFT : Prototype OK, last check schematic, PCB & code can be modify.
-- TODO : Work in progress, prototype was not good, hardware, PCB and code can be rework.`
+- TODO : Work in progress, prototype was not good, hardware, PCB and code can be rework.

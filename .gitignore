@@ -9,5 +9,4 @@ Kicad/*/main-backups/
 Kicad/*/fp-info-cache
 
 # MplabX.
-MplabX/*/dist/
-MplabX/*/build/
+/Firmwares/pic16f188xx/*/

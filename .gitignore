@@ -3,6 +3,7 @@ Docs
 
 # Kicad.
 Kicad/*/*
+!Kicad/*/extras/
 !Kicad/*/*kicad_pcb
 !Kicad/*/*kicad_pro
 !Kicad/*/*kicad_sch

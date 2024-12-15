@@ -9,6 +9,6 @@ Kicad/*/*
 !Kicad/*/*kicad_sch
 
 # MplabX.
-MplabX/*/*
+Firmwares/*
 !MplabX/*/main.c
 !MplabX/*/main.s

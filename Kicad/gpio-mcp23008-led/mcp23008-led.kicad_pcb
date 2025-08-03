@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(general
 		(thickness 1.6)
 		(legacy_teardrops no)
@@ -14,20 +14,20 @@
 	)
 	(layers
 		(0 "F.Cu" signal)
-		(31 "B.Cu" signal)
-		(34 "B.Paste" user)
-		(35 "F.Paste" user)
-		(36 "B.SilkS" user "B.Silkscreen")
-		(37 "F.SilkS" user "F.Silkscreen")
-		(38 "B.Mask" user)
-		(39 "F.Mask" user)
-		(40 "Dwgs.User" user "User.Drawings")
-		(44 "Edge.Cuts" user)
-		(45 "Margin" user)
-		(46 "B.CrtYd" user "B.Courtyard")
-		(47 "F.CrtYd" user "F.Courtyard")
-		(48 "B.Fab" user)
-		(49 "F.Fab" user)
+		(2 "B.Cu" signal)
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
 	)
 	(setup
 		(stackup
@@ -84,10 +84,11 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
 		(aux_axis_origin 126 89)
 		(pcbplotparams
-			(layerselection 0x00011fc_ffffffff)
-			(plot_on_all_layers_selection 0x0000000_00000000)
+			(layerselection 0x00000000_00000000_55555555_5757f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions yes)
 			(usegerberattributes no)
@@ -97,7 +98,6 @@
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 6)
 			(plotframeref no)
-			(viasonmask no)
 			(mode 1)
 			(useauxorigin no)
 			(hpglpennumber 1)
@@ -105,16 +105,19 @@
 			(hpglpendiameter 15.000000)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
 			(dxfpolygonmode yes)
 			(dxfimperialunits yes)
 			(dxfusepcbnewfont yes)
 			(psnegative no)
 			(psa4output no)
-			(plotreference no)
-			(plotvalue no)
-			(plotfptext yes)
-			(plotinvisibletext no)
+			(plot_black_and_white yes)
 			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
 			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
@@ -177,18 +180,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e5e64d38-698f-4bd5-832c-29b2656a7a92")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -315,7 +306,7 @@
 				(width 0)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.SilkS")
 			(uuid "b54992a6-9e97-4884-8c51-88db9ff29f0d")
 		)
@@ -326,10 +317,11 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "dc1e0bd0-6f02-411a-8704-03922b62d2be")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "tronixio:HARWIN-M20-975064x"
 		(layer "F.Cu")
@@ -357,20 +349,8 @@
 				)
 			)
 		)
-		(property "Footprint" "tronixio:HARWIN-M20-975064x"
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f0e319ca-3b61-475a-9911-8f44a85b32a9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "https://www.harwin.com/products/M20-9750646/"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7f227d17-8c3f-42f5-a443-1ea37c4a231b")
@@ -381,8 +361,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 0 0 -90)
+		(property "Description" "M20 Series - 2.54mm Pitch PCB Connector"
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "97f31572-8174-4d0d-bad5-73148de85ddf")
@@ -418,7 +398,7 @@
 			)
 		)
 		(path "/9c4c3158-1d24-4d1c-8e39-342d19a63c17")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(attr through_hole)
 		(fp_rect
@@ -428,7 +408,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "fe1e1bfa-c485-4aaf-9a30-fbcc39e7fb64")
 		)
@@ -669,7 +649,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "871de535-1c66-4959-ad17-53c8ef90ce15")
 		)
@@ -680,7 +660,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "51524aa8-4a36-49dc-b663-b3c02c605e5f")
 		)
@@ -691,7 +671,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "a800dd7b-efbf-40e4-a7c1-78ded51cbb7c")
 		)
@@ -702,7 +682,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "5e42bb4a-8d81-4bf5-8abc-0a1250f39447")
 		)
@@ -713,7 +693,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "c21c1aed-4552-4644-a75c-166023004110")
 		)
@@ -724,7 +704,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "23dde255-8339-496c-9555-68829e1c3d3c")
 		)
@@ -735,7 +715,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "a129eae6-a44b-401e-a980-e5c75ba86607")
 		)
@@ -805,6 +785,7 @@
 			(pintype "passive")
 			(uuid "e1c3db15-d77a-4142-87fe-fbc6efe34ec2")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_USER_3DMODEL_DIR}/Header/HARWIN-M20-975064x.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -843,18 +824,6 @@
 			(effects
 				(font
 					(size 0.001 0.001)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d892b9bf-b65e-4863-8eec-582c064e38e4")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -910,10 +879,11 @@
 				(width 0)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.SilkS")
 			(uuid "710cefb0-5564-4633-aee4-b708de7e7ec4")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "tronixio:HARWIN-M22-25103xx"
 		(layer "F.Cu")
@@ -938,18 +908,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:HARWIN-M22-25103xx"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5d106ff5-ae49-4cc3-b9c8-d365acff8ff0")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -992,7 +950,7 @@
 			)
 		)
 		(path "/76a19c1e-e7e6-4de0-a38b-f6cdf23e70e6")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1072,7 +1030,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "b1e4e55b-9ef4-46c7-a961-61e334115a6f")
 		)
@@ -1299,6 +1257,7 @@
 			(pintype "passive")
 			(uuid "1cf2dc7c-7973-4951-bb16-629bdff4c374")
 		)
+		(embedded_fonts no)
 		(model "${KICAD_USER_3DMODEL_DIR}/Header/HARWIN-M22-25103xx.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -1337,18 +1296,6 @@
 			(effects
 				(font
 					(size 0.001 0.001)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f55b7bee-6893-480a-8d80-fbc189502a6b")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1403,10 +1350,11 @@
 				(width 0)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.SilkS")
 			(uuid "1ffa9e51-b066-4cc0-a29c-6e602eb3429e")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "tronixio:LED-SMD-1206"
 		(layer "F.Cu")
@@ -1434,18 +1382,6 @@
 				)
 			)
 		)
-		(property "Footprint" "tronixio:LED-SMD-1206"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "231c895a-24f4-47e8-a74c-6b41dcc8f0bb")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216LSECK-J3-PRV.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -1458,7 +1394,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light Emitting Diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1495,7 +1431,7 @@
 			)
 		)
 		(path "/dbce63bc-6b96-411c-814b-0a1e57ff582f")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -1528,7 +1464,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.SilkS")
 			(uuid "16713263-dca6-4f2c-9d83-a26866e406c0")
 		)
@@ -1539,7 +1475,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "5534dfb5-7552-4f42-b290-ec67966fc2f1")
 		)
@@ -1550,7 +1486,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "974c7015-1ae2-4ae5-be50-74709edb3997")
 		)
@@ -1561,14 +1497,14 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "617863de-0107-4484-9241-88fa2c1adae3")
 		)
 		(pad "1" smd roundrect
 			(at -1.5 0)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 1 "POWER-GND")
 			(pinfunction "C")
@@ -1579,7 +1515,7 @@
 		(pad "2" smd roundrect
 			(at 1.5 0)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 16 "Net-(LED7-A)")
 			(pinfunction "A")
@@ -1587,6 +1523,7 @@
 			(zone_connect 2)
 			(uuid "e8037d4e-6023-44da-bfcc-fc18b13d44c9")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_USER_3DMODEL_DIR}/SMD/LED-1206.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -1626,18 +1563,6 @@
 				)
 			)
 		)
-		(property "Footprint" "tronixio:HARWIN-M22-25102xx"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2046beda-3285-4f8a-a4a9-076671d6f777")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "https://www.harwin.com/products/M22-2510246/"
 			(at 0 0 90)
 			(layer "F.Fab")
@@ -1663,7 +1588,7 @@
 			)
 		)
 		(property "Mouser" "855-M22-25102"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1676,7 +1601,7 @@
 			)
 		)
 		(path "/9ab77dc0-9a2f-4d8c-a47a-28f0f267a976")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1756,7 +1681,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "0883c9f7-15d5-4634-9143-3e00741f8707")
 		)
@@ -1912,6 +1837,7 @@
 			(pintype "passive")
 			(uuid "a9dd42e1-aed7-4bda-8384-83bde32b904b")
 		)
+		(embedded_fonts no)
 		(model "${KICAD_USER_3DMODEL_DIR}/Header/HARWIN-M22-25102xx.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -1950,18 +1876,6 @@
 				)
 			)
 		)
-		(property "Footprint" "tronixio:LED-SMD-1206"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ac41d05e-498a-4939-970f-2ce65ed72d7d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216LSECK-J3-PRV.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -1974,7 +1888,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light Emitting Diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2011,7 +1925,7 @@
 			)
 		)
 		(path "/539d6d6a-97ce-45d4-a3ca-21493b6ed8a8")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -2044,7 +1958,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.SilkS")
 			(uuid "a101beb1-7ee2-4e68-8bcb-070e74ec7959")
 		)
@@ -2055,7 +1969,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "f0158990-6fb4-4e60-ac22-aeed2cfdd815")
 		)
@@ -2066,7 +1980,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "1679bfff-d1ef-4cf3-85de-0374073fb9e3")
 		)
@@ -2077,14 +1991,14 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "10aa832c-44e9-44bb-803f-196291d3b7dc")
 		)
 		(pad "1" smd roundrect
 			(at -1.5 0)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 1 "POWER-GND")
 			(pinfunction "C")
@@ -2095,7 +2009,7 @@
 		(pad "2" smd roundrect
 			(at 1.5 0)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 10 "Net-(LED1-A)")
 			(pinfunction "A")
@@ -2103,6 +2017,7 @@
 			(zone_connect 2)
 			(uuid "9665d945-81cf-439d-82d9-fa93f16878d0")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_USER_3DMODEL_DIR}/SMD/LED-1206.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -2138,19 +2053,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:SOIC-18W"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b4633aed-c518-4b7c-8dd5-1f9cf10ac44a")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2194,8 +2096,21 @@
 				)
 			)
 		)
+		(property "I2C" "@0x40"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d71245a-024e-438f-9f1f-f23a271745e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/588aae03-9190-4c05-9574-d77bf74e41e0")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2266,14 +2181,14 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "28ca3afc-72fd-4658-b46f-9f91f0b0a4f5")
 		)
 		(pad "1" smd roundrect
 			(at -4.7 -5.08 180)
 			(size 2 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
 			(net 8 "SCL")
 			(pinfunction "SCL")
@@ -2283,7 +2198,7 @@
 		(pad "2" smd roundrect
 			(at -4.7 -3.81 180)
 			(size 2 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
 			(net 6 "SDA")
 			(pinfunction "SDA")
@@ -2293,7 +2208,7 @@
 		(pad "3" smd roundrect
 			(at -4.7 -2.54 180)
 			(size 2 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
 			(net 3 "Net-(U1-A2)")
 			(pinfunction "A2")
@@ -2303,7 +2218,7 @@
 		(pad "4" smd roundrect
 			(at -4.7 -1.27 180)
 			(size 2 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
 			(net 4 "Net-(U1-A1)")
 			(pinfunction "A1")
@@ -2313,7 +2228,7 @@
 		(pad "5" smd roundrect
 			(at -4.7 0 180)
 			(size 2 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
 			(net 5 "Net-(U1-A0)")
 			(pinfunction "A0")
@@ -2323,7 +2238,7 @@
 		(pad "6" smd roundrect
 			(at -4.7 1.27 180)
 			(size 2 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
 			(net 7 "~{RESET}")
 			(pinfunction "~{RESET}")
@@ -2333,7 +2248,7 @@
 		(pad "7" smd roundrect
 			(at -4.7 2.54 180)
 			(size 2 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
 			(net 26 "unconnected-(U1-NC-Pad7)")
 			(pinfunction "NC")
@@ -2343,7 +2258,7 @@
 		(pad "8" smd roundrect
 			(at -4.7 3.81 180)
 			(size 2 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
 			(net 29 "unconnected-(U1-INT-Pad8)")
 			(pinfunction "INT")
@@ -2353,7 +2268,7 @@
 		(pad "9" smd roundrect
 			(at -4.7 5.08 180)
 			(size 2 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
 			(net 1 "POWER-GND")
 			(pinfunction "VSS")
@@ -2363,7 +2278,7 @@
 		(pad "10" smd roundrect
 			(at 4.7 5.08 180)
 			(size 2 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
 			(net 25 "Net-(U1-GP0)")
 			(pinfunction "GP0")
@@ -2373,7 +2288,7 @@
 		(pad "11" smd roundrect
 			(at 4.7 3.81 180)
 			(size 2 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
 			(net 24 "Net-(U1-GP1)")
 			(pinfunction "GP1")
@@ -2383,7 +2298,7 @@
 		(pad "12" smd roundrect
 			(at 4.7 2.54 180)
 			(size 2 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
 			(net 23 "Net-(U1-GP2)")
 			(pinfunction "GP2")
@@ -2393,7 +2308,7 @@
 		(pad "13" smd roundrect
 			(at 4.7 1.27 180)
 			(size 2 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
 			(net 22 "Net-(U1-GP3)")
 			(pinfunction "GP3")
@@ -2403,7 +2318,7 @@
 		(pad "14" smd roundrect
 			(at 4.7 0 180)
 			(size 2 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
 			(net 21 "Net-(U1-GP4)")
 			(pinfunction "GP4")
@@ -2413,7 +2328,7 @@
 		(pad "15" smd roundrect
 			(at 4.7 -1.27 180)
 			(size 2 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
 			(net 20 "Net-(U1-GP5)")
 			(pinfunction "GP5")
@@ -2423,7 +2338,7 @@
 		(pad "16" smd roundrect
 			(at 4.7 -2.54 180)
 			(size 2 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
 			(net 19 "Net-(U1-GP6)")
 			(pinfunction "GP6")
@@ -2433,7 +2348,7 @@
 		(pad "17" smd roundrect
 			(at 4.7 -3.81 180)
 			(size 2 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
 			(net 18 "Net-(U1-GP7)")
 			(pinfunction "GP7")
@@ -2443,13 +2358,14 @@
 		(pad "18" smd roundrect
 			(at 4.7 -5.08 180)
 			(size 2 0.6)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.15)
 			(net 2 "POWER-VBAT")
 			(pinfunction "VDD")
 			(pintype "power_in")
 			(uuid "baaba406-ea66-4a1d-8ffb-fd96c34061dc")
 		)
+		(embedded_fonts no)
 		(model "${KICAD_USER_3DMODEL_DIR}/SMD/SOIC-18W.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -2484,18 +2400,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a567bbb4-a1d8-474a-805f-be78a0d7a168")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2549,7 +2453,7 @@
 			)
 		)
 		(path "/63ff3513-b393-456b-9a2c-b50b81a17915")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -2580,7 +2484,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "72f4e437-74b8-4cc1-bea9-92850a89f8d3")
 		)
@@ -2591,7 +2495,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "3866f2cd-3a39-49cf-923d-2dd9e6305168")
 		)
@@ -2602,7 +2506,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "d8eb4b75-8a7f-4abc-9b3f-592d4112b062")
 		)
@@ -2613,14 +2517,14 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "34ba9ceb-cc2e-45aa-b1e8-4a7454302fc8")
 		)
 		(pad "1" smd roundrect
 			(at -1.5 0 180)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 23 "Net-(U1-GP2)")
 			(pintype "passive")
@@ -2630,13 +2534,14 @@
 		(pad "2" smd roundrect
 			(at 1.5 0 180)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 12 "Net-(LED3-A)")
 			(pintype "passive")
 			(zone_connect 2)
 			(uuid "acb63af0-772e-4f26-ae6d-a7df1a209cd1")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_USER_3DMODEL_DIR}/SMD/RESISTOR-1206.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -2675,18 +2580,6 @@
 				)
 			)
 		)
-		(property "Footprint" "tronixio:LED-SMD-1206"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "74ddee86-5ac7-48e7-a298-61c219109c2d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216LSECK-J3-PRV.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -2699,7 +2592,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light Emitting Diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2736,7 +2629,7 @@
 			)
 		)
 		(path "/4935dbc1-c53d-4b51-814b-c3d3622a1643")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -2769,7 +2662,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.SilkS")
 			(uuid "bcf4c5fc-6773-46ba-aa1d-c924e4b02368")
 		)
@@ -2780,7 +2673,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "df9a9108-3b08-4a84-a92c-fcebdf58d0e7")
 		)
@@ -2791,7 +2684,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "f0bf5f81-1a81-4baf-bc08-b427c4266f65")
 		)
@@ -2802,14 +2695,14 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "205e81f3-645f-4f77-a020-1f0a45fedefd")
 		)
 		(pad "1" smd roundrect
 			(at -1.5 0)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 1 "POWER-GND")
 			(pinfunction "C")
@@ -2820,7 +2713,7 @@
 		(pad "2" smd roundrect
 			(at 1.5 0)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 13 "Net-(LED4-A)")
 			(pinfunction "A")
@@ -2828,6 +2721,7 @@
 			(zone_connect 2)
 			(uuid "0bd57c27-0d4a-4b6a-a2bb-06a8f8fda4e7")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_USER_3DMODEL_DIR}/SMD/LED-1206.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -2862,18 +2756,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9d21c3f2-f956-4882-8fc2-fe4d69f68dfa")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2927,7 +2809,7 @@
 			)
 		)
 		(path "/0e6ddf91-cf88-493b-955a-2e3d355bef61")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -2958,7 +2840,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "217ebea4-5ac3-45d3-b0d8-41820beaabc0")
 		)
@@ -2969,7 +2851,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "df678501-4146-4ece-94a3-8f809f255dd5")
 		)
@@ -2980,7 +2862,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "b968c1a3-3171-449d-b20f-fc20f2ef3225")
 		)
@@ -2991,14 +2873,14 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "e57c7e2e-6ee8-445d-a39f-26040fea76ae")
 		)
 		(pad "1" smd roundrect
 			(at -1.5 0 180)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 19 "Net-(U1-GP6)")
 			(pintype "passive")
@@ -3008,13 +2890,14 @@
 		(pad "2" smd roundrect
 			(at 1.5 0 180)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 16 "Net-(LED7-A)")
 			(pintype "passive")
 			(zone_connect 2)
 			(uuid "3fd6c5a3-9264-49da-8c19-8214d00ca469")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_USER_3DMODEL_DIR}/SMD/RESISTOR-1206.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -3049,18 +2932,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d68e4f58-c2dc-49b8-96d1-88dd29e02022")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -3114,7 +2985,7 @@
 			)
 		)
 		(path "/8a7eaa68-bc8e-42da-b93d-dcc851e26584")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -3145,7 +3016,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "c7350b0e-b028-4d1f-b3ce-2643e01e66ce")
 		)
@@ -3156,7 +3027,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "5361b362-d25b-4413-9515-7c4a6d57bd70")
 		)
@@ -3167,7 +3038,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "82ee7325-f50e-4b8e-9436-664a60ec39fe")
 		)
@@ -3178,14 +3049,14 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "8b210489-ea39-402e-a04f-3b0637b2bcea")
 		)
 		(pad "1" smd roundrect
 			(at -1.5 0 180)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 22 "Net-(U1-GP3)")
 			(pintype "passive")
@@ -3195,13 +3066,14 @@
 		(pad "2" smd roundrect
 			(at 1.5 0 180)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 13 "Net-(LED4-A)")
 			(pintype "passive")
 			(zone_connect 2)
 			(uuid "a38b6ca4-2125-4638-9196-2e2efca44bc6")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_USER_3DMODEL_DIR}/SMD/RESISTOR-1206.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -3219,7 +3091,7 @@
 		(uuid "67a38fdb-745c-4da0-80e5-83dbc8430ab8")
 		(at 151.5 66 180)
 		(property "Reference" "R10"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a446ed90-a83d-4520-8879-c80120159ef0")
@@ -3231,7 +3103,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "F.Fab")
 			(uuid "5147d4e1-3e46-471b-b218-531fe897b261")
 			(effects
@@ -3241,20 +3113,8 @@
 				)
 			)
 		)
-		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
-			(at 0 0 360)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1549a225-568b-45f4-a46f-84919e27ae89")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7b61a668-89dd-453e-81d2-002661807bbe")
@@ -3266,7 +3126,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7d202292-6061-47e2-abbd-d0eb31b806e5")
@@ -3304,7 +3164,7 @@
 			)
 		)
 		(path "/dfe82db3-8392-4168-8560-0796d4a4b198")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3334,14 +3194,14 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "8f050606-b97b-4f91-8f07-dc01fa4cbdce")
 		)
 		(pad "1" smd roundrect
 			(at -1.5 0 180)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 25 "Net-(U1-GP0)")
 			(pintype "passive")
@@ -3350,12 +3210,13 @@
 		(pad "2" smd roundrect
 			(at 1.5 0 180)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 10 "Net-(LED1-A)")
 			(pintype "passive")
 			(uuid "38578f61-c168-4002-84de-f455f09d40e5")
 		)
+		(embedded_fonts no)
 		(model "${KICAD_USER_3DMODEL_DIR}/SMD/RESISTOR-1206.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -3391,18 +3252,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:HARWIN-M22-25103xx"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c5b61725-0171-4083-877a-29c93dffa262")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -3445,7 +3294,7 @@
 			)
 		)
 		(path "/28495ff8-afb7-45b1-96a5-63959b3e5124")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3525,7 +3374,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "63d7f7cb-b0aa-4778-ae01-232d86d7c90e")
 		)
@@ -3752,6 +3601,7 @@
 			(pintype "passive")
 			(uuid "4b037a63-0af4-4594-9f99-64a3b53b0ac1")
 		)
+		(embedded_fonts no)
 		(model "${KICAD_USER_3DMODEL_DIR}/Header/HARWIN-M22-25103xx.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -3790,18 +3640,6 @@
 				)
 			)
 		)
-		(property "Footprint" "tronixio:LED-SMD-1206"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2dbd0f51-7d56-4771-95c0-0433e4ffec09")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216LSECK-J3-PRV.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -3814,7 +3652,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light Emitting Diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3851,7 +3689,7 @@
 			)
 		)
 		(path "/64083378-22ff-46a1-ae7d-5af7d3e98494")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -3884,7 +3722,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.SilkS")
 			(uuid "a3942a25-bfe4-4cf2-ac74-204aac7936cd")
 		)
@@ -3895,7 +3733,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "9873ed07-9ee0-4191-a8a4-9a1668fca99e")
 		)
@@ -3906,7 +3744,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "eff16187-33b9-4455-8095-40d2d021fe49")
 		)
@@ -3917,14 +3755,14 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "53979c47-b210-431a-9394-4e6d54c2feee")
 		)
 		(pad "1" smd roundrect
 			(at -1.5 0)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 1 "POWER-GND")
 			(pinfunction "C")
@@ -3935,7 +3773,7 @@
 		(pad "2" smd roundrect
 			(at 1.5 0)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 11 "Net-(LED2-A)")
 			(pinfunction "A")
@@ -3943,6 +3781,7 @@
 			(zone_connect 2)
 			(uuid "95e343a6-837f-41ef-ad02-3a6adef5ba34")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_USER_3DMODEL_DIR}/SMD/LED-1206.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -3977,18 +3816,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8f386a72-7efb-4207-946b-8a22ae1d417d")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4042,7 +3869,7 @@
 			)
 		)
 		(path "/65c5f405-d3bb-453f-af0e-7a6ef1624f60")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -4073,7 +3900,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "90a4ca50-ca0b-4e28-9ee4-dd3779f613fc")
 		)
@@ -4084,7 +3911,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "cf191f85-3c94-4f04-8635-ba004aea0f59")
 		)
@@ -4095,7 +3922,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "ff485fde-86cf-49cd-96bf-3e34f81a644d")
 		)
@@ -4106,14 +3933,14 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "23326943-46ea-4beb-a20e-800a55d4e78a")
 		)
 		(pad "1" smd roundrect
 			(at -1.5 0 180)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 2 "POWER-VBAT")
 			(pintype "passive")
@@ -4123,13 +3950,14 @@
 		(pad "2" smd roundrect
 			(at 1.5 0 180)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 27 "Net-(JP1-Pad1)")
 			(pintype "passive")
 			(zone_connect 2)
 			(uuid "a99c5b7c-85c4-418f-ba65-1984139d4740")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_USER_3DMODEL_DIR}/SMD/RESISTOR-1206.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -4164,18 +3992,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ac0f1fe5-e509-4c51-a873-f88971db3345")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4229,7 +4045,7 @@
 			)
 		)
 		(path "/2bbb656f-623a-4358-b080-e9bac6b37ca9")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -4260,7 +4076,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "2ed01f24-8985-46e9-bb60-8fa00b71c439")
 		)
@@ -4271,7 +4087,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "bd7a2cd0-3363-4760-a328-0b90dd309b9a")
 		)
@@ -4282,7 +4098,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "386a4075-f7d8-48bc-8ad1-b482c3f0fe6c")
 		)
@@ -4293,14 +4109,14 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "c1e7c3ed-d482-4600-9dd7-2b3405901ef6")
 		)
 		(pad "1" smd roundrect
 			(at -1.5 0 180)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 18 "Net-(U1-GP7)")
 			(pintype "passive")
@@ -4310,13 +4126,14 @@
 		(pad "2" smd roundrect
 			(at 1.5 0 180)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 17 "Net-(LED8-A)")
 			(pintype "passive")
 			(zone_connect 2)
 			(uuid "3df967de-83b1-41c8-9f74-245c529a35fc")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_USER_3DMODEL_DIR}/SMD/RESISTOR-1206.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -4351,18 +4168,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d25c29ae-991b-49af-9f64-65d84b570534")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4416,7 +4221,7 @@
 			)
 		)
 		(path "/94f1f179-2db0-4343-944e-999e90bf70ef")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -4447,7 +4252,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "e45f910a-1f60-40c5-92d6-40b71c855aab")
 		)
@@ -4458,7 +4263,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "978c1d71-2474-4825-aee7-da1b13a8a945")
 		)
@@ -4469,7 +4274,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "60b5eb00-61a2-4a0b-b75f-224ba0aed748")
 		)
@@ -4480,14 +4285,14 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "a1423611-08c2-494e-ac4f-11bba38b2549")
 		)
 		(pad "1" smd roundrect
 			(at -1.5 0 180)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 20 "Net-(U1-GP5)")
 			(pintype "passive")
@@ -4497,13 +4302,14 @@
 		(pad "2" smd roundrect
 			(at 1.5 0 180)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 15 "Net-(LED6-A)")
 			(pintype "passive")
 			(zone_connect 2)
 			(uuid "00c7dce3-a6ea-4376-8c38-fe20862a9fb4")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_USER_3DMODEL_DIR}/SMD/RESISTOR-1206.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -4521,7 +4327,7 @@
 		(uuid "8d2d5749-d744-4d59-a7ab-ade2093449c0")
 		(at 151.5 69 180)
 		(property "Reference" "R9"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "37da4e0c-6bc5-44c7-b40f-63d69d0c2374")
@@ -4533,7 +4339,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 0 2 360)
+			(at 0 2 0)
 			(layer "F.Fab")
 			(uuid "5e544fa2-1238-4cfa-a2de-2e17c25e31d0")
 			(effects
@@ -4543,20 +4349,8 @@
 				)
 			)
 		)
-		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
-			(at 0 0 360)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "22bad929-843a-4276-a328-159480c37ae4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cdccc272-8ce5-4663-8070-7ca4e7fa31c2")
@@ -4568,7 +4362,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f6e936c8-ffa9-4283-9f1e-7243819f3614")
@@ -4606,7 +4400,7 @@
 			)
 		)
 		(path "/2d8a10e0-68a9-4296-9059-92bedacb87dd")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4636,14 +4430,14 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "18a3cdf4-b1ba-4598-b1a8-b0cfc315eaa3")
 		)
 		(pad "1" smd roundrect
 			(at -1.5 0 180)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 24 "Net-(U1-GP1)")
 			(pintype "passive")
@@ -4652,12 +4446,13 @@
 		(pad "2" smd roundrect
 			(at 1.5 0 180)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 11 "Net-(LED2-A)")
 			(pintype "passive")
 			(uuid "716ec205-aa3d-4cb6-8a92-f7e6dd5b48ba")
 		)
+		(embedded_fonts no)
 		(model "${KICAD_USER_3DMODEL_DIR}/SMD/RESISTOR-1206.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -4696,18 +4491,6 @@
 			(effects
 				(font
 					(size 0.001 0.001)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "69e85bee-a709-409c-9c97-222596ffcd5b")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4763,10 +4546,11 @@
 				(width 0)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.SilkS")
 			(uuid "37f31ab1-2866-4180-9c51-def6c86f0e7c")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "tronixio:CAPACITOR-SMD-CASE-B"
 		(layer "F.Cu")
@@ -4795,21 +4579,8 @@
 				)
 			)
 		)
-		(property "Footprint" "tronixio:CAPACITOR-SMD-CASE-B"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ca919c52-e28f-4943-82c4-9da64d13d418")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "https://www.vishay.com/docs/40002/293d.pdf"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4822,7 +4593,7 @@
 			)
 		)
 		(property "Description" "Polarized Capacitor"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4835,7 +4606,7 @@
 			)
 		)
 		(property "Voltage" "25V"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4848,7 +4619,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4861,7 +4632,7 @@
 			)
 		)
 		(property "Mouser" "74-293D106X9025B2TE3"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4874,7 +4645,7 @@
 			)
 		)
 		(path "/a2070bd2-44ad-4a5e-b0f3-e68570b7e880")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4894,7 +4665,7 @@
 				(width 0.05)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "b3928d8e-045c-4162-a851-10e3719b7793")
 		)
@@ -4951,7 +4722,7 @@
 		(pad "1" smd roundrect
 			(at -1.7 0 270)
 			(size 1.5 2.5)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 2 "POWER-VBAT")
 			(pintype "passive")
@@ -4960,12 +4731,13 @@
 		(pad "2" smd roundrect
 			(at 1.7 0 270)
 			(size 1.5 2.5)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 1 "POWER-GND")
 			(pintype "passive")
 			(uuid "7713c241-09e0-423c-98a9-e306e48e76e7")
 		)
+		(embedded_fonts no)
 		(model "${KICAD_USER_3DMODEL_DIR}/SMD/CAPACITOR-SMD-CASE-B.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -5004,18 +4776,6 @@
 				)
 			)
 		)
-		(property "Footprint" "tronixio:LED-SMD-1206"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a4621f42-4728-464e-a66e-71d1939b1522")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216LSECK-J3-PRV.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -5028,7 +4788,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light Emitting Diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5065,7 +4825,7 @@
 			)
 		)
 		(path "/e0ad995e-c644-4327-81c1-80bf16f57c97")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -5098,7 +4858,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.SilkS")
 			(uuid "a65cc698-5b4b-4e12-9da2-b315b9bfd6a8")
 		)
@@ -5109,7 +4869,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "263988e5-8678-4c75-97d1-3ca64f260a12")
 		)
@@ -5120,7 +4880,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "c60210cb-b570-4b4d-8e7a-d126922d8e6f")
 		)
@@ -5131,14 +4891,14 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "737dff93-b521-48b5-b2c8-0e5ffa7c0c3f")
 		)
 		(pad "1" smd roundrect
 			(at -1.5 0)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 1 "POWER-GND")
 			(pinfunction "C")
@@ -5149,7 +4909,7 @@
 		(pad "2" smd roundrect
 			(at 1.5 0)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 12 "Net-(LED3-A)")
 			(pinfunction "A")
@@ -5157,6 +4917,7 @@
 			(zone_connect 2)
 			(uuid "66f6dc32-5acc-4838-9fad-c1577bc5aa76")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_USER_3DMODEL_DIR}/SMD/LED-1206.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -5191,18 +4952,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "814cc366-d876-4d65-a3ba-4e28c78a1da4")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -5256,7 +5005,7 @@
 			)
 		)
 		(path "/13d52006-5ba8-4e47-b20e-faeb1d724545")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -5287,7 +5036,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "51f4b830-f2d8-4d28-bb0e-5a75c6e32ea6")
 		)
@@ -5298,7 +5047,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "d11400a0-f257-4f29-b522-9685af4f7fbe")
 		)
@@ -5309,7 +5058,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "fe70225a-7807-4212-9270-dfda64cef24c")
 		)
@@ -5320,14 +5069,14 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "71f7798e-5ecd-4689-8fb5-415b81cbd7f2")
 		)
 		(pad "1" smd roundrect
 			(at -1.5 0 180)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 21 "Net-(U1-GP4)")
 			(pintype "passive")
@@ -5337,13 +5086,14 @@
 		(pad "2" smd roundrect
 			(at 1.5 0 180)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 14 "Net-(LED5-A)")
 			(pintype "passive")
 			(zone_connect 2)
 			(uuid "f5731c3c-d583-4730-8221-9f07c098d9c4")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_USER_3DMODEL_DIR}/SMD/RESISTOR-1206.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -5382,18 +5132,6 @@
 				)
 			)
 		)
-		(property "Footprint" "tronixio:LED-SMD-1206"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1a99e66c-98d8-4b1d-a0c1-c09c213c184e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216LSECK-J3-PRV.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -5406,7 +5144,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light Emitting Diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5443,7 +5181,7 @@
 			)
 		)
 		(path "/9794ad2a-ff99-499f-aaa2-a192482c870d")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -5476,7 +5214,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.SilkS")
 			(uuid "e94300b1-8bd7-4218-b668-f7317fe6784f")
 		)
@@ -5487,7 +5225,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "5eb31eca-e4e4-4f49-b682-67cc724f41e6")
 		)
@@ -5498,7 +5236,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "2e599310-a28f-4fdf-a48d-549bb0e01133")
 		)
@@ -5509,14 +5247,14 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "962cfa15-14f4-4564-ac80-704b28f4bc08")
 		)
 		(pad "1" smd roundrect
 			(at -1.5 0)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 1 "POWER-GND")
 			(pinfunction "C")
@@ -5527,7 +5265,7 @@
 		(pad "2" smd roundrect
 			(at 1.5 0)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 17 "Net-(LED8-A)")
 			(pinfunction "A")
@@ -5535,6 +5273,7 @@
 			(zone_connect 2)
 			(uuid "1850ed14-45af-492f-bc10-817ae91f99a4")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_USER_3DMODEL_DIR}/SMD/LED-1206.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -5573,18 +5312,6 @@
 				)
 			)
 		)
-		(property "Footprint" "tronixio:CAPACITOR-SMD-1206"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "eac0e1ce-28b3-49a3-baac-ad5a204aeecd")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -5597,7 +5324,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized Capacitor"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5609,7 +5336,7 @@
 				)
 			)
 		)
-		(property "Mouser" "80-C1206C104M5R"
+		(property "Mouser" "80-C1206C104J5R"
 			(at 60.5 224.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5633,7 +5360,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "20%"
+		(property "Tolerance" "5%"
 			(at 60.5 224.5 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5658,7 +5385,7 @@
 			)
 		)
 		(path "/92a36e64-9c6c-4d7f-812b-59a758389474")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -5689,7 +5416,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "041eaa0d-0a9a-41d6-927c-9cc594242f53")
 		)
@@ -5700,7 +5427,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "7b6e7cab-9017-46ac-8d5b-5524cf7f02e9")
 		)
@@ -5711,7 +5438,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "b87842ce-822d-4cba-a1d1-7f3cd679cc12")
 		)
@@ -5722,14 +5449,14 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "98112865-2c6e-4a7f-a244-2d585630d7fb")
 		)
 		(pad "1" smd roundrect
 			(at -1.5 0)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 2 "POWER-VBAT")
 			(pintype "passive")
@@ -5739,13 +5466,14 @@
 		(pad "2" smd roundrect
 			(at 1.5 0)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 1 "POWER-GND")
 			(pintype "passive")
 			(zone_connect 2)
 			(uuid "a5b35e06-f5d8-4a4d-9839-35b6576c6df4")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_USER_3DMODEL_DIR}/SMD/CAPACITOR-1206.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -5785,18 +5513,6 @@
 				)
 			)
 		)
-		(property "Footprint" "tronixio:HARWIN-M22-25102xx"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6de983dd-29aa-4ff4-b219-fd7a30bbb223")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "https://www.harwin.com/products/M22-2510246/"
 			(at 0 0 90)
 			(layer "F.Fab")
@@ -5822,7 +5538,7 @@
 			)
 		)
 		(property "Mouser" "855-M22-25102"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -5835,7 +5551,7 @@
 			)
 		)
 		(path "/1fe2d52a-062b-4297-8927-ffba49820a22")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -5915,7 +5631,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "63eb9800-4c02-4e87-888b-92a401d1bc6f")
 		)
@@ -6071,6 +5787,7 @@
 			(pintype "passive")
 			(uuid "d05b77d8-040b-4369-b259-ce28263e9f27")
 		)
+		(embedded_fonts no)
 		(model "${KICAD_USER_3DMODEL_DIR}/Header/HARWIN-M22-25102xx.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -6106,18 +5823,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:HARWIN-M22-25103xx"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2489b33f-9139-42bd-967c-cc442dd0c007")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -6160,7 +5865,7 @@
 			)
 		)
 		(path "/92e4737e-412a-4c53-b684-79bcb3dacf7f")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -6240,7 +5945,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "a44f2c1d-f4a7-402c-933d-969aaf0ca4b8")
 		)
@@ -6467,6 +6172,7 @@
 			(pintype "passive")
 			(uuid "64ef7be8-321b-466d-8bfc-3b557933fe56")
 		)
+		(embedded_fonts no)
 		(model "${KICAD_USER_3DMODEL_DIR}/Header/HARWIN-M22-25103xx.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -6505,18 +6211,6 @@
 			(effects
 				(font
 					(size 0.001 0.001)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "16fb92da-d483-46b2-bf3f-59f55f7df88f")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -6571,10 +6265,11 @@
 				(width 0)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.SilkS")
 			(uuid "bb812368-a91c-428f-9622-3f520a58d769")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "tronixio:LED-SMD-1206"
 		(layer "F.Cu")
@@ -6602,18 +6297,6 @@
 				)
 			)
 		)
-		(property "Footprint" "tronixio:LED-SMD-1206"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "98d8ae05-6fa1-4fbf-bf5c-88a81d96aedf")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216LSECK-J3-PRV.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -6626,7 +6309,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light Emitting Diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6663,7 +6346,7 @@
 			)
 		)
 		(path "/81947691-6208-4bc2-a716-62857fda0dd2")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -6696,7 +6379,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.SilkS")
 			(uuid "e3f06be9-b5aa-4453-9d3b-033877641471")
 		)
@@ -6707,7 +6390,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "91a2e521-6df3-41d0-9410-a82547026ca2")
 		)
@@ -6718,7 +6401,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "b7d43ef2-f598-40a0-9ae7-a1de8da2a930")
 		)
@@ -6729,14 +6412,14 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "11b807ae-fc56-4795-a4ae-f87bde50d640")
 		)
 		(pad "1" smd roundrect
 			(at -1.5 0)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 1 "POWER-GND")
 			(pinfunction "C")
@@ -6747,7 +6430,7 @@
 		(pad "2" smd roundrect
 			(at 1.5 0)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 15 "Net-(LED6-A)")
 			(pinfunction "A")
@@ -6755,6 +6438,7 @@
 			(zone_connect 2)
 			(uuid "1637589b-02ee-471e-9f0b-c2a181e9dd36")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_USER_3DMODEL_DIR}/SMD/LED-1206.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -6793,18 +6477,6 @@
 				)
 			)
 		)
-		(property "Footprint" "tronixio:LED-SMD-1206"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "339e405d-c6e8-48da-a264-1390407e9679")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216LSECK-J3-PRV.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -6817,7 +6489,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light Emitting Diode"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6854,7 +6526,7 @@
 			)
 		)
 		(path "/c7897745-2aea-4c88-abc6-4875dbc02986")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -6887,7 +6559,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.SilkS")
 			(uuid "1b4d056f-0107-4026-b3be-a234e88c99d0")
 		)
@@ -6898,7 +6570,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "61e6e0d1-d077-4d90-8d70-085ff2d195c4")
 		)
@@ -6909,7 +6581,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "8239bd39-9353-4e7f-8cff-1d4a01dffebc")
 		)
@@ -6920,14 +6592,14 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "a027e13d-c56f-4e64-885b-60cc237203c2")
 		)
 		(pad "1" smd roundrect
 			(at -1.5 0)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 1 "POWER-GND")
 			(pinfunction "C")
@@ -6938,7 +6610,7 @@
 		(pad "2" smd roundrect
 			(at 1.5 0)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 14 "Net-(LED5-A)")
 			(pinfunction "A")
@@ -6946,6 +6618,7 @@
 			(zone_connect 2)
 			(uuid "3036e472-24fa-45fe-a932-c28e72cd617a")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_USER_3DMODEL_DIR}/SMD/LED-1206.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -6980,18 +6653,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "17b50818-bc47-4ebb-ab8f-3e9ead827519")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -7045,7 +6706,7 @@
 			)
 		)
 		(path "/fc5cb520-1fed-4aa8-a723-6f5c8ba07df0")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
@@ -7076,7 +6737,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "d798449d-5428-4652-9407-84e6576187c3")
 		)
@@ -7087,7 +6748,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "bc60ba46-be83-4ed3-946e-b9f30283ed81")
 		)
@@ -7098,7 +6759,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "c8f36e58-574f-4085-9d0a-95f54f256437")
 		)
@@ -7109,14 +6770,14 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "bcc21cb4-3bd8-41b3-8fe0-d7bf4fa98db3")
 		)
 		(pad "1" smd roundrect
 			(at -1.5 0 180)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 2 "POWER-VBAT")
 			(pintype "passive")
@@ -7126,13 +6787,14 @@
 		(pad "2" smd roundrect
 			(at 1.5 0 180)
 			(size 1.3 1.75)
-			(layers "F.Cu" "F.Paste" "F.Mask")
+			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1)
 			(net 28 "Net-(JP2-Pad1)")
 			(pintype "passive")
 			(zone_connect 2)
 			(uuid "39c8a4f4-31d2-43cc-b4b8-e4046f29c868")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_USER_3DMODEL_DIR}/SMD/RESISTOR-1206.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -7171,18 +6833,6 @@
 				)
 			)
 		)
-		(property "Footprint" "tronixio:SAMTEC-SSW-106-02-T-S-RA"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bd2a0a7c-5d39-44c7-94cf-894999145c67")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "http://suddendocs.samtec.com/catalog_english/ssw_th.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
@@ -7207,7 +6857,7 @@
 				)
 			)
 		)
-		(property "Mouser" "200-SSW10602TSRA"
+		(property "Mouser" "200-SSW10603TSRA"
 			(at 218.85 -53.15 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7232,7 +6882,7 @@
 			)
 		)
 		(path "/07244cef-167a-4135-8abb-f1834fd6c9cb")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(attr through_hole)
 		(fp_rect
@@ -7242,7 +6892,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "13eecac2-5ea6-42e9-aec4-a3be2ba5287e")
 		)
@@ -7533,7 +7183,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "a564c704-e692-41c5-bfb1-47e4516dcd43")
 		)
@@ -7544,7 +7194,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "fb43ae46-4d08-4b79-9cdf-82db05d55b91")
 		)
@@ -7555,7 +7205,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "51759492-815e-49ce-9c65-e97bf9451106")
 		)
@@ -7566,7 +7216,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "e8aa7fa7-f7d3-4179-aa7e-e4188f82b13a")
 		)
@@ -7577,7 +7227,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "1571f563-55d2-4b84-ba5e-2299c9cba28b")
 		)
@@ -7588,7 +7238,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "F.Fab")
 			(uuid "5588d24b-a999-4106-9ce0-d2d9b89c6f33")
 		)
@@ -7658,6 +7308,7 @@
 			(pintype "passive")
 			(uuid "8c9e4828-356d-4d18-8713-f0d18d945b7c")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_USER_3DMODEL_DIR}/Header/SAMTEC-SSW-106-02-T-S-RA.step"
 			(offset
 				(xyz 6.35 1.5 1.2)
@@ -7698,18 +7349,6 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2da2ea76-1c03-4940-b442-2bb479a6ea85")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
 			)
 		)
 		(property "Datasheet" ""
@@ -7835,7 +7474,7 @@
 				(width 0)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "B.SilkS")
 			(uuid "bcfe7e3a-df07-4a3a-a16f-2dfa4230fc2c")
 		)
@@ -7846,10 +7485,11 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.CrtYd")
 			(uuid "06c8f616-287a-4bae-9788-e6e0d2eda087")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "tronixio:3M-SJ5376"
 		(layer "B.Cu")
@@ -7879,18 +7519,6 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
-		)
-		(property "Footprint" "tronixio:3M-SJ5376"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "59c61c74-0aaf-4adf-8043-4fd2f515cb2b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
 			)
 		)
 		(property "Datasheet" "https://multimedia.3m.com/mws/media/743845O/sjxx76-pdf.pdf"
@@ -7931,7 +7559,7 @@
 			)
 		)
 		(path "/c45d849e-58b9-46a8-bcf3-9b88be3faee6")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "mcp23008-led.kicad_sch")
 		(attr through_hole)
 		(fp_circle
@@ -7941,7 +7569,7 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.SilkS")
 			(uuid "2126b615-7365-4270-af6f-943fbbf3cbae")
 		)
@@ -7952,7 +7580,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.CrtYd")
 			(uuid "6fe243fc-6c55-47ee-a0ad-ab40471a4a71")
 		)
@@ -7963,7 +7591,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.Fab")
 			(uuid "0fbf43ae-e816-467e-abe2-fa0de451b09c")
 		)
@@ -7974,10 +7602,11 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "B.Fab")
 			(uuid "a511a303-5199-4df7-9c86-1085ece03a25")
 		)
+		(embedded_fonts no)
 		(model "${KICAD6_USER_3DMODEL_DIR}/Misc/3M-SJ5376.step"
 			(offset
 				(xyz 0 0 0)
@@ -7997,7 +7626,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Cu")
 		(uuid "00783fc8-d8ae-4850-a012-79a909921aa8")
 	)
@@ -8028,7 +7657,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.Cu")
 		(uuid "441da8f8-6056-4911-a7ca-34f9dbf823d7")
 	)
@@ -8039,7 +7668,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "0d97f8c9-2c21-4a22-b007-3df099bd0313")
 	)
@@ -8050,7 +7679,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill solid)
+		(fill yes)
 		(layer "F.SilkS")
 		(uuid "d942941e-febe-46b6-89d5-3eb6212410f7")
 	)
@@ -8071,7 +7700,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "1c32488c-f2b3-4d30-b3e9-c620c67b6bfb")
 	)
@@ -8082,7 +7711,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "1cccd90c-3020-4f2a-a600-f78c021659b1")
 	)
@@ -8113,7 +7742,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "60653a2a-c298-4036-8bbb-4de39cbd08de")
 	)
@@ -8144,7 +7773,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "8dd8f8d8-8379-4716-80b2-69805d17eef8")
 	)
@@ -8175,7 +7804,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "b9b20503-f78f-4029-95e8-43192b0d81aa")
 	)
@@ -8206,7 +7835,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "ea8f2724-27fd-414c-b859-d1373d1ae421")
 	)
@@ -8287,54 +7916,6 @@
 		(at 132 94 0)
 		(layer "B.Cu")
 		(uuid "1dd5a12c-e11f-4df0-842d-46a77e29095c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
-	)
-	(gr_text "www.tronix.io"
-		(at 163 75 0)
-		(layer "B.SilkS")
-		(uuid "5ce9fb17-a7fa-435f-a3f0-ea21127cfc62")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
-	)
-	(gr_text "2024Q4 - Rev.A"
-		(at 163 84 0)
-		(layer "B.SilkS")
-		(uuid "7a3e5a44-1d11-4627-9ebf-a74cda84af79")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
-	)
-	(gr_text "GPIO MCP23008-LED"
-		(at 163 81 0)
-		(layer "B.SilkS")
-		(uuid "cd52fd5f-3bd5-4246-952d-5cf8362ba56c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-			)
-			(justify mirror)
-		)
-	)
-	(gr_text "(CC) - BY-SA"
-		(at 163 78 0)
-		(layer "B.SilkS")
-		(uuid "da209089-caf6-405f-b11f-721980df1753")
 		(effects
 			(font
 				(size 1 1)
@@ -8610,6 +8191,54 @@
 			)
 		)
 	)
+	(gr_text "www.tronix.io"
+		(at 163 75 0)
+		(layer "B.SilkS")
+		(uuid "5ce9fb17-a7fa-435f-a3f0-ea21127cfc62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "2024Q4 - Rev.A"
+		(at 163 84 0)
+		(layer "B.SilkS")
+		(uuid "7a3e5a44-1d11-4627-9ebf-a74cda84af79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "GPIO MCP23008-LED"
+		(at 163 81 0)
+		(layer "B.SilkS")
+		(uuid "cd52fd5f-3bd5-4246-952d-5cf8362ba56c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "(CC) - BY-SA"
+		(at 163 78 0)
+		(layer "B.SilkS")
+		(uuid "da209089-caf6-405f-b11f-721980df1753")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "GPIO - MCP23008-LED - Rev.A - (Q4/2024) - Scale 100%"
 		(at 126 99 0)
 		(layer "Dwgs.User")
@@ -8630,6 +8259,22 @@
 			(xy 126 64) (xy 181 64)
 		)
 		(height -2.5)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 2)
+			(units_format 1)
+			(precision 2)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1)
+			(text_position_mode 1)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
 		(gr_text "55.00 mm"
 			(at 153.5 61.5 0)
 			(layer "F.Fab")
@@ -8641,6 +8286,16 @@
 				)
 			)
 		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.Fab")
+		(uuid "12e276d1-2ecc-4e82-91b6-a2dc15d470bf")
+		(pts
+			(xy 126.5 89) (xy 126.5 64)
+		)
+		(height -3)
+		(orientation 1)
 		(format
 			(prefix "")
 			(suffix "")
@@ -8652,18 +8307,11 @@
 			(thickness 0.1)
 			(arrow_length 1)
 			(text_position_mode 1)
+			(arrow_direction outward)
 			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "F.Fab")
-		(uuid "12e276d1-2ecc-4e82-91b6-a2dc15d470bf")
-		(pts
-			(xy 126.5 89) (xy 126.5 64)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
 		)
-		(height -3)
-		(orientation 1)
 		(gr_text "25.00 mm"
 			(at 123.5 76.5 90)
 			(layer "F.Fab")
@@ -8675,19 +8323,6 @@
 				)
 			)
 		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 2)
-			(units_format 1)
-			(precision 2)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1)
-			(text_position_mode 1)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
 	)
 	(segment
 		(start 142.5 87)
@@ -9621,4 +9256,5 @@
 			"ae1931b9-658c-4555-a51d-5eadcb2296ff" "ea8f2724-27fd-414c-b859-d1373d1ae421"
 		)
 	)
+	(embedded_fonts no)
 )

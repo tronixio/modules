@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(general
 		(thickness 1.6)
 		(legacy_teardrops no)
@@ -14,21 +14,21 @@
 	)
 	(layers
 		(0 "F.Cu" signal)
-		(31 "B.Cu" signal)
-		(34 "B.Paste" user)
-		(35 "F.Paste" user)
-		(36 "B.SilkS" user "B.Silkscreen")
-		(37 "F.SilkS" user "F.Silkscreen")
-		(38 "B.Mask" user)
-		(39 "F.Mask" user)
-		(40 "Dwgs.User" user "User.Drawings")
-		(41 "Cmts.User" user "User.Comments")
-		(44 "Edge.Cuts" user)
-		(45 "Margin" user)
-		(46 "B.CrtYd" user "B.Courtyard")
-		(47 "F.CrtYd" user "F.Courtyard")
-		(48 "B.Fab" user)
-		(49 "F.Fab" user)
+		(2 "B.Cu" signal)
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
 	)
 	(setup
 		(stackup
@@ -77,10 +77,11 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
 		(aux_axis_origin 100 104.5)
 		(pcbplotparams
-			(layerselection 0x00011fc_ffffffff)
-			(plot_on_all_layers_selection 0x0000000_00000000)
+			(layerselection 0x00000000_00000000_55555555_5757f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions yes)
 			(usegerberattributes no)
@@ -90,7 +91,6 @@
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 6)
 			(plotframeref no)
-			(viasonmask no)
 			(mode 1)
 			(useauxorigin no)
 			(hpglpennumber 1)
@@ -98,16 +98,19 @@
 			(hpglpendiameter 15.000000)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
 			(dxfpolygonmode yes)
 			(dxfimperialunits yes)
 			(dxfusepcbnewfont yes)
 			(psnegative no)
 			(psa4output no)
-			(plotreference no)
-			(plotvalue no)
-			(plotfptext no)
-			(plotinvisibletext no)
+			(plot_black_and_white yes)
 			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
 			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
@@ -160,18 +163,6 @@
 				)
 			)
 		)
-		(property "Footprint" "tronixio:HARWIN-M20-999064x"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "89fd0c1c-260a-469e-a9b7-7e60b6e20f67")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "https://www.harwin.com/products/M20-9990646/"
 			(at 0 0 90)
 			(layer "F.Fab")
@@ -210,7 +201,7 @@
 			)
 		)
 		(path "/a48ac013-6259-4020-bbba-a93d4f7fc8aa")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "main.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -290,7 +281,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "8ceba6f3-c5a9-4997-88e7-7ed54ce96e57")
 		)
@@ -736,6 +727,7 @@
 			(pintype "passive")
 			(uuid "234c0003-6a31-4322-bf8f-75b9c291dbcc")
 		)
+		(embedded_fonts no)
 		(model "${KICAD_USER_3DMODEL_DIR}/Header/HARWIN-M20-999064x.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -778,19 +770,6 @@
 				)
 			)
 		)
-		(property "Footprint" "tronixio:MOUNTING-HOLE-3MM-MASK"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ad0640a0-b7bd-4c1d-af54-1de797f5a5ce")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -818,7 +797,7 @@
 			)
 		)
 		(path "/b68e5611-c70b-4a3c-a523-f40dddfacd1a")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "main.kicad_sch")
 		(solder_mask_margin 1.5)
 		(clearance 1.5)
@@ -830,7 +809,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "b1324ec2-ccaf-41a8-987b-daa9ded1bb30")
 		)
@@ -838,9 +817,10 @@
 			(at 0 0)
 			(size 3 3)
 			(drill 3)
-			(layers "F&B.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(uuid "ca0f8cfe-40b6-4464-9b02-a4ab99348824")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "tronixio:HARWIN-M20-999164x"
 		(layer "F.Cu")
@@ -865,19 +845,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:HARWIN-M20-999164x"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4618de08-df13-4f4a-9055-8f245f3482d2")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -922,7 +889,7 @@
 			)
 		)
 		(path "/260fb712-9513-4ce5-b8a6-a42e234e006f")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "main.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1002,7 +969,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "4b2f3ca3-8033-4574-9dfa-ae551f61a516")
 		)
@@ -2168,6 +2135,7 @@
 			(pintype "passive")
 			(uuid "86051b12-b892-45b6-ba61-7d3567971d28")
 		)
+		(embedded_fonts no)
 		(model "${KICAD_USER_3DMODEL_DIR}/Header/HARWIN-M20-999164x.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -2203,19 +2171,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:HARWIN-M20-999064x"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4421edd3-ee3a-4271-8115-81e029a60ab8")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2259,7 +2214,7 @@
 			)
 		)
 		(path "/ac2080f5-3a63-41cc-a49e-841b1d77777a")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "main.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2339,7 +2294,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "941a47a1-dfd8-4b58-8952-749bbe118e10")
 		)
@@ -2785,6 +2740,7 @@
 			(pintype "passive")
 			(uuid "12d7dcfb-8e0d-4bf4-85c6-f51c12695aab")
 		)
+		(embedded_fonts no)
 		(model "${KICAD_USER_3DMODEL_DIR}/Header/HARWIN-M20-999064x.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -2820,19 +2776,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:HARWIN-M20-782164x"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b2a71287-6505-4207-90fd-6285726c191d")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2877,7 +2820,7 @@
 			)
 		)
 		(path "/a6f95181-d91e-4e5f-a676-e773e47b59e9")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "main.kicad_sch")
 		(attr through_hole)
 		(fp_rect
@@ -2887,7 +2830,7 @@
 				(width 0.2)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "ca16b408-b16c-4553-bd79-a529731c12e1")
 		)
@@ -2898,7 +2841,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "5b023601-9d76-442a-bb5f-3973e0a7672b")
 		)
@@ -2909,7 +2852,7 @@
 				(width 0.1)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "2502f97b-cd27-4b2f-b7ac-9d34c72012e6")
 		)
@@ -3105,6 +3048,7 @@
 			(pintype "passive")
 			(uuid "72aa470b-3bb0-4326-85c7-08ac8cff176e")
 		)
+		(embedded_fonts no)
 		(model "${KICAD_USER_3DMODEL_DIR}/Header/HARWIN-M20-782164x.step"
 			(offset
 				(xyz 0 0 8.5)
@@ -3147,19 +3091,6 @@
 				)
 			)
 		)
-		(property "Footprint" "tronixio:MOUNTING-HOLE-3MM-MASK"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "77f2c519-90ed-40f9-989b-a946403dc46b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -3187,7 +3118,7 @@
 			)
 		)
 		(path "/360128e8-54d4-4638-8977-a7b4197bcb7a")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "main.kicad_sch")
 		(solder_mask_margin 1.5)
 		(clearance 1.5)
@@ -3199,7 +3130,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "d333d933-69d5-4804-a6e0-693fe7a9fa4b")
 		)
@@ -3207,9 +3138,10 @@
 			(at 0 0)
 			(size 3 3)
 			(drill 3)
-			(layers "F&B.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(uuid "489e3d0c-3c24-4403-9e35-3684897ad7e6")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "tronixio:MOUNTING-HOLE-3MM-MASK"
 		(layer "F.Cu")
@@ -3241,19 +3173,6 @@
 				)
 			)
 		)
-		(property "Footprint" "tronixio:MOUNTING-HOLE-3MM-MASK"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d9aa8028-5e28-460b-a4a9-1a506f5af147")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -3281,7 +3200,7 @@
 			)
 		)
 		(path "/885f8618-bc23-4c5d-97d3-0abf9ae12ecb")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "main.kicad_sch")
 		(solder_mask_margin 1.5)
 		(clearance 1.5)
@@ -3293,7 +3212,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "47cc4dce-a057-4400-aced-c8a68204ef6c")
 		)
@@ -3301,9 +3220,10 @@
 			(at 0 0)
 			(size 3 3)
 			(drill 3)
-			(layers "F&B.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(uuid "847b57e3-75ad-49c9-8e49-1c96511b3947")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "tronixio:MOUNTING-HOLE-3MM-MASK"
 		(layer "F.Cu")
@@ -3335,19 +3255,6 @@
 				)
 			)
 		)
-		(property "Footprint" "tronixio:MOUNTING-HOLE-3MM-MASK"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cdb62893-83dd-4b7e-b4cc-a9a0bf19fe6c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -3375,7 +3282,7 @@
 			)
 		)
 		(path "/c95a6ae5-9936-431c-9dee-72f71f2953ea")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "main.kicad_sch")
 		(solder_mask_margin 1.5)
 		(clearance 1.5)
@@ -3387,7 +3294,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "4dff2a54-7ad1-4994-bc68-29f737f80a2c")
 		)
@@ -3395,9 +3302,10 @@
 			(at 0 0)
 			(size 3 3)
 			(drill 3)
-			(layers "F&B.Cu" "*.Mask")
+			(layers "*.Cu" "*.Mask")
 			(uuid "350f94e1-c856-4000-a477-1bf60518954f")
 		)
+		(embedded_fonts no)
 	)
 	(footprint "tronixio:BREADBOARD-400"
 		(layer "F.Cu")
@@ -3427,19 +3335,6 @@
 				)
 			)
 		)
-		(property "Footprint" "tronixio:BREADBOARD-400"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ce98a5e5-78ce-4545-a294-c6baa8fe2100")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "http://www.busboard.com/BB400"
 			(at 0 0 0)
 			(unlocked yes)
@@ -3453,7 +3348,7 @@
 				)
 			)
 		)
-		(property "Description" "170 tie-point Solderless Plug-in BreadBoard"
+		(property "Description" "400 tie-point Solderless Plug-in BreadBoard"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3479,7 +3374,7 @@
 			)
 		)
 		(path "/954c2365-ac47-442c-8d53-46016be9d5f5")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "main.kicad_sch")
 		(fp_rect
 			(start -41 27)
@@ -3488,7 +3383,7 @@
 				(width 0.2)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.SilkS")
 			(uuid "d2c8b7d2-424b-41e6-8e6a-981bb8527f3d")
 		)
@@ -3499,7 +3394,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.CrtYd")
 			(uuid "f862688a-9bd0-4f49-bbee-60202ad81ff6")
 		)
@@ -3530,10 +3425,11 @@
 				(width 0.15)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "F.Fab")
 			(uuid "e914fba5-3688-4b38-a869-08c64f9b7533")
 		)
+		(embedded_fonts no)
 		(model "${KICAD_USER_3DMODEL_DIR}/Misc/BREADBOARD-400.step"
 			(offset
 				(xyz -41 0 0)
@@ -3575,21 +3471,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "tronixio:HARWIN-M20-999164x"
-			(at 0 0 -90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1970e5f4-5dda-40d5-8fdd-4a7c2aacf9cc")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "https://www.harwin.com/products/M20-9991646/"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3602,7 +3485,7 @@
 			)
 		)
 		(property "Description" "M20 Series - 2.54mm Pitch PCB Connector"
-			(at 0 0 -90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -3628,7 +3511,7 @@
 			)
 		)
 		(path "/9c4c3158-1d24-4d1c-8e39-342d19a63c17")
-		(sheetname "Root")
+		(sheetname "/")
 		(sheetfile "main.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -3708,7 +3591,7 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.CrtYd")
 			(uuid "93a96d8e-a64e-435d-a18a-5f4dcd6e50e0")
 		)
@@ -4874,6 +4757,7 @@
 			(pintype "passive")
 			(uuid "43cdf208-2f27-4b49-9eec-d5d559a7cabe")
 		)
+		(embedded_fonts no)
 		(model "${KICAD_USER_3DMODEL_DIR}/Header/HARWIN-M20-999164x.wrl"
 			(offset
 				(xyz 0 0 0)
@@ -4914,19 +4798,6 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
-		)
-		(property "Footprint" "tronixio:OSHW-5MM"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1f6a7e07-665e-4c84-a3b4-7529cf55f927")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
 			)
 		)
 		(property "Datasheet" ""
@@ -5054,7 +4925,7 @@
 				(width 0)
 				(type solid)
 			)
-			(fill solid)
+			(fill yes)
 			(layer "B.SilkS")
 			(uuid "9b13d36a-6827-444f-ac86-0e2e9985906b")
 		)
@@ -5065,10 +4936,11 @@
 				(width 0.05)
 				(type solid)
 			)
-			(fill none)
+			(fill no)
 			(layer "B.CrtYd")
 			(uuid "2e5e8686-6a4b-48bd-b498-e43e32a6a949")
 		)
+		(embedded_fonts no)
 	)
 	(gr_rect
 		(start 185 100.5)
@@ -5077,7 +4949,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Cu")
 		(uuid "00783fc8-d8ae-4850-a012-79a909921aa8")
 	)
@@ -5108,7 +4980,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.Cu")
 		(uuid "441da8f8-6056-4911-a7ca-34f9dbf823d7")
 	)
@@ -5129,7 +5001,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "1c32488c-f2b3-4d30-b3e9-c620c67b6bfb")
 	)
@@ -5140,7 +5012,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "1cccd90c-3020-4f2a-a600-f78c021659b1")
 	)
@@ -5171,7 +5043,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "60653a2a-c298-4036-8bbb-4de39cbd08de")
 	)
@@ -5202,7 +5074,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "8dd8f8d8-8379-4716-80b2-69805d17eef8")
 	)
@@ -5233,7 +5105,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "b9b20503-f78f-4029-95e8-43192b0d81aa")
 	)
@@ -5264,7 +5136,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "ea8f2724-27fd-414c-b859-d1373d1ae421")
 	)
@@ -5367,54 +5239,6 @@
 		(at 188 101.5 0)
 		(layer "B.Cu")
 		(uuid "1dd5a12c-e11f-4df0-842d-46a77e29095c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
-	)
-	(gr_text "www.tronix.io"
-		(at 149 72.5 0)
-		(layer "B.SilkS")
-		(uuid "5ce9fb17-a7fa-435f-a3f0-ea21127cfc62")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
-	)
-	(gr_text "2024Q4 - Rev.A"
-		(at 149 83 0)
-		(layer "B.SilkS")
-		(uuid "7a3e5a44-1d11-4627-9ebf-a74cda84af79")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify mirror)
-		)
-	)
-	(gr_text "GPIO BREADBOARD 400"
-		(at 149 79.5 0)
-		(layer "B.SilkS")
-		(uuid "cd52fd5f-3bd5-4246-952d-5cf8362ba56c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-			)
-			(justify mirror)
-		)
-	)
-	(gr_text "(CC) - BY-SA"
-		(at 149 75.5 0)
-		(layer "B.SilkS")
-		(uuid "da209089-caf6-405f-b11f-721980df1753")
 		(effects
 			(font
 				(size 1 1)
@@ -5598,6 +5422,54 @@
 			(justify right)
 		)
 	)
+	(gr_text "www.tronix.io"
+		(at 149 72.5 0)
+		(layer "B.SilkS")
+		(uuid "5ce9fb17-a7fa-435f-a3f0-ea21127cfc62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "2024Q4 - Rev.A"
+		(at 149 83 0)
+		(layer "B.SilkS")
+		(uuid "7a3e5a44-1d11-4627-9ebf-a74cda84af79")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "GPIO BREADBOARD 400"
+		(at 149 79.5 0)
+		(layer "B.SilkS")
+		(uuid "cd52fd5f-3bd5-4246-952d-5cf8362ba56c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+			)
+			(justify mirror)
+		)
+	)
+	(gr_text "(CC) - BY-SA"
+		(at 149 75.5 0)
+		(layer "B.SilkS")
+		(uuid "da209089-caf6-405f-b11f-721980df1753")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "GPIO - BREADBOARD 400 - Rev.A - (Q4/2024) - Scale 100%"
 		(at 100 114.5 0)
 		(layer "Dwgs.User")
@@ -5618,6 +5490,22 @@
 			(xy 100 44.5) (xy 198 44.5)
 		)
 		(height -2.5)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 2)
+			(units_format 1)
+			(precision 2)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1)
+			(text_position_mode 1)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
 		(gr_text "98.00 mm"
 			(at 149 42 0)
 			(layer "Dwgs.User")
@@ -5629,6 +5517,15 @@
 				)
 			)
 		)
+	)
+	(dimension
+		(type aligned)
+		(layer "Dwgs.User")
+		(uuid "edbbcfaa-9686-453d-971e-b450625996ff")
+		(pts
+			(xy 198 104.5) (xy 198 44.5)
+		)
+		(height 2.5)
 		(format
 			(prefix "")
 			(suffix "")
@@ -5640,17 +5537,11 @@
 			(thickness 0.1)
 			(arrow_length 1)
 			(text_position_mode 1)
+			(arrow_direction outward)
 			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
-	)
-	(dimension
-		(type aligned)
-		(layer "Dwgs.User")
-		(uuid "edbbcfaa-9686-453d-971e-b450625996ff")
-		(pts
-			(xy 198 104.5) (xy 198 44.5)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
 		)
-		(height 2.5)
 		(gr_text "60.00 mm"
 			(at 200.5 74.5 90)
 			(layer "Dwgs.User")
@@ -5662,19 +5553,6 @@
 				)
 			)
 		)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 2)
-			(units_format 1)
-			(precision 2)
-		)
-		(style
-			(thickness 0.1)
-			(arrow_length 1)
-			(text_position_mode 1)
-			(extension_height 0.58642)
-			(extension_offset 0.5) keep_text_aligned)
 	)
 	(segment
 		(start 155 55.94)
@@ -6343,4 +6221,5 @@
 			"ae1931b9-658c-4555-a51d-5eadcb2296ff" "ea8f2724-27fd-414c-b859-d1373d1ae421"
 		)
 	)
+	(embedded_fonts no)
 )

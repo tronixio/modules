@@ -6813,11 +6813,12 @@
 		(net_name "GND")
 		(layer "B.Cu")
 		(uuid "1a0307df-23ad-4b01-961c-607c75bf12f0")
-		(hatch edge 0.508)
+		(name "GND")
+		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0.5)
 		)
-		(min_thickness 0.25)
+		(min_thickness 0.3)
 		(filled_areas_thickness no)
 		(fill yes
 			(thermal_gap 0.5)

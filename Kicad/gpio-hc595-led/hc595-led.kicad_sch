@@ -5,7 +5,7 @@
 	(uuid "5f96646c-bdf6-47e2-a01d-8588cc95727b")
 	(paper "A4")
 	(title_block
-		(title "GPIO - 74HC595-HEADER")
+		(title "GPIO - 74HC595-LED")
 		(date "01/2022")
 		(rev "A")
 	)
@@ -885,7 +885,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "tronixio:HARWIN-254-M-1X08-VERTICAL"
+		(symbol "tronixio:KINGBRIGHT-LED-1206-RED"
 			(pin_numbers
 				(hide yes)
 			)
@@ -896,8 +896,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "K"
-				(at 0 2.54 0)
+			(property "Reference" "LED"
+				(at 0 3.81 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -905,8 +905,8 @@
 					)
 				)
 			)
-			(property "Value" "HARWIN-254-M-1X08-VERTICAL"
-				(at 0 -20.32 0)
+			(property "Value" "RED"
+				(at 0 -2.54 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -914,8 +914,8 @@
 					)
 				)
 			)
-			(property "Footprint" "tronixio:HARWIN-M20-999084x"
-				(at 0 -22.86 0)
+			(property "Footprint" "tronixio:LED-SMD-1206"
+				(at 0 -5.08 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -924,8 +924,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.harwin.com/products/M20-9990846/"
-				(at 0 -25.4 0)
+			(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216LSECK-J3-PRV.pdf"
+				(at 0 -7.62 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -934,17 +934,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "M20 Series - 2.54mm Pitch PCB Connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser" "855-M20-999084"
-				(at 0 -27.94 0)
+			(property "Description" "Light Emitting Diode"
+				(at 0 -12.7 0)
 				(do_not_autoplace)
 				(effects
 					(font
@@ -953,101 +944,58 @@
 					(hide yes)
 				)
 			)
-			(symbol "HARWIN-254-M-1X08-VERTICAL_0_1"
+			(property "Mouser" "604-APT3216LSECKJ3RV"
+				(at 0 -10.16 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KINGBRIGHT-LED-1206-RED_0_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end -0.762 -1.27)
+					(stroke
+						(width 0.001)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
-						(xy -1.27 -19.05) (xy 1.27 -19.05) (xy 1.27 0.635) (xy 0.635 1.27) (xy -1.27 1.27) (xy -1.27 -19.05)
+						(xy -0.508 1.524) (xy 0.508 2.54) (xy 0.254 2.032) (xy 0 2.286) (xy 0.508 2.54)
 					)
 					(stroke
-						(width 0.4)
+						(width 0.2)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
+				(polyline
+					(pts
+						(xy 0.508 1.524) (xy 1.524 2.54) (xy 1.27 2.032) (xy 1.016 2.286) (xy 1.524 2.54)
+					)
 					(stroke
 						(width 0.2)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
+				(polyline
+					(pts
+						(xy 1.524 -1.27) (xy 1.524 1.27) (xy -0.762 0) (xy 1.524 -1.27)
+					)
 					(stroke
-						(width 0.2)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 -5.08)
-					(radius 0.635)
-					(stroke
-						(width 0.2)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 -7.62)
-					(radius 0.635)
-					(stroke
-						(width 0.2)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 -10.16)
-					(radius 0.635)
-					(stroke
-						(width 0.2)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 -12.7)
-					(radius 0.635)
-					(stroke
-						(width 0.2)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 -15.24)
-					(radius 0.635)
-					(stroke
-						(width 0.2)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 -17.78)
-					(radius 0.635)
-					(stroke
-						(width 0.2)
+						(width 0.001)
 						(type default)
 					)
 					(fill
@@ -1055,11 +1003,11 @@
 					)
 				)
 			)
-			(symbol "HARWIN-254-M-1X08-VERTICAL_1_1"
+			(symbol "KINGBRIGHT-LED-1206-RED_1_1"
 				(pin passive line
 					(at -2.54 0 0)
-					(length 1.905)
-					(name "Pin_1"
+					(length 1.27)
+					(name "C"
 						(effects
 							(font
 								(size 1 1)
@@ -1075,9 +1023,9 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 1.905)
-					(name "Pin_2"
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "A"
 						(effects
 							(font
 								(size 1 1)
@@ -1085,114 +1033,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 0)
-					(length 1.905)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -7.62 0)
-					(length 1.905)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -10.16 0)
-					(length 1.905)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -12.7 0)
-					(length 1.905)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -15.24 0)
-					(length 1.905)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -17.78 0)
-					(length 1.905)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1 1)
@@ -1799,6 +1639,139 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "tronixio:RESISTOR-1206-4K7-5P"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.635 3.81 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "4k7"
+				(at 0 0 90)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+				(at 0 -12.7 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 -17.78 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "5%"
+				(at 0.635 -3.81 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "660-RK73B2BTTDD472J"
+				(at 0 -15.24 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RESISTOR-1206-4K7-5P_0_1"
+				(rectangle
+					(start -1.27 -2.54)
+					(end 1.27 2.54)
+					(stroke
+						(width 0.4)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RESISTOR-1206-4K7-5P_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "tronixio:SAMTEC-254-F-1X06-RIGHT-ANGLE"
 			(pin_numbers
 				(hide yes)
@@ -2059,7 +2032,7 @@
 	)
 	(text "SHCP"
 		(exclude_from_sim no)
-		(at 86.36 110.49 0)
+		(at 68.58 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2070,7 +2043,7 @@
 	)
 	(text "SHCP"
 		(exclude_from_sim no)
-		(at 86.36 77.47 0)
+		(at 68.58 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2079,20 +2052,9 @@
 		)
 		(uuid "1685d996-abd2-44a5-85a0-ffdaaff9739a")
 	)
-	(text "OUTPUT 6"
-		(exclude_from_sim no)
-		(at 198.12 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "197f58b0-2763-4175-b027-fa6d7d402992")
-	)
 	(text "STCP"
 		(exclude_from_sim no)
-		(at 86.36 113.03 0)
+		(at 68.58 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2101,31 +2063,9 @@
 		)
 		(uuid "2c967528-efc3-4133-9d81-b9308d95540d")
 	)
-	(text "OUTPUT 5"
-		(exclude_from_sim no)
-		(at 198.12 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4171ba42-f835-4804-a07d-9921d71c7d89")
-	)
-	(text "OUTPUT 1"
-		(exclude_from_sim no)
-		(at 198.12 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5926aeed-2f94-4268-b2e5-9c60366eefff")
-	)
 	(text "~{OE}"
 		(exclude_from_sim no)
-		(at 86.36 82.55 0)
+		(at 68.58 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2136,7 +2076,7 @@
 	)
 	(text "GND"
 		(exclude_from_sim no)
-		(at 86.36 105.41 0)
+		(at 68.58 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2147,7 +2087,7 @@
 	)
 	(text "VDD"
 		(exclude_from_sim no)
-		(at 86.36 69.85 0)
+		(at 68.58 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2158,7 +2098,7 @@
 	)
 	(text "DS"
 		(exclude_from_sim no)
-		(at 86.36 74.93 0)
+		(at 68.58 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2167,31 +2107,9 @@
 		)
 		(uuid "7d97a238-f2f7-404a-9c7c-6f24abcd214f")
 	)
-	(text "OUTPUT 2"
-		(exclude_from_sim no)
-		(at 198.12 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "88e02e85-017d-4d8b-aece-fcab01660527")
-	)
-	(text "OUTPUT 3"
-		(exclude_from_sim no)
-		(at 198.12 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8f755461-c684-4ec9-9516-6d5cd30102e8")
-	)
 	(text "Q7S"
 		(exclude_from_sim no)
-		(at 86.36 107.95 0)
+		(at 68.58 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2200,20 +2118,9 @@
 		)
 		(uuid "9a9a61c7-1373-4233-87ef-c615774a0d28")
 	)
-	(text "OUTPUT 4"
-		(exclude_from_sim no)
-		(at 198.12 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9d626522-21a4-4061-bc4c-6ffe1bd80fc6")
-	)
 	(text "STCP"
 		(exclude_from_sim no)
-		(at 86.36 80.01 0)
+		(at 68.58 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2222,20 +2129,9 @@
 		)
 		(uuid "b0ea8431-380f-4e1b-b3af-b72d3ffa514b")
 	)
-	(text "OUTPUT 7"
-		(exclude_from_sim no)
-		(at 198.12 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bb647b21-a77c-4f15-8a02-0ad33c05f717")
-	)
 	(text "GND"
 		(exclude_from_sim no)
-		(at 86.36 72.39 0)
+		(at 68.58 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2244,20 +2140,9 @@
 		)
 		(uuid "c17a1505-655e-4fba-87d2-fbcc3bc44164")
 	)
-	(text "OUTPUT 0"
-		(exclude_from_sim no)
-		(at 198.12 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cadfbf04-13e8-4cbb-a8da-5232901991d2")
-	)
 	(text "~{OE}"
 		(exclude_from_sim no)
-		(at 86.36 115.57 0)
+		(at 68.58 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2268,7 +2153,7 @@
 	)
 	(text "VDD"
 		(exclude_from_sim no)
-		(at 86.36 102.87 0)
+		(at 68.58 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2278,72 +2163,82 @@
 		(uuid "e9279de3-1274-4dc3-a553-09742c634438")
 	)
 	(junction
-		(at 147.32 68.58)
+		(at 137.16 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0c540d9b-1d28-418d-85d4-9106ee12a388")
+		(uuid "03462ca3-2317-4558-92e4-f64a0432375f")
 	)
 	(junction
-		(at 160.02 88.9)
+		(at 86.36 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4ddce523-6abd-4e9e-a153-f1a59292950f")
+		(uuid "1d47636c-f1fe-4b8e-9eab-65c0ee634c58")
 	)
 	(junction
-		(at 154.94 66.04)
+		(at 132.08 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e7bfcc5-8085-48eb-8b40-bbf98f67f261")
 	)
 	(junction
-		(at 99.06 76.2)
+		(at 76.2 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6d1c42bc-d75b-4898-a167-cbf9c2ff6007")
+		(uuid "6d57a78a-4b22-472d-917b-80e151a689c3")
 	)
 	(junction
-		(at 93.98 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96a6adc1-2824-4572-807f-367d78713889")
-	)
-	(junction
-		(at 96.52 68.58)
+		(at 78.74 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9e17b3b-a46c-46d2-88ba-741da8d82c0e")
 	)
 	(junction
-		(at 101.6 78.74)
+		(at 81.28 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d2cbd020-72fe-47c2-bf11-d8cf523d1767")
+		(uuid "cf005222-7877-40b0-9a5e-06f7c4364986")
 	)
 	(junction
-		(at 104.14 81.28)
+		(at 124.46 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ddff098b-4297-4387-92d2-65a6ed9b02aa")
+		(uuid "d2425473-9e50-405d-ba8d-866f85fc3fd1")
 	)
 	(junction
-		(at 93.98 104.14)
+		(at 83.82 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3aea68c-d01e-40e2-b79d-4e6ab0deb5aa")
+	)
+	(junction
+		(at 76.2 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff3616e8-5d6f-4913-9fb8-3e737ffb6dd6")
 	)
 	(wire
 		(pts
-			(xy 91.44 81.28) (xy 104.14 81.28)
+			(xy 73.66 73.66) (xy 88.9 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "027a5189-cd78-4eed-86b8-f3b03f30b9fd")
+		(uuid "021f88a3-0fec-474b-ba5a-c9165e588d6b")
 	)
 	(wire
 		(pts
-			(xy 154.94 55.88) (xy 154.94 66.04)
+			(xy 175.26 91.44) (xy 185.42 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "065bac87-ed1f-466d-ad4e-020fcdbc63e3")
+	)
+	(wire
+		(pts
+			(xy 132.08 60.96) (xy 132.08 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2353,7 +2248,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 106.68) (xy 106.68 106.68)
+			(xy 73.66 106.68) (xy 88.9 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2363,37 +2258,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 83.82) (xy 162.56 83.82)
+			(xy 160.02 71.12) (xy 167.64 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "159b9410-fd63-4a9f-b445-a256bad33233")
+		(uuid "13f67358-b373-41d9-81b9-f3128c1e038a")
 	)
 	(wire
 		(pts
-			(xy 147.32 68.58) (xy 147.32 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e80250c-e5bd-455b-8856-2a5e7f550eb8")
-	)
-	(wire
-		(pts
-			(xy 104.14 81.28) (xy 109.22 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26e4afc2-22b8-4dc1-9c21-5cb1b13c830e")
-	)
-	(wire
-		(pts
-			(xy 154.94 66.04) (xy 162.56 66.04)
+			(xy 132.08 71.12) (xy 139.7 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2403,7 +2278,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 73.66) (xy 193.04 73.66)
+			(xy 160.02 78.74) (xy 165.1 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2413,17 +2288,17 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 88.9) (xy 160.02 101.6)
+			(xy 223.52 106.68) (xy 223.52 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3431b971-e7a2-4e1e-95ff-a7d287c2595b")
+		(uuid "335be657-c958-41c1-9201-3de1fb89056a")
 	)
 	(wire
 		(pts
-			(xy 99.06 109.22) (xy 99.06 76.2)
+			(xy 81.28 109.22) (xy 81.28 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2433,7 +2308,37 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 68.58) (xy 96.52 58.42)
+			(xy 193.04 88.9) (xy 193.04 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3992a1ed-913a-4260-8ced-f5f4fa8a3506")
+	)
+	(wire
+		(pts
+			(xy 193.04 106.68) (xy 193.04 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41ac6bf1-e0a2-4701-a679-15cee2e88712")
+	)
+	(wire
+		(pts
+			(xy 175.26 81.28) (xy 215.9 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43750889-0cf5-47fb-8b64-88dce4c15e9c")
+	)
+	(wire
+		(pts
+			(xy 78.74 68.58) (xy 78.74 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2443,7 +2348,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 71.12) (xy 193.04 71.12)
+			(xy 160.02 76.2) (xy 165.1 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2453,27 +2358,37 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 66.04) (xy 154.94 93.98)
+			(xy 137.16 93.98) (xy 139.7 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48940518-a224-4ddf-a113-e126ce716cd6")
+		(uuid "47386d70-73de-4483-8730-353f9af5ef18")
 	)
 	(wire
 		(pts
-			(xy 99.06 76.2) (xy 109.22 76.2)
+			(xy 124.46 73.66) (xy 139.7 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58f0ddcc-ecf0-4884-8de5-5d67b442ca58")
+		(uuid "555b465f-1dad-4aa2-8db6-e3fb8bf0e2c7")
 	)
 	(wire
 		(pts
-			(xy 91.44 104.14) (xy 93.98 104.14)
+			(xy 124.46 73.66) (xy 124.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "586c10a4-3997-4d82-9338-8f8b886b2185")
+	)
+	(wire
+		(pts
+			(xy 73.66 104.14) (xy 76.2 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2483,7 +2398,37 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 109.22) (xy 99.06 109.22)
+			(xy 185.42 91.44) (xy 185.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6895f1c9-3230-4e0d-a7a4-48e18dabfe97")
+	)
+	(wire
+		(pts
+			(xy 200.66 86.36) (xy 200.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a4bdc87-3e56-4892-8e00-00937375a00c")
+	)
+	(wire
+		(pts
+			(xy 175.26 83.82) (xy 208.28 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a9568a9-4e5c-4c46-8b1d-753d90585175")
+	)
+	(wire
+		(pts
+			(xy 73.66 109.22) (xy 81.28 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2493,7 +2438,17 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 101.6) (xy 96.52 101.6)
+			(xy 83.82 78.74) (xy 88.9 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8c9908-701a-4186-b6da-30ca5d60c2ea")
+	)
+	(wire
+		(pts
+			(xy 73.66 101.6) (xy 78.74 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2503,17 +2458,67 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 88.9) (xy 162.56 88.9)
+			(xy 76.2 68.58) (xy 78.74 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f481118-ea84-481b-8844-6c57bed324f8")
+		(uuid "6ec3bdb7-75a2-4c77-804b-b212ff3e2645")
 	)
 	(wire
 		(pts
-			(xy 91.44 78.74) (xy 101.6 78.74)
+			(xy 86.36 81.28) (xy 88.9 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7016ad42-f2f6-40a1-8201-49d6d98ae1c5")
+	)
+	(wire
+		(pts
+			(xy 73.66 81.28) (xy 86.36 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "711409eb-7438-4ce0-9e51-09d96539a4d6")
+	)
+	(wire
+		(pts
+			(xy 185.42 106.68) (xy 185.42 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73f42283-0cb1-4560-9386-e69ba0e80c09")
+	)
+	(wire
+		(pts
+			(xy 119.38 88.9) (xy 139.7 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "748d1361-c815-49c8-bd4e-02489c580c10")
+	)
+	(wire
+		(pts
+			(xy 177.8 106.68) (xy 177.8 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "793adaa4-1d4b-4365-93e7-7d323ee8352d")
+	)
+	(wire
+		(pts
+			(xy 73.66 78.74) (xy 83.82 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2523,7 +2528,37 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 104.14) (xy 93.98 119.38)
+			(xy 215.9 81.28) (xy 215.9 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7da81405-ac67-4158-9904-dc89325626c0")
+	)
+	(wire
+		(pts
+			(xy 175.26 88.9) (xy 193.04 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d40ded-ee55-4c7e-b2dd-8c2ced9ca916")
+	)
+	(wire
+		(pts
+			(xy 175.26 76.2) (xy 231.14 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82476f17-c921-42bd-b27e-f1fd79f52dbf")
+	)
+	(wire
+		(pts
+			(xy 76.2 104.14) (xy 76.2 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2533,7 +2568,17 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 78.74) (xy 193.04 78.74)
+			(xy 175.26 86.36) (xy 200.66 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85ff27da-b1ac-4a40-ae57-b8647466ea42")
+	)
+	(wire
+		(pts
+			(xy 160.02 83.82) (xy 165.1 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2543,7 +2588,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 68.58) (xy 93.98 68.58)
+			(xy 73.66 68.58) (xy 76.2 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2553,7 +2598,47 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 68.58) (xy 96.52 101.6)
+			(xy 208.28 106.68) (xy 208.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9391a4ec-4a2c-4ee8-86c5-1431bf70f22b")
+	)
+	(wire
+		(pts
+			(xy 124.46 106.68) (xy 124.46 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a47724-bfa2-4716-a335-5cb23ea35f19")
+	)
+	(wire
+		(pts
+			(xy 137.16 93.98) (xy 137.16 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9510b140-20f7-4424-98c5-a08c3fc21ee6")
+	)
+	(wire
+		(pts
+			(xy 231.14 106.68) (xy 231.14 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ad50bd-8947-4904-9832-19e38abf2404")
+	)
+	(wire
+		(pts
+			(xy 78.74 68.58) (xy 78.74 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2563,7 +2648,27 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 83.82) (xy 193.04 83.82)
+			(xy 119.38 83.82) (xy 139.7 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ae254c6-d5b3-417e-a416-8157dc0f6d00")
+	)
+	(wire
+		(pts
+			(xy 119.38 81.28) (xy 139.7 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c426e9c-8698-45fc-829a-82c362cf6be1")
+	)
+	(wire
+		(pts
+			(xy 160.02 88.9) (xy 165.1 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2573,7 +2678,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 101.6) (xy 154.94 99.06)
+			(xy 132.08 106.68) (xy 132.08 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2583,7 +2688,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 71.12) (xy 93.98 104.14)
+			(xy 76.2 71.12) (xy 76.2 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2593,7 +2698,17 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 86.36) (xy 193.04 86.36)
+			(xy 177.8 93.98) (xy 177.8 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1b821bd-7a91-4a30-ba02-7b2366e8d4a5")
+	)
+	(wire
+		(pts
+			(xy 160.02 91.44) (xy 165.1 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2603,27 +2718,27 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 68.58) (xy 96.52 68.58)
+			(xy 175.26 78.74) (xy 223.52 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4d49498-5b6f-4474-8fcb-08d127c0d09b")
+		(uuid "b5f849d9-2b62-425f-8947-f6c3ad443c30")
 	)
 	(wire
 		(pts
-			(xy 142.24 76.2) (xy 162.56 76.2)
+			(xy 124.46 71.12) (xy 124.46 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba4e0e6b-8f13-439e-b498-04436890d2ff")
+		(uuid "c17eedcb-8413-4f5f-ad17-578fc6172333")
 	)
 	(wire
 		(pts
-			(xy 91.44 76.2) (xy 99.06 76.2)
+			(xy 73.66 76.2) (xy 81.28 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2633,7 +2748,17 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 111.76) (xy 101.6 111.76)
+			(xy 81.28 76.2) (xy 88.9 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4c716b9-0489-44f4-8c2e-e43bdb8b149d")
+	)
+	(wire
+		(pts
+			(xy 73.66 111.76) (xy 83.82 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2643,7 +2768,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 81.28) (xy 104.14 114.3)
+			(xy 86.36 114.3) (xy 86.36 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2653,7 +2778,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 76.2) (xy 193.04 76.2)
+			(xy 160.02 81.28) (xy 165.1 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2663,17 +2788,27 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 68.58) (xy 162.56 68.58)
+			(xy 208.28 83.82) (xy 208.28 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce894563-0c88-42d2-9d75-bfc11e3b5cc0")
+		(uuid "d25521ea-9884-4460-bb82-91fbb49f208b")
 	)
 	(wire
 		(pts
-			(xy 182.88 88.9) (xy 193.04 88.9)
+			(xy 223.52 78.74) (xy 223.52 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d55bf95b-8034-4194-9d9e-e0afd7eb2dff")
+	)
+	(wire
+		(pts
+			(xy 160.02 93.98) (xy 165.1 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2683,7 +2818,17 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 114.3) (xy 104.14 114.3)
+			(xy 200.66 106.68) (xy 200.66 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9f536a3-0d57-4849-b9c6-d4d9ec44d470")
+	)
+	(wire
+		(pts
+			(xy 73.66 114.3) (xy 86.36 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2693,37 +2838,47 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 73.66) (xy 162.56 73.66)
+			(xy 231.14 76.2) (xy 231.14 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dec34054-d006-4331-b20a-e36751c6908a")
+		(uuid "de7e8d77-34ed-4084-8bdd-5121466344f2")
 	)
 	(wire
 		(pts
-			(xy 185.42 66.04) (xy 182.88 66.04)
+			(xy 215.9 106.68) (xy 215.9 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e11bf06a-d412-4d6c-aa3e-afd4874c6966")
+		(uuid "e1066c83-9740-4518-a404-216ff002468f")
 	)
 	(wire
 		(pts
-			(xy 147.32 66.04) (xy 147.32 68.58)
+			(xy 175.26 93.98) (xy 177.8 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef8bcf69-4fe7-42db-bcb7-4cd95774fa37")
+		(uuid "e4164d2d-e4d7-47fe-b4db-2e427630e5b1")
 	)
 	(wire
 		(pts
-			(xy 101.6 78.74) (xy 101.6 111.76)
+			(xy 119.38 78.74) (xy 139.7 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede953d3-0cf3-4648-9d7d-39472fe7f4bc")
+	)
+	(wire
+		(pts
+			(xy 83.82 111.76) (xy 83.82 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2733,7 +2888,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 71.12) (xy 93.98 71.12)
+			(xy 73.66 71.12) (xy 76.2 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2743,37 +2898,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 78.74) (xy 162.56 78.74)
+			(xy 132.08 71.12) (xy 132.08 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f27309f5-8f20-48a7-a7f1-da588cfbc34d")
+		(uuid "f4f969cc-789c-4b70-8f79-7cabe25ab259")
 	)
 	(wire
 		(pts
-			(xy 147.32 101.6) (xy 147.32 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4b2d6b1-5e84-462a-ac59-165d97cd3c17")
-	)
-	(wire
-		(pts
-			(xy 91.44 73.66) (xy 109.22 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f88821c2-0edd-47a8-acdb-60f83af45db0")
-	)
-	(wire
-		(pts
-			(xy 182.88 81.28) (xy 193.04 81.28)
+			(xy 160.02 86.36) (xy 165.1 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2781,19 +2916,9 @@
 		)
 		(uuid "faa4f5b6-ecf3-4304-b1b4-1d21fa69e6a8")
 	)
-	(wire
-		(pts
-			(xy 101.6 78.74) (xy 109.22 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc0628c1-978a-4208-8138-24fae747fff7")
-	)
 	(global_label "SHCP"
 		(shape input)
-		(at 142.24 76.2 180)
+		(at 119.38 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2801,9 +2926,9 @@
 			)
 			(justify right)
 		)
-		(uuid "1ce1c504-dda8-413d-bf5b-a604e064ebbb")
+		(uuid "08dc6c8a-d2e8-4b6d-abb9-477ddc1bd00f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.0797 76.2 0)
+			(at 111.2197 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2815,7 +2940,7 @@
 	)
 	(global_label "Q7S"
 		(shape input)
-		(at 106.68 106.68 0)
+		(at 88.9 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2825,95 +2950,7 @@
 		)
 		(uuid "249bfe13-0d57-4cb1-a986-ccdcbd80e05c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.0331 106.6006 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DS"
-		(shape output)
-		(at 109.22 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2b10dfd9-3315-4826-a491-28f124407c3b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.7798 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "~{OE}"
-		(shape output)
-		(at 109.22 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "33b6fd01-fdaa-4c34-8d3a-a3f3252392b8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.7798 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DS"
-		(shape input)
-		(at 142.24 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7c69cb8f-5b3a-4273-8777-027f8de378be")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.6802 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SHCP"
-		(shape output)
-		(at 109.22 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "94f99c6a-e176-4075-ab33-127cf62f9a79")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.3803 76.2 0)
+			(at 95.2531 106.6006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2925,7 +2962,7 @@
 	)
 	(global_label "STCP"
 		(shape output)
-		(at 109.22 78.74 0)
+		(at 88.9 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2933,9 +2970,9 @@
 			)
 			(justify left)
 		)
-		(uuid "d3acd175-3004-46de-9d68-d1977ffa8da2")
+		(uuid "688b6006-270d-4307-a3ce-7159032f1f7c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.0174 78.74 0)
+			(at 96.6974 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2947,7 +2984,7 @@
 	)
 	(global_label "STCP"
 		(shape input)
-		(at 142.24 73.66 180)
+		(at 119.38 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2955,9 +2992,9 @@
 			)
 			(justify right)
 		)
-		(uuid "e0ecb194-ad96-4cee-9bfe-6a847eca5548")
+		(uuid "6f436c1a-6d2c-4b85-a635-c3c43b3a9cfe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.4426 73.66 0)
+			(at 111.5826 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2968,8 +3005,30 @@
 		)
 	)
 	(global_label "~{OE}"
+		(shape output)
+		(at 88.9 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "727751e6-8c06-4bcd-9d6f-6ef6064ab8f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.4598 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{OE}"
 		(shape input)
-		(at 142.24 83.82 180)
+		(at 119.38 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2977,9 +3036,9 @@
 			)
 			(justify right)
 		)
-		(uuid "eb46aa96-e34c-42e9-a9f5-0829e2ef147a")
+		(uuid "b48e45bc-ec2d-45bd-a029-6f1643b000ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.6802 83.82 0)
+			(at 113.8202 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2991,7 +3050,7 @@
 	)
 	(global_label "Q7S"
 		(shape output)
-		(at 185.42 66.04 0)
+		(at 167.64 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3001,7 +3060,7 @@
 		)
 		(uuid "edfe21d0-2af9-4549-9ad7-7ddcd9befedb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.7731 65.9606 0)
+			(at 173.9931 71.0406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3011,206 +3070,75 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "tronixio:HARWIN-254-M-1X08-VERTICAL")
-		(at 195.58 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "05b33424-b95a-458b-b6de-36dec5295a65")
-		(property "Reference" "K3"
-			(at 195.58 68.58 0)
-			(effects
-				(font
-					(size 1.15 1.15)
-				)
+	(global_label "DS"
+		(shape output)
+		(at 88.9 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Value" "DATA OUT"
-			(at 195.58 91.44 0)
-			(effects
-				(font
-					(size 1.15 1.15)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:HARWIN-M20-999084x"
-			(at 195.58 93.98 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.harwin.com/products/M20-9990846/"
-			(at 195.58 96.52 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "M20 Series - 2.54mm Pitch PCB Connector"
-			(at 195.58 71.12 0)
+		(uuid "f1874a67-df97-4c84-8902-ab235d4664c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.4598 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Mouser" "855-M20-999084"
-			(at 195.58 99.06 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f06742b7-d56b-40e9-9462-bb7e5a91306b")
-		)
-		(pin "2"
-			(uuid "c26dbcb2-22fe-43ab-a877-e1b9fe961069")
-		)
-		(pin "3"
-			(uuid "b2843ac3-8c7a-409c-9fe3-77650e9f89d3")
-		)
-		(pin "4"
-			(uuid "f2996aae-df9b-470c-9c22-03f4c673690a")
-		)
-		(pin "5"
-			(uuid "275b2f23-626a-483e-8ce5-fd5bbec1a9d4")
-		)
-		(pin "6"
-			(uuid "4c15849d-cd90-462f-a452-56495cb63133")
-		)
-		(pin "7"
-			(uuid "3e7a1e07-f22f-4487-bdde-2c1d9e2276be")
-		)
-		(pin "8"
-			(uuid "08c27e3a-95a3-4f54-a6db-42061ef8d7b4")
-		)
-		(instances
-			(project "hc595-header"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "K3")
-					(unit 1)
-				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "tronixio:CAPACITOR-1206-100N-50V-5P-X7R")
-		(at 154.94 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "066f657a-e9ff-4ab8-b120-094082a2078d")
-		(property "Reference" "C2"
-			(at 154.305 93.98 0)
-			(effects
-				(font
-					(size 1.15 1.15)
-				)
-				(justify right)
+	(global_label "DS"
+		(shape input)
+		(at 119.38 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "100n"
-			(at 154.305 99.06 0)
-			(effects
-				(font
-					(size 1.15 1.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "tronixio:CAPACITOR-SMD-1206"
-			(at 154.94 106.68 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 99.06 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 154.94 111.76 0)
+		(uuid "f244b885-c6e4-4720-9d3d-a234b50f47f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.8202 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
-		(property "Voltage" "50V"
-			(at 155.575 101.6 0)
-			(do_not_autoplace yes)
+	)
+	(global_label "SHCP"
+		(shape output)
+		(at 88.9 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fca24a6f-6f36-4ba9-9668-b97a87d2bc2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.0603 76.2 0)
 			(effects
 				(font
-					(size 1.15 1.15)
+					(size 1.27 1.27)
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 155.575 104.14 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "80-C1206C104J5R"
-			(at 154.94 109.22 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e61fd575-6389-4e69-8a17-cecee5a957b1")
-		)
-		(pin "2"
-			(uuid "4bb66154-3a42-4c98-aa1b-4300e7a729ad")
-		)
-		(instances
-			(project "hc595-header"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "C2")
-					(unit 1)
-				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "tronixio:SAMTEC-254-F-1X06-RIGHT-ANGLE")
-		(at 88.9 114.3 180)
+		(at 71.12 114.3 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3218,7 +3146,7 @@
 		(dnp no)
 		(uuid "07244cef-167a-4135-8abb-f1834fd6c9cb")
 		(property "Reference" "K2"
-			(at 88.9 99.06 0)
+			(at 71.12 99.06 0)
 			(effects
 				(font
 					(size 1.15 1.15)
@@ -3226,7 +3154,7 @@
 			)
 		)
 		(property "Value" "GPIO OUT"
-			(at 88.9 116.84 0)
+			(at 71.12 116.84 0)
 			(effects
 				(font
 					(size 1.15 1.15)
@@ -3234,7 +3162,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:SAMTEC-SSW-106-02-T-S-RA"
-			(at 88.9 96.52 0)
+			(at 71.12 96.52 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3243,7 +3171,7 @@
 			)
 		)
 		(property "Datasheet" "http://suddendocs.samtec.com/catalog_english/ssw_th.pdf"
-			(at 88.9 93.98 0)
+			(at 71.12 93.98 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3252,7 +3180,7 @@
 			)
 		)
 		(property "Description" "HEADER"
-			(at 88.9 91.44 0)
+			(at 71.12 91.44 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3261,7 +3189,7 @@
 			)
 		)
 		(property "Mouser" "200-SSW10603TSRA"
-			(at 88.9 88.9 0)
+			(at 71.12 88.9 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3288,7 +3216,7 @@
 			(uuid "0f1ddb4b-25c2-4ca0-8d30-a4e9785398d1")
 		)
 		(instances
-			(project "hc595-header"
+			(project "hc595-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "K2")
 					(unit 1)
@@ -3297,17 +3225,517 @@
 		)
 	)
 	(symbol
+		(lib_id "tronixio:RESISTOR-1206-4K7-5P")
+		(at 170.18 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e6ddf91-cf88-493b-955a-2e3d355bef61")
+		(property "Reference" "R3"
+			(at 173.355 77.47 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4k7"
+			(at 170.18 78.74 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+			(at 182.88 78.74 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 78.74 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 187.96 78.74 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 173.99 78.105 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "660-RK73B2BTTDD472J"
+			(at 185.42 78.74 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9e2ca12-5101-47e1-9337-8846853bff65")
+		)
+		(pin "2"
+			(uuid "a503b73a-b890-42ab-80d8-ce293964f106")
+		)
+		(instances
+			(project "hc595-led"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:RESISTOR-1206-4K7-5P")
+		(at 170.18 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13d52006-5ba8-4e47-b20e-faeb1d724545")
+		(property "Reference" "R5"
+			(at 173.355 82.55 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4k7"
+			(at 170.18 83.82 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+			(at 182.88 83.82 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 83.82 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 187.96 83.82 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 173.99 83.185 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "660-RK73B2BTTDD472J"
+			(at 185.42 83.82 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9d610d7-5887-40ae-8795-cf5ab472f2c7")
+		)
+		(pin "2"
+			(uuid "c3e099e3-e5ae-42b3-bb1e-2162ff733fc2")
+		)
+		(instances
+			(project "hc595-led"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 223.52 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24e6f099-f2cd-4930-8b7f-f0abef170f21")
+		(property "Reference" "#PWR015"
+			(at 223.52 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 114.3 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 106.68 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 106.68 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GND"
+			(at 223.52 109.855 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c90c8772-dbc9-46c2-aa09-02d03c738941")
+		)
+		(instances
+			(project "hc595-led"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:RESISTOR-1206-4K7-5P")
+		(at 170.18 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2bbb656f-623a-4358-b080-e9bac6b37ca9")
+		(property "Reference" "R2"
+			(at 173.355 74.93 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4k7"
+			(at 170.18 76.2 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+			(at 182.88 76.2 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 76.2 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 187.96 76.2 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 173.99 75.565 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "660-RK73B2BTTDD472J"
+			(at 185.42 76.2 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b6bf7aa-f868-4fd7-844b-b92b4ba7efe5")
+		)
+		(pin "2"
+			(uuid "6e1e7bb8-210b-4d0a-9157-71adb71cfab0")
+		)
+		(instances
+			(project "hc595-led"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:RESISTOR-1206-4K7-5P")
+		(at 170.18 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d8a10e0-68a9-4296-9059-92bedacb87dd")
+		(property "Reference" "R8"
+			(at 173.355 90.17 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4k7"
+			(at 170.18 91.44 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+			(at 182.88 91.44 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 91.44 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 187.96 91.44 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 173.99 90.805 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "660-RK73B2BTTDD472J"
+			(at 185.42 91.44 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eda97594-60e6-4b26-822d-18b6874282c2")
+		)
+		(pin "2"
+			(uuid "23ba5e5d-af3d-4e55-bc84-9b61eb8df552")
+		)
+		(instances
+			(project "hc595-led"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 193.04 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3dfc02b7-62b5-4e5a-8214-a079e9ad5679")
+		(property "Reference" "#PWR011"
+			(at 193.04 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 114.3 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 106.68 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 106.68 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GND"
+			(at 193.04 109.855 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2aabfffa-7b96-4927-9c00-6966930431ff")
+		)
+		(instances
+			(project "hc595-led"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "tronixio:POWER-FLAG")
-		(at 93.98 68.58 0)
+		(at 137.16 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "12100485-e0bb-4a35-aba4-6e0ece7ea0ad")
-		(property "Reference" "#FLG0102"
-			(at 93.98 70.485 0)
+		(uuid "409c2d15-276d-4b19-8043-6cd50c469192")
+		(property "Reference" "#FLG0101"
+			(at 137.16 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,7 +3744,7 @@
 			)
 		)
 		(property "Value" "POWER-FLAG"
-			(at 93.98 72.39 0)
+			(at 137.16 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3325,7 +3753,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 68.58 0)
+			(at 137.16 93.98 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3334,7 +3762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 68.58 0)
+			(at 137.16 93.98 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3343,7 +3771,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 93.98 86.36 0)
+			(at 137.16 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,10 +3780,77 @@
 			)
 		)
 		(pin "1"
-			(uuid "98a956ff-ce2e-4f96-a6e5-b363cb78aa0e")
+			(uuid "00fd24fe-5aaf-4398-8020-9f9cdb8ad03e")
 		)
 		(instances
-			(project "hc595-header"
+			(project "hc595-led"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "#FLG0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:POWER-FLAG")
+		(at 76.2 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40eb91ac-f4d1-4c3c-ae6a-ff734bd92480")
+		(property "Reference" "#FLG0102"
+			(at 76.2 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "POWER-FLAG"
+			(at 76.2 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edb01a1f-8aff-4818-81e4-7f82bc1986dc")
+		)
+		(instances
+			(project "hc595-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "#FLG0102")
 					(unit 1)
@@ -3364,16 +3859,36 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:+VDD")
-		(at 147.32 55.88 0)
+		(lib_id "tronixio:KINGBRIGHT-LED-1206-RED")
+		(at 200.66 101.6 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4ec433f6-9f3b-4397-9ab7-f5ae2959a047")
-		(property "Reference" "#PWR0102"
-			(at 152.4 53.34 0)
+		(uuid "4935dbc1-c53d-4b51-814b-c3d3622a1643")
+		(property "Reference" "LED4"
+			(at 201.295 99.06 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D3"
+			(at 201.295 104.14 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tronixio:LED-SMD-1206"
+			(at 195.58 101.6 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -3381,8 +3896,154 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-VBAT"
-			(at 147.32 50.8 0)
+		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216LSECK-J3-PRV.pdf"
+			(at 193.04 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light Emitting Diode"
+			(at 187.96 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "604-APT3216LSECKJ3RV"
+			(at 190.5 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "282435e7-3682-4fe1-ab47-4040ce16a4c9")
+		)
+		(pin "2"
+			(uuid "733bcc2b-df52-4d8c-9bf4-c5c5f3d5a2a8")
+		)
+		(instances
+			(project "hc595-led"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:KINGBRIGHT-LED-1206-RED")
+		(at 177.8 101.6 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "539d6d6a-97ce-45d4-a3ca-21493b6ed8a8")
+		(property "Reference" "LED1"
+			(at 178.435 99.06 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D0"
+			(at 178.435 104.14 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tronixio:LED-SMD-1206"
+			(at 172.72 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216LSECK-J3-PRV.pdf"
+			(at 170.18 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light Emitting Diode"
+			(at 165.1 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "604-APT3216LSECKJ3RV"
+			(at 167.64 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1409a2a3-4f15-4c7d-a042-5fc36dcf732d")
+		)
+		(pin "2"
+			(uuid "69ae8e34-9da8-41e7-844e-49d5a1d16fa8")
+		)
+		(instances
+			(project "hc595-led"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 185.42 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b06ea46-0f48-4b76-bdae-65e22d3a85cd")
+		(property "Reference" "#PWR010"
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 114.3 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3391,7 +4052,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 55.88 0)
+			(at 185.42 106.68 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3400,7 +4061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 55.88 0)
+			(at 185.42 106.68 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3408,22 +4069,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "VDD"
-			(at 147.32 50.8 0)
-			(do_not_autoplace yes)
+		(property "Description" "GND"
+			(at 185.42 109.855 0)
 			(effects
 				(font
-					(size 1.15 1.15)
+					(size 1 1)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "2cc65c9c-9664-476b-970b-e89c7e3441c8")
+			(uuid "3384d31e-b237-4d20-aafe-650962339110")
 		)
 		(instances
-			(project "hc595-header"
+			(project "hc595-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "#PWR0102")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3431,7 +4092,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:+VDD")
-		(at 154.94 55.88 0)
+		(at 132.08 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3439,7 +4100,7 @@
 		(dnp no)
 		(uuid "5d92ba57-17d7-429e-bdc9-e4bb7cabea57")
 		(property "Reference" "#PWR04"
-			(at 160.02 53.34 0)
+			(at 137.16 58.42 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3447,8 +4108,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-VBAT"
-			(at 154.94 50.8 0)
+		(property "Value" "+VDD"
+			(at 132.08 73.66 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3457,7 +4118,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 55.88 0)
+			(at 132.08 60.96 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3466,7 +4127,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 55.88 0)
+			(at 132.08 60.96 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3475,7 +4136,7 @@
 			)
 		)
 		(property "Description" "VDD"
-			(at 154.94 50.8 0)
+			(at 132.08 55.88 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3487,7 +4148,7 @@
 			(uuid "c61ab922-4174-46a9-b41c-d6595e8f5dd2")
 		)
 		(instances
-			(project "hc595-header"
+			(project "hc595-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "#PWR04")
 					(unit 1)
@@ -3496,8 +4157,1023 @@
 		)
 	)
 	(symbol
+		(lib_id "tronixio:RESISTOR-1206-4K7-5P")
+		(at 170.18 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63ff3513-b393-456b-9a2c-b50b81a17915")
+		(property "Reference" "R7"
+			(at 173.355 87.63 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4k7"
+			(at 170.18 88.9 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+			(at 182.88 88.9 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 88.9 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 187.96 88.9 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 173.99 88.265 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "660-RK73B2BTTDD472J"
+			(at 185.42 88.9 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73df6d70-c569-4d4e-b1a4-10fa19ec3335")
+		)
+		(pin "2"
+			(uuid "b6ef668f-b718-4fd9-a0d7-c8e029bc23b1")
+		)
+		(instances
+			(project "hc595-led"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:KINGBRIGHT-LED-1206-RED")
+		(at 185.42 101.6 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64083378-22ff-46a1-ae7d-5af7d3e98494")
+		(property "Reference" "LED2"
+			(at 186.055 99.06 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D1"
+			(at 186.055 104.14 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tronixio:LED-SMD-1206"
+			(at 180.34 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216LSECK-J3-PRV.pdf"
+			(at 177.8 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light Emitting Diode"
+			(at 172.72 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "604-APT3216LSECKJ3RV"
+			(at 175.26 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b8ca4c8-b1cc-4791-b932-9e174b446859")
+		)
+		(pin "2"
+			(uuid "c67a309b-eaaf-4a81-9653-2cc0ca058f19")
+		)
+		(instances
+			(project "hc595-led"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:+VDD")
+		(at 124.46 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7098c4da-96a7-4f74-b974-9b46a33da352")
+		(property "Reference" "#PWR0102"
+			(at 129.54 58.42 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDD"
+			(at 124.46 73.66 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 60.96 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 60.96 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "VDD"
+			(at 124.46 55.88 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20e65e5a-6690-48a0-a949-e9380e8201e8")
+		)
+		(instances
+			(project "hc595-led"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 231.14 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71089a36-ca1a-42ac-b09f-ded0a420eb84")
+		(property "Reference" "#PWR016"
+			(at 231.14 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 114.3 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 106.68 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 106.68 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GND"
+			(at 231.14 109.855 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d29f368-3da6-47c8-9d69-c6bfae7cee71")
+		)
+		(instances
+			(project "hc595-led"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:CAPACITOR-1206-10N-50V-5P-X7R")
+		(at 124.46 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d1ef330-46e8-40bb-82c4-4886bb49e7cc")
+		(property "Reference" "C1"
+			(at 123.825 99.06 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10n"
+			(at 123.825 104.14 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "tronixio:CAPACITOR-SMD-1206"
+			(at 124.46 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 104.14 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 124.46 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 125.095 106.68 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 125.095 109.22 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "80-C1206C103J5R"
+			(at 124.46 114.3 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db7e4cfb-82c9-4306-bda7-b1ffde59422c")
+		)
+		(pin "2"
+			(uuid "12f2d432-3133-46e6-bb30-1eacde0872f9")
+		)
+		(instances
+			(project "hc595-led"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:KINGBRIGHT-LED-1206-RED")
+		(at 215.9 101.6 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81947691-6208-4bc2-a716-62857fda0dd2")
+		(property "Reference" "LED6"
+			(at 216.535 99.06 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D5"
+			(at 216.535 104.14 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tronixio:LED-SMD-1206"
+			(at 210.82 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216LSECK-J3-PRV.pdf"
+			(at 208.28 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light Emitting Diode"
+			(at 203.2 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "604-APT3216LSECKJ3RV"
+			(at 205.74 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e04c45e-b70d-42e2-9a6c-b622b897763b")
+		)
+		(pin "2"
+			(uuid "e2e3c596-904a-4f03-93de-762a967e489c")
+		)
+		(instances
+			(project "hc595-led"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:RESISTOR-1206-4K7-5P")
+		(at 170.18 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a7eaa68-bc8e-42da-b93d-dcc851e26584")
+		(property "Reference" "R6"
+			(at 173.355 85.09 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4k7"
+			(at 170.18 86.36 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+			(at 182.88 86.36 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 86.36 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 187.96 86.36 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 173.99 85.725 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "660-RK73B2BTTDD472J"
+			(at 185.42 86.36 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ffcdfc7-fe16-4797-bb80-c8fbb31e226e")
+		)
+		(pin "2"
+			(uuid "fa713741-fa55-4601-9af2-5bf687900d0d")
+		)
+		(instances
+			(project "hc595-led"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:CAPACITOR-1206-100N-50V-5P-X7R")
+		(at 132.08 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92a36e64-9c6c-4d7f-812b-59a758389474")
+		(property "Reference" "C2"
+			(at 131.445 99.06 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 131.445 104.14 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "tronixio:CAPACITOR-SMD-1206"
+			(at 132.08 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 132.08 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 132.715 106.68 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 132.715 109.22 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "80-C1206C104J5R"
+			(at 132.08 114.3 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b4b3cf4-53be-4553-bc36-eaa1c6cba0ce")
+		)
+		(pin "2"
+			(uuid "2c200094-0566-4f33-b5bf-f4527f351719")
+		)
+		(instances
+			(project "hc595-led"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 215.9 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92dbc2d9-482f-4d0e-a8ec-6e8fe633fed2")
+		(property "Reference" "#PWR014"
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 106.68 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 106.68 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GND"
+			(at 215.9 109.855 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff1dbf16-1de0-4800-861f-cade843cf51f")
+		)
+		(instances
+			(project "hc595-led"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:RESISTOR-1206-4K7-5P")
+		(at 170.18 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94f1f179-2db0-4343-944e-999e90bf70ef")
+		(property "Reference" "R4"
+			(at 173.355 80.01 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4k7"
+			(at 170.18 81.28 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+			(at 182.88 81.28 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 81.28 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 187.96 81.28 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 173.99 80.645 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "660-RK73B2BTTDD472J"
+			(at 185.42 81.28 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a4f496c-0e9d-4bd7-b7c2-d519394f5ec2")
+		)
+		(pin "2"
+			(uuid "67dccb1f-6eda-4d8c-9636-193eb46870fe")
+		)
+		(instances
+			(project "hc595-led"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:KINGBRIGHT-LED-1206-RED")
+		(at 231.14 101.6 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9794ad2a-ff99-499f-aaa2-a192482c870d")
+		(property "Reference" "LED8"
+			(at 231.775 99.06 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D7"
+			(at 231.775 104.14 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tronixio:LED-SMD-1206"
+			(at 226.06 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216LSECK-J3-PRV.pdf"
+			(at 223.52 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light Emitting Diode"
+			(at 218.44 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "604-APT3216LSECKJ3RV"
+			(at 220.98 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b274c2a-a0fc-4f00-92e4-48a94dc3015f")
+		)
+		(pin "2"
+			(uuid "a664035a-1ba3-4400-adca-94b5a3668a02")
+		)
+		(instances
+			(project "hc595-led"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:RESISTOR-1206-10K-5P")
+		(at 124.46 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99896d8d-02c5-4979-a474-24f19908c921")
+		(property "Reference" "R1"
+			(at 123.825 62.23 0)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 124.46 66.04 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+			(at 124.46 78.74 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 66.04 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 83.82 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 125.095 69.85 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "660-RK73B2BTTDD103J"
+			(at 124.46 81.28 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5acaabbe-ee33-4ff5-96ce-0004ee47dad8")
+		)
+		(pin "2"
+			(uuid "670d5316-ccc9-4495-891a-ad3ee4179d56")
+		)
+		(instances
+			(project "hc595-led"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "tronixio:HARWIN-254-M-1X06-RIGHT-ANGLE-TH")
-		(at 88.9 68.58 0)
+		(at 71.12 68.58 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3506,7 +5182,7 @@
 		(dnp no)
 		(uuid "9c4c3158-1d24-4d1c-8e39-342d19a63c17")
 		(property "Reference" "K1"
-			(at 88.9 66.04 0)
+			(at 71.12 66.04 0)
 			(effects
 				(font
 					(size 1.15 1.15)
@@ -3514,7 +5190,7 @@
 			)
 		)
 		(property "Value" "GPIO IN"
-			(at 88.9 83.82 0)
+			(at 71.12 83.82 0)
 			(effects
 				(font
 					(size 1.15 1.15)
@@ -3522,7 +5198,7 @@
 			)
 		)
 		(property "Footprint" "tronixio:HARWIN-M20-975064x"
-			(at 88.9 86.36 0)
+			(at 71.12 86.36 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3531,7 +5207,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.harwin.com/products/M20-9750646/"
-			(at 88.9 88.9 0)
+			(at 71.12 88.9 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3540,7 +5216,7 @@
 			)
 		)
 		(property "Description" "HEADER - M20 Series - 2.54mm Pitch PCB Connector"
-			(at 88.9 91.44 0)
+			(at 71.12 91.44 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3549,7 +5225,7 @@
 			)
 		)
 		(property "Mouser" "855-M20-975064"
-			(at 88.9 93.98 0)
+			(at 71.12 93.98 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3576,7 +5252,7 @@
 			(uuid "327c6440-dcd4-4f81-bca6-8502f592c9b1")
 		)
 		(instances
-			(project "hc595-header"
+			(project "hc595-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "K1")
 					(unit 1)
@@ -3586,15 +5262,15 @@
 	)
 	(symbol
 		(lib_id "tronixio:GND")
-		(at 147.32 101.6 0)
+		(at 208.28 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a454f949-744b-4989-84c2-f50bb012abaf")
-		(property "Reference" "#PWR0101"
-			(at 147.32 106.68 0)
+		(uuid "9ec39537-c7ed-4dd2-b795-91938946713c")
+		(property "Reference" "#PWR013"
+			(at 208.28 111.76 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3602,8 +5278,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-GND"
-			(at 147.32 109.22 0)
+		(property "Value" "GND"
+			(at 208.28 114.3 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3612,7 +5288,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 101.6 0)
+			(at 208.28 106.68 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3621,7 +5297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 101.6 0)
+			(at 208.28 106.68 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3630,7 +5306,7 @@
 			)
 		)
 		(property "Description" "GND"
-			(at 147.32 104.775 0)
+			(at 208.28 109.855 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3639,12 +5315,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6bcfc824-dea5-4333-8fcd-cb1c4c242a7c")
+			(uuid "ca84dc8b-684c-4ddc-ac55-daf226c2f1f8")
 		)
 		(instances
-			(project "hc595-header"
+			(project "hc595-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "#PWR0101")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3652,7 +5328,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:+VDD")
-		(at 96.52 58.42 0)
+		(at 78.74 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3660,7 +5336,7 @@
 		(dnp no)
 		(uuid "baf11eeb-f067-4869-87da-54cc7a8dad87")
 		(property "Reference" "#PWR02"
-			(at 101.6 55.88 0)
+			(at 83.82 58.42 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3668,8 +5344,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-VBAT"
-			(at 96.52 53.34 0)
+		(property "Value" "+VDD"
+			(at 78.74 73.66 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3678,7 +5354,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 58.42 0)
+			(at 78.74 60.96 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3687,7 +5363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 58.42 0)
+			(at 78.74 60.96 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3696,7 +5372,7 @@
 			)
 		)
 		(property "Description" "VDD"
-			(at 96.52 53.34 0)
+			(at 78.74 55.88 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3708,7 +5384,7 @@
 			(uuid "3dd63084-e81c-4773-bf1a-590cb3cbb10e")
 		)
 		(instances
-			(project "hc595-header"
+			(project "hc595-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "#PWR02")
 					(unit 1)
@@ -3717,35 +5393,34 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:POWER-FLAG")
-		(at 160.02 88.9 0)
+		(lib_id "tronixio:GND")
+		(at 124.46 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bcdaaa1c-448a-4046-bb24-69d91229baba")
-		(property "Reference" "#FLG0101"
-			(at 160.02 90.805 0)
+		(uuid "c28bd541-81e3-4b97-9153-fd9232fd1f39")
+		(property "Reference" "#PWR0101"
+			(at 124.46 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-FLAG"
-			(at 160.02 92.71 0)
+		(property "Value" "GND"
+			(at 124.46 114.3 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 88.9 0)
+			(at 124.46 106.68 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3754,7 +5429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 88.9 0)
+			(at 124.46 106.68 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3762,22 +5437,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 160.02 106.68 0)
+		(property "Description" "GND"
+			(at 124.46 109.855 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "4f7a84fd-cac9-41da-9224-2cb706c359fc")
+			(uuid "4dd11258-2900-4820-92f3-f23380d78c4e")
 		)
 		(instances
-			(project "hc595-header"
+			(project "hc595-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "#FLG0101")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -3848,7 +5523,7 @@
 			)
 		)
 		(instances
-			(project "hc595-header"
+			(project "hc595-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "U2")
 					(unit 1)
@@ -3858,7 +5533,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:GND")
-		(at 160.02 101.6 0)
+		(at 137.16 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3866,7 +5541,7 @@
 		(dnp no)
 		(uuid "c470ae0e-6742-4017-abb5-bba26fad9b9b")
 		(property "Reference" "#PWR06"
-			(at 160.02 106.68 0)
+			(at 137.16 111.76 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3874,8 +5549,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-GND"
-			(at 160.02 109.22 0)
+		(property "Value" "GND"
+			(at 137.16 114.3 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3884,7 +5559,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 101.6 0)
+			(at 137.16 106.68 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3893,7 +5568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 101.6 0)
+			(at 137.16 106.68 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3902,7 +5577,7 @@
 			)
 		)
 		(property "Description" "GND"
-			(at 160.02 104.775 0)
+			(at 137.16 109.855 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3914,7 +5589,7 @@
 			(uuid "c7a97fb2-25f1-4bf8-8d65-85a2a7650629")
 		)
 		(instances
-			(project "hc595-header"
+			(project "hc595-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "#PWR06")
 					(unit 1)
@@ -3923,73 +5598,65 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:RESISTOR-1206-10K-5P")
-		(at 147.32 60.96 0)
+		(lib_id "tronixio:KINGBRIGHT-LED-1206-RED")
+		(at 208.28 101.6 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d941a2d4-cb38-4b31-9762-bedfd03ca8c1")
-		(property "Reference" "R1"
-			(at 146.685 57.15 0)
-			(effects
-				(font
-					(size 1.15 1.15)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 147.32 60.96 90)
-			(effects
-				(font
-					(size 1.15 1.15)
-				)
-			)
-		)
-		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
-			(at 147.32 73.66 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 60.96 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 147.32 78.74 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 147.955 64.77 0)
-			(do_not_autoplace yes)
+		(uuid "c7897745-2aea-4c88-abc6-4875dbc02986")
+		(property "Reference" "LED5"
+			(at 208.915 99.06 90)
 			(effects
 				(font
 					(size 1.15 1.15)
 				)
 				(justify left)
+			)
+		)
+		(property "Value" "D4"
+			(at 208.915 104.14 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tronixio:LED-SMD-1206"
+			(at 203.2 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
 				(hide yes)
 			)
 		)
-		(property "Mouser" "660-RK73B2BTTDD103J"
-			(at 147.32 76.2 0)
+		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216LSECK-J3-PRV.pdf"
+			(at 200.66 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light Emitting Diode"
+			(at 195.58 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "604-APT3216LSECKJ3RV"
+			(at 198.12 101.6 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3999,15 +5666,190 @@
 			)
 		)
 		(pin "1"
-			(uuid "bba9ec0d-8186-4434-95e7-529829cda414")
+			(uuid "da58e65c-2be6-4b8c-8134-4c9f560d7fa5")
 		)
 		(pin "2"
-			(uuid "f2022d11-a54a-41a2-ac45-d32dfcf43a9f")
+			(uuid "f8210126-f782-4001-8740-28a9b8ae6c50")
 		)
 		(instances
-			(project "hc595-header"
+			(project "hc595-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "R1")
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:KINGBRIGHT-LED-1206-RED")
+		(at 223.52 101.6 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbce63bc-6b96-411c-814b-0a1e57ff582f")
+		(property "Reference" "LED7"
+			(at 224.155 99.06 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D6"
+			(at 224.155 104.14 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tronixio:LED-SMD-1206"
+			(at 218.44 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216LSECK-J3-PRV.pdf"
+			(at 215.9 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light Emitting Diode"
+			(at 210.82 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "604-APT3216LSECKJ3RV"
+			(at 213.36 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1e9512b-25e3-4590-847c-e775759959ba")
+		)
+		(pin "2"
+			(uuid "c2a53308-85d2-4803-af17-f69e27fe6359")
+		)
+		(instances
+			(project "hc595-led"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:RESISTOR-1206-4K7-5P")
+		(at 170.18 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfe82db3-8392-4168-8560-0796d4a4b198")
+		(property "Reference" "R9"
+			(at 173.355 92.71 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4k7"
+			(at 170.18 93.98 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+			)
+		)
+		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
+			(at 182.88 93.98 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 93.98 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 187.96 93.98 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 173.99 93.345 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "660-RK73B2BTTDD472J"
+			(at 185.42 93.98 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b992d095-0463-4ca9-9566-37afdf018d9c")
+		)
+		(pin "2"
+			(uuid "ae9ee0d1-7495-4ea0-9c13-efc8bfccf6f7")
+		)
+		(instances
+			(project "hc595-led"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4015,7 +5857,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:NEXPERIA-74HC595-SOIC16")
-		(at 162.56 66.04 0)
+		(at 139.7 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4023,7 +5865,7 @@
 		(dnp no)
 		(uuid "e000bbda-3d6d-43fb-9260-ec0ffe9c7456")
 		(property "Reference" "U1"
-			(at 165.1 62.23 0)
+			(at 142.24 67.31 0)
 			(effects
 				(font
 					(size 1.15 1.15)
@@ -4032,16 +5874,16 @@
 			)
 		)
 		(property "Value" "74HC595"
-			(at 180.34 62.23 0)
+			(at 149.86 97.79 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.15 1.15)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "tronixio:SOIC-16"
-			(at 172.72 96.52 0)
+			(at 149.86 101.6 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4051,7 +5893,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nexperia.com/product/74HC595D"
-			(at 172.72 99.06 0)
+			(at 149.86 104.14 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4061,7 +5903,7 @@
 			)
 		)
 		(property "Description" "8-bit serial-in, serial or parallel-out shift register with output latches; 3﻿-﻿state"
-			(at 172.72 104.14 0)
+			(at 149.86 109.22 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4071,7 +5913,7 @@
 			)
 		)
 		(property "Mouser" "771-AHC595D"
-			(at 172.72 101.6 0)
+			(at 149.86 106.68 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4129,7 +5971,7 @@
 			(uuid "963850c2-db2e-4f01-92f8-a3ca5047e43a")
 		)
 		(instances
-			(project "hc595-header"
+			(project "hc595-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "U1")
 					(unit 1)
@@ -4138,16 +5980,36 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:GND")
-		(at 154.94 101.6 0)
+		(lib_id "tronixio:KINGBRIGHT-LED-1206-RED")
+		(at 193.04 101.6 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e548561b-14bd-4e64-8562-e837f49c9f2f")
-		(property "Reference" "#PWR05"
-			(at 154.94 106.68 0)
+		(uuid "e0ad995e-c644-4327-81c1-80bf16f57c97")
+		(property "Reference" "LED3"
+			(at 193.675 99.06 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D2"
+			(at 193.675 104.14 90)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tronixio:LED-SMD-1206"
+			(at 187.96 101.6 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -4155,8 +6017,71 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-GND"
-			(at 154.94 109.22 0)
+		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216LSECK-J3-PRV.pdf"
+			(at 185.42 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light Emitting Diode"
+			(at 180.34 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "604-APT3216LSECKJ3RV"
+			(at 182.88 101.6 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a86f410-d373-4027-858b-328ed723e1eb")
+		)
+		(pin "2"
+			(uuid "530a104d-d462-4597-81e9-b191f04f988d")
+		)
+		(instances
+			(project "hc595-led"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 177.8 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2a2cc35-0db0-4ccf-8db9-05946fa54f03")
+		(property "Reference" "#PWR08"
+			(at 177.8 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 114.3 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4165,7 +6090,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 101.6 0)
+			(at 177.8 106.68 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4174,7 +6099,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 101.6 0)
+			(at 177.8 106.68 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4183,7 +6108,73 @@
 			)
 		)
 		(property "Description" "GND"
-			(at 154.94 104.775 0)
+			(at 177.8 109.855 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76f7260d-cd98-4cbd-9e06-df3074c83b31")
+		)
+		(instances
+			(project "hc595-led"
+				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "tronixio:GND")
+		(at 132.08 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e548561b-14bd-4e64-8562-e837f49c9f2f")
+		(property "Reference" "#PWR05"
+			(at 132.08 111.76 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 114.3 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 106.68 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 106.68 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "GND"
+			(at 132.08 109.855 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4195,7 +6186,7 @@
 			(uuid "36449420-391a-4892-9855-db28603774fc")
 		)
 		(instances
-			(project "hc595-header"
+			(project "hc595-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "#PWR05")
 					(unit 1)
@@ -4205,7 +6196,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:GND")
-		(at 93.98 119.38 0)
+		(at 76.2 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4213,7 +6204,7 @@
 		(dnp no)
 		(uuid "eb2937d0-b93f-40a9-8c3e-0dc385a8c8af")
 		(property "Reference" "#PWR01"
-			(at 93.98 124.46 0)
+			(at 76.2 127 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4221,8 +6212,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-GND"
-			(at 93.98 127 0)
+		(property "Value" "GND"
+			(at 76.2 129.54 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4231,7 +6222,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 119.38 0)
+			(at 76.2 121.92 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4240,7 +6231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 119.38 0)
+			(at 76.2 121.92 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4249,7 +6240,7 @@
 			)
 		)
 		(property "Description" "GND"
-			(at 93.98 122.555 0)
+			(at 76.2 125.095 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4261,7 +6252,7 @@
 			(uuid "a45f0bde-b239-4a5c-bbfb-099b6b9c537d")
 		)
 		(instances
-			(project "hc595-header"
+			(project "hc595-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "#PWR01")
 					(unit 1)
@@ -4270,34 +6261,34 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:CAPACITOR-1206-10N-50V-5P-X7R")
-		(at 147.32 96.52 0)
+		(lib_id "tronixio:GND")
+		(at 200.66 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fa1dd99b-cf11-4d6d-98eb-e262e7dacd0d")
-		(property "Reference" "C1"
-			(at 146.685 93.98 0)
+		(uuid "fd7c271f-91bd-4853-b702-7bcd362f6b6c")
+		(property "Reference" "#PWR012"
+			(at 200.66 111.76 0)
 			(effects
 				(font
-					(size 1.15 1.15)
+					(size 1 1)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Value" "10n"
-			(at 146.685 99.06 0)
+		(property "Value" "GND"
+			(at 200.66 114.3 0)
 			(effects
 				(font
-					(size 1.15 1.15)
+					(size 1 1)
 				)
-				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "tronixio:CAPACITOR-SMD-1206"
-			(at 147.32 106.68 0)
+		(property "Footprint" ""
+			(at 200.66 106.68 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4306,7 +6297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 99.06 0)
+			(at 200.66 106.68 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4314,39 +6305,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 147.32 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 147.955 101.6 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 147.955 104.14 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "80-C1206C103J5R"
-			(at 147.32 109.22 0)
+		(property "Description" "GND"
+			(at 200.66 109.855 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4355,15 +6315,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd4983cb-3cc4-4f60-8ef2-b5698dc40e62")
-		)
-		(pin "2"
-			(uuid "af263e16-013b-4e6a-a3cb-2301c54b9262")
+			(uuid "dd8cf386-9c1e-4ac8-89c3-dc47f475f157")
 		)
 		(instances
-			(project "hc595-header"
+			(project "hc595-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "C1")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)

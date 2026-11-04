@@ -5,7 +5,7 @@
 	(uuid "5f96646c-bdf6-47e2-a01d-8588cc95727b")
 	(paper "A4")
 	(title_block
-		(title "GPIO - MCP23008-LED")
+		(title "I2C - MCP23008-LED")
 		(date "Q4/2024")
 		(rev "A")
 	)
@@ -630,7 +630,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "tronixio:HARWIN-200-M-1X02-JUMPER-VERTICAL"
+		(symbol "tronixio:HARWIN-200-M-1X02-JUMPER-VERTICAL-TH"
 			(pin_numbers
 				(hide yes)
 			)
@@ -651,7 +651,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "HARWIN-200-M-1X02-JUMPER-VERTICAL"
+			(property "Value" "HARWIN-200-M-1X02-JUMPER-VERTICAL-TH"
 				(at 2.54 -1.27 0)
 				(do_not_autoplace)
 				(effects
@@ -663,7 +663,6 @@
 			)
 			(property "Footprint" "tronixio:HARWIN-M22-25102xx"
 				(at 0 -12.7 0)
-				(do_not_autoplace)
 				(effects
 					(font
 						(size 1 1)
@@ -673,7 +672,6 @@
 			)
 			(property "Datasheet" "https://www.harwin.com/products/M22-2510246/"
 				(at 0 -15.24 0)
-				(do_not_autoplace)
 				(effects
 					(font
 						(size 1 1)
@@ -681,9 +679,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "M22 Series - 2.00mm Pitch PCB Connector"
-				(at 0 -20.32 0)
-				(do_not_autoplace)
+			(property "Description" "HEADER - M22 Series - 2.00mm Pitch PCB Connector"
+				(at 0 -17.78 0)
 				(effects
 					(font
 						(size 1 1)
@@ -692,8 +689,7 @@
 				)
 			)
 			(property "Mouser" "855-M22-25102"
-				(at 0 -17.78 0)
-				(do_not_autoplace)
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1 1)
@@ -701,7 +697,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "HARWIN-200-M-1X02-JUMPER-VERTICAL_0_1"
+			(symbol "HARWIN-200-M-1X02-JUMPER-VERTICAL-TH_0_1"
 				(polyline
 					(pts
 						(xy -1.27 -2.54) (xy 1.27 -2.54) (xy 1.27 1.905) (xy 0.635 2.54) (xy -1.27 2.54) (xy -1.27 -2.54)
@@ -737,7 +733,7 @@
 					)
 				)
 			)
-			(symbol "HARWIN-200-M-1X02-JUMPER-VERTICAL_1_1"
+			(symbol "HARWIN-200-M-1X02-JUMPER-VERTICAL-TH_1_1"
 				(pin passive line
 					(at 0 5.08 270)
 					(length 3.175)
@@ -777,7 +773,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "tronixio:HARWIN-200-M-1X03-JUMPER-VERTICAL"
+		(symbol "tronixio:HARWIN-200-M-1X03-JUMPER-VERTICAL-TH"
 			(pin_numbers
 				(hide yes)
 			)
@@ -798,7 +794,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "M-1X03"
+			(property "Value" "HARWIN-200-M-1X03-JUMPER-VERTICAL-TH"
 				(at 2.54 -5.08 0)
 				(do_not_autoplace)
 				(effects
@@ -810,7 +806,6 @@
 			)
 			(property "Footprint" "tronixio:HARWIN-M22-25103xx"
 				(at 0 -15.24 0)
-				(do_not_autoplace)
 				(effects
 					(font
 						(size 1 1)
@@ -820,7 +815,6 @@
 			)
 			(property "Datasheet" "https://www.harwin.com/products/M22-2510346/"
 				(at 0 -17.78 0)
-				(do_not_autoplace)
 				(effects
 					(font
 						(size 1 1)
@@ -828,9 +822,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "M22 Series - 2.00mm Pitch PCB Connector"
-				(at 0 -22.86 0)
-				(do_not_autoplace)
+			(property "Description" "HEADER - M22 Series - 2.00mm Pitch PCB Connector"
+				(at 0 -20.32 0)
 				(effects
 					(font
 						(size 1 1)
@@ -839,8 +832,7 @@
 				)
 			)
 			(property "Mouser" "855-M22-25103"
-				(at 0 -20.32 0)
-				(do_not_autoplace)
+				(at 0 -22.86 0)
 				(effects
 					(font
 						(size 1 1)
@@ -848,7 +840,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "HARWIN-200-M-1X03-JUMPER-VERTICAL_0_1"
+			(symbol "HARWIN-200-M-1X03-JUMPER-VERTICAL-TH_0_1"
 				(polyline
 					(pts
 						(xy -1.27 -6.35) (xy 1.27 -6.35) (xy 1.27 0.635) (xy 0.635 1.27) (xy -1.27 1.27) (xy -1.27 -6.35)
@@ -895,7 +887,7 @@
 					)
 				)
 			)
-			(symbol "HARWIN-200-M-1X03-JUMPER-VERTICAL_1_1"
+			(symbol "HARWIN-200-M-1X03-JUMPER-VERTICAL-TH_1_1"
 				(pin passive line
 					(at -2.54 -2.54 0)
 					(length 1.905)
@@ -953,7 +945,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "tronixio:HARWIN-254-M-1X06-RIGHT-ANGLE"
+		(symbol "tronixio:HARWIN-254-M-1X06-RIGHT-ANGLE-TH"
 			(pin_numbers
 				(hide yes)
 			)
@@ -973,7 +965,7 @@
 					)
 				)
 			)
-			(property "Value" "HARWIN-254-M-1X06-RIGHT-ANGLE"
+			(property "Value" "HARWIN-254-M-1X06-RIGHT-ANGLE-TH"
 				(at 0 -15.24 0)
 				(do_not_autoplace)
 				(effects
@@ -1000,7 +992,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "M20 Series - 2.54mm Pitch PCB Connector"
+			(property "Description" "HEADER - M20 Series - 2.54mm Pitch PCB Connector"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -1018,7 +1010,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "HARWIN-254-M-1X06-RIGHT-ANGLE_0_1"
+			(symbol "HARWIN-254-M-1X06-RIGHT-ANGLE-TH_0_1"
 				(polyline
 					(pts
 						(xy -1.27 -13.97) (xy 1.27 -13.97) (xy 1.27 0.635) (xy 0.635 1.27) (xy -1.27 1.27) (xy -1.27 -13.97)
@@ -1098,7 +1090,7 @@
 					)
 				)
 			)
-			(symbol "HARWIN-254-M-1X06-RIGHT-ANGLE_1_1"
+			(symbol "HARWIN-254-M-1X06-RIGHT-ANGLE-TH_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.905)
@@ -1411,7 +1403,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "8-Bit I/O Expander with Serial Interface"
+			(property "Description" "IC - 8-Bit I/O Expander with Serial Interface"
 				(at 10.16 -39.37 0)
 				(effects
 					(font
@@ -1427,14 +1419,6 @@
 						(size 1 1)
 					)
 					(hide yes)
-				)
-			)
-			(property "I2C" "@0x40"
-				(at 10.16 1.27 0)
-				(effects
-					(font
-						(size 1.15 1.15)
-					)
 				)
 			)
 			(symbol "MICROCHIP-MCP23008-SOIC_0_1"
@@ -1872,6 +1856,139 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "tronixio:RESISTOR-0805-4K7-5P"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.635 3.81 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "4k7"
+				(at 0 0 90)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+				)
+			)
+			(property "Footprint" "tronixio:RESISTOR-SMD-0805"
+				(at 0 -12.7 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 -17.78 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "5%"
+				(at 0.635 -3.81 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.15 1.15)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "660-RK73B2ATTDD472J"
+				(at 0 -15.24 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RESISTOR-0805-4K7-5P_0_1"
+				(rectangle
+					(start -1.27 -2.54)
+					(end 1.27 2.54)
+					(stroke
+						(width 0.4)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RESISTOR-0805-4K7-5P_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "tronixio:RESISTOR-1206-2K2-5P"
 			(pin_numbers
 				(hide yes)
@@ -2005,139 +2122,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "tronixio:RESISTOR-1206-4K7-5P"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.635 3.81 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.15 1.15)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "4k7"
-				(at 0 0 90)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.15 1.15)
-					)
-				)
-			)
-			(property "Footprint" "tronixio:RESISTOR-SMD-1206"
-				(at 0 -12.7 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 -17.78 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "5%"
-				(at 0.635 -3.81 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.15 1.15)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser" "660-RK73B2BTTDD472J"
-				(at 0 -15.24 0)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "RESISTOR-1206-4K7-5P_0_1"
-				(rectangle
-					(start -1.27 -2.54)
-					(end 1.27 2.54)
-					(stroke
-						(width 0.4)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RESISTOR-1206-4K7-5P_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "tronixio:SAMTEC-254-F-1X06-RIGHT-ANGLE"
 			(pin_numbers
 				(hide yes)
@@ -2169,7 +2153,6 @@
 			)
 			(property "Footprint" "tronixio:SAMTEC-SSW-106-02-T-S-RA"
 				(at 0 -17.78 0)
-				(do_not_autoplace)
 				(effects
 					(font
 						(size 1 1)
@@ -2179,7 +2162,6 @@
 			)
 			(property "Datasheet" "http://suddendocs.samtec.com/catalog_english/ssw_th.pdf"
 				(at 0 -20.32 0)
-				(do_not_autoplace)
 				(effects
 					(font
 						(size 1 1)
@@ -2187,18 +2169,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "HEADER"
+				(at 0 -22.86 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1 1)
 					)
 					(hide yes)
 				)
 			)
 			(property "Mouser" "200-SSW10603TSRA"
-				(at 0 -22.86 0)
-				(do_not_autoplace)
+				(at 0 -25.4 0)
 				(effects
 					(font
 						(size 1 1)
@@ -2538,6 +2519,12 @@
 		(uuid "16094a4c-cb6d-497e-b82f-bb7c6113afcf")
 	)
 	(junction
+		(at 137.16 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1eec0499-4c46-4eec-aba6-42a8cb1deac3")
+	)
+	(junction
 		(at 104.14 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2548,6 +2535,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46678079-4632-42ac-9c8b-40c7557f2f6d")
+	)
+	(junction
+		(at 134.62 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48b15917-0588-4657-b3c2-30fdf27b74a5")
 	)
 	(junction
 		(at 132.08 60.96)
@@ -2590,10 +2583,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff3616e8-5d6f-4913-9fb8-3e737ffb6dd6")
-	)
-	(no_connect
-		(at 139.7 73.66)
-		(uuid "121e3a82-d9eb-426e-88ff-7a8f69acaa48")
 	)
 	(wire
 		(pts
@@ -2667,7 +2656,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 35.56) (xy 132.08 60.96)
+			(xy 132.08 38.1) (xy 132.08 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2717,17 +2706,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 185.42) (xy 177.8 190.5)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "2fb28d4e-c1c6-44e3-9769-1d48ec63ec76")
-	)
-	(wire
-		(pts
-			(xy 119.38 35.56) (xy 119.38 88.9)
+			(xy 119.38 38.1) (xy 119.38 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2757,7 +2736,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 35.56) (xy 86.36 38.1)
+			(xy 86.36 38.1) (xy 86.36 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2797,7 +2776,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 58.42) (xy 81.28 68.58)
+			(xy 81.28 60.96) (xy 81.28 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2987,6 +2966,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 60.96) (xy 139.7 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "726e1223-1495-499f-8162-728a57e0c70d")
+	)
+	(wire
+		(pts
 			(xy 124.46 83.82) (xy 139.7 83.82)
 		)
 		(stroke
@@ -3057,7 +3046,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 35.56) (xy 106.68 88.9)
+			(xy 106.68 38.1) (xy 106.68 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3147,7 +3136,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 58.42) (xy 86.36 71.12)
+			(xy 86.36 60.96) (xy 86.36 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3237,7 +3226,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 35.56) (xy 81.28 38.1)
+			(xy 81.28 38.1) (xy 81.28 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3267,7 +3256,17 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 60.96) (xy 139.7 60.96)
+			(xy 68.58 73.66) (xy 139.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc13faac-bc84-4dea-b18f-b7e46e979967")
+	)
+	(wire
+		(pts
+			(xy 132.08 60.96) (xy 134.62 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3304,16 +3303,6 @@
 			(type default)
 		)
 		(uuid "d55bf95b-8034-4194-9d9e-e0afd7eb2dff")
-	)
-	(wire
-		(pts
-			(xy 170.18 185.42) (xy 170.18 190.5)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "d6ef31b5-ff62-4756-aa0e-2bdca84a0cf1")
 	)
 	(wire
 		(pts
@@ -3367,7 +3356,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 35.56) (xy 93.98 88.9)
+			(xy 93.98 38.1) (xy 93.98 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3533,6 +3522,28 @@
 	)
 	(global_label "INT"
 		(shape output)
+		(at 68.58 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3364855-d903-4b65-a554-90b7765588a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.5968 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INT"
+		(shape output)
 		(at 149.86 144.78 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3637,7 +3648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-GND"
+		(property "Value" "GND"
 			(at 93.98 106.68 0)
 			(effects
 				(font
@@ -3712,7 +3723,6 @@
 		)
 		(property "Footprint" "tronixio:SAMTEC-SSW-106-02-T-S-RA"
 			(at 93.98 152.4 0)
-			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -3722,7 +3732,6 @@
 		)
 		(property "Datasheet" "http://suddendocs.samtec.com/catalog_english/ssw_th.pdf"
 			(at 93.98 149.86 0)
-			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -3730,27 +3739,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "HEADER"
 			(at 93.98 170.18 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
 		)
 		(property "Mouser" "200-SSW10603TSRA"
 			(at 93.98 147.32 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Name" "SAMTEC-SSW-106-02-T-S-RA"
-			(at 93.98 152.4 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3777,7 +3776,7 @@
 			(uuid "0f1ddb4b-25c2-4ca0-8d30-a4e9785398d1")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "K2")
 					(unit 1)
@@ -3803,7 +3802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-GND"
+		(property "Value" "GND"
 			(at 104.14 187.96 0)
 			(effects
 				(font
@@ -3853,7 +3852,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:+VDD")
-		(at 106.68 35.56 0)
+		(at 106.68 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3861,7 +3860,7 @@
 		(dnp no)
 		(uuid "0c41e74a-d590-4a48-8c31-9bbe33c41be1")
 		(property "Reference" "#PWR04"
-			(at 111.76 33.02 0)
+			(at 111.76 35.56 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3869,8 +3868,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-VBAT"
-			(at 106.68 30.48 0)
+		(property "Value" "+VDD"
+			(at 106.68 50.8 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3879,7 +3878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 35.56 0)
+			(at 106.68 38.1 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3888,7 +3887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 35.56 0)
+			(at 106.68 38.1 0)
 			(effects
 				(font
 					(size 1 1)
@@ -3897,16 +3896,8 @@
 			)
 		)
 		(property "Description" "VDD"
-			(at 106.68 30.48 0)
+			(at 106.68 33.02 0)
 			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
-				)
-			)
-		)
-		(property "Name" "VDD"
-			(at 106.68 30.48 0)
 			(effects
 				(font
 					(size 1.15 1.15)
@@ -3973,9 +3964,10 @@
 		)
 		(property "Description" "Resistor"
 			(at 170.18 68.58 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
@@ -4008,7 +4000,7 @@
 			(uuid "a503b73a-b890-42ab-80d8-ce293964f106")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "R4")
 					(unit 1)
@@ -4064,9 +4056,10 @@
 		)
 		(property "Description" "Resistor"
 			(at 170.18 73.66 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
@@ -4099,7 +4092,7 @@
 			(uuid "c3e099e3-e5ae-42b3-bb1e-2162ff733fc2")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "R6")
 					(unit 1)
@@ -4108,39 +4101,37 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:HARWIN-200-M-1X02-JUMPER-VERTICAL")
-		(at 86.36 53.34 0)
+		(lib_id "tronixio:HARWIN-200-M-1X02-JUMPER-VERTICAL-TH")
+		(at 86.36 55.88 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1fe2d52a-062b-4297-8927-ffba49820a22")
 		(property "Reference" "JP2"
-			(at 83.82 52.07 0)
+			(at 88.9 54.61 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.15 1.15)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "SDA"
-			(at 83.82 54.61 0)
+			(at 88.9 57.15 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.15 1.15)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "tronixio:HARWIN-M22-25102xx"
-			(at 86.36 66.04 0)
-			(do_not_autoplace yes)
+			(at 86.36 68.58 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4149,8 +4140,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.harwin.com/products/M22-2510246/"
-			(at 86.36 68.58 0)
-			(do_not_autoplace yes)
+			(at 86.36 71.12 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4158,9 +4148,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "M22 Series - 2.00mm Pitch PCB Connector"
+		(property "Description" "HEADER - M22 Series - 2.00mm Pitch PCB Connector"
 			(at 86.36 73.66 0)
-			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -4169,8 +4158,7 @@
 			)
 		)
 		(property "Mouser" "855-M22-25102"
-			(at 86.36 71.12 0)
-			(do_not_autoplace yes)
+			(at 86.36 76.2 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4211,7 +4199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-GND"
+		(property "Value" "GND"
 			(at 223.52 104.14 0)
 			(effects
 				(font
@@ -4251,7 +4239,7 @@
 			(uuid "c90c8772-dbc9-46c2-aa09-02d03c738941")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "#PWR013")
 					(unit 1)
@@ -4260,7 +4248,7 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:HARWIN-200-M-1X03-JUMPER-VERTICAL")
+		(lib_id "tronixio:HARWIN-200-M-1X03-JUMPER-VERTICAL-TH")
 		(at 93.98 91.44 0)
 		(mirror y)
 		(unit 1)
@@ -4292,7 +4280,6 @@
 		)
 		(property "Footprint" "tronixio:HARWIN-M22-25103xx"
 			(at 93.98 106.68 0)
-			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -4302,7 +4289,6 @@
 		)
 		(property "Datasheet" "https://www.harwin.com/products/M22-2510346/"
 			(at 93.98 109.22 0)
-			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -4310,9 +4296,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "M22 Series - 2.00mm Pitch PCB Connector"
-			(at 93.98 114.3 0)
-			(do_not_autoplace yes)
+		(property "Description" "HEADER - M22 Series - 2.00mm Pitch PCB Connector"
+			(at 93.98 111.76 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4321,8 +4306,7 @@
 			)
 		)
 		(property "Mouser" "855-M22-25103"
-			(at 93.98 111.76 0)
-			(do_not_autoplace yes)
+			(at 93.98 114.3 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4350,7 +4334,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:+VDD")
-		(at 81.28 35.56 0)
+		(at 81.28 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4358,7 +4342,7 @@
 		(dnp no)
 		(uuid "2a4c3d97-5cd3-4561-8b3c-0bf7065b4c56")
 		(property "Reference" "#PWR01"
-			(at 86.36 33.02 0)
+			(at 86.36 35.56 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4366,8 +4350,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-VBAT"
-			(at 81.28 30.48 0)
+		(property "Value" "+VDD"
+			(at 81.28 50.8 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4376,7 +4360,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 35.56 0)
+			(at 81.28 38.1 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4385,7 +4369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 35.56 0)
+			(at 81.28 38.1 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4394,16 +4378,8 @@
 			)
 		)
 		(property "Description" "VDD"
-			(at 81.28 30.48 0)
+			(at 81.28 33.02 0)
 			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
-				)
-			)
-		)
-		(property "Name" "VDD"
-			(at 81.28 30.48 0)
 			(effects
 				(font
 					(size 1.15 1.15)
@@ -4470,9 +4446,10 @@
 		)
 		(property "Description" "Resistor"
 			(at 170.18 66.04 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
@@ -4505,7 +4482,7 @@
 			(uuid "6e1e7bb8-210b-4d0a-9157-71adb71cfab0")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "R3")
 					(unit 1)
@@ -4561,9 +4538,10 @@
 		)
 		(property "Description" "Resistor"
 			(at 170.18 81.28 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
@@ -4596,7 +4574,7 @@
 			(uuid "23ba5e5d-af3d-4e55-bc84-9b61eb8df552")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "R9")
 					(unit 1)
@@ -4622,7 +4600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-GND"
+		(property "Value" "GND"
 			(at 106.68 106.68 0)
 			(effects
 				(font
@@ -4688,7 +4666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-GND"
+		(property "Value" "GND"
 			(at 193.04 104.14 0)
 			(effects
 				(font
@@ -4728,7 +4706,7 @@
 			(uuid "2aabfffa-7b96-4927-9c00-6966930431ff")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "#PWR09")
 					(unit 1)
@@ -4738,7 +4716,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:POWER-FLAG")
-		(at 170.18 185.42 0)
+		(at 137.16 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4747,7 +4725,7 @@
 		(fields_autoplaced yes)
 		(uuid "409c2d15-276d-4b19-8043-6cd50c469192")
 		(property "Reference" "#FLG01"
-			(at 170.18 187.325 0)
+			(at 137.16 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4756,7 +4734,7 @@
 			)
 		)
 		(property "Value" "POWER-FLAG"
-			(at 170.18 189.23 0)
+			(at 137.16 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4765,7 +4743,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 185.42 0)
+			(at 137.16 88.9 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4774,7 +4752,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 185.42 0)
+			(at 137.16 88.9 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4783,7 +4761,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 170.18 185.42 0)
+			(at 137.16 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4795,7 +4773,7 @@
 			(uuid "00fd24fe-5aaf-4398-8020-9f9cdb8ad03e")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "#FLG01")
 					(unit 1)
@@ -4805,7 +4783,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:POWER-FLAG")
-		(at 177.8 190.5 180)
+		(at 134.62 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4814,7 +4792,7 @@
 		(fields_autoplaced yes)
 		(uuid "40eb91ac-f4d1-4c3c-ae6a-ff734bd92480")
 		(property "Reference" "#FLG02"
-			(at 177.8 188.595 0)
+			(at 134.62 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4823,7 +4801,7 @@
 			)
 		)
 		(property "Value" "POWER-FLAG"
-			(at 177.8 186.69 0)
+			(at 134.62 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4832,7 +4810,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 190.5 0)
+			(at 134.62 60.96 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4841,7 +4819,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 190.5 0)
+			(at 134.62 60.96 0)
 			(effects
 				(font
 					(size 1 1)
@@ -4850,7 +4828,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 177.8 190.5 0)
+			(at 134.62 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4862,7 +4840,7 @@
 			(uuid "edb01a1f-8aff-4818-81e4-7f82bc1986dc")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "#FLG02")
 					(unit 1)
@@ -4900,6 +4878,7 @@
 		)
 		(property "Footprint" "tronixio:LED-SMD-1206"
 			(at 190.5 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -4909,6 +4888,7 @@
 		)
 		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216LSECK-J3-PRV.pdf"
 			(at 187.96 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -4918,15 +4898,7 @@
 		)
 		(property "Description" "Light Emitting Diode"
 			(at 200.66 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "604-APT3216LSECKJ3RV"
-			(at 185.42 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -4934,8 +4906,9 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "KINGBRIGHT-LED-1206-RED"
-			(at 193.04 91.44 0)
+		(property "Mouser" "604-APT3216LSECKJ3RV"
+			(at 185.42 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -4950,7 +4923,7 @@
 			(uuid "733bcc2b-df52-4d8c-9bf4-c5c5f3d5a2a8")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "LED4")
 					(unit 1)
@@ -4988,6 +4961,7 @@
 		)
 		(property "Footprint" "tronixio:LED-SMD-1206"
 			(at 167.64 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -4997,6 +4971,7 @@
 		)
 		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216LSECK-J3-PRV.pdf"
 			(at 165.1 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -5006,15 +4981,7 @@
 		)
 		(property "Description" "Light Emitting Diode"
 			(at 177.8 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "604-APT3216LSECKJ3RV"
-			(at 162.56 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -5022,8 +4989,9 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "KINGBRIGHT-LED-1206-RED"
-			(at 170.18 91.44 0)
+		(property "Mouser" "604-APT3216LSECKJ3RV"
+			(at 162.56 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -5038,7 +5006,7 @@
 			(uuid "69ae8e34-9da8-41e7-844e-49d5a1d16fa8")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "LED1")
 					(unit 1)
@@ -5078,7 +5046,6 @@
 		)
 		(property "Footprint" "tronixio:SOIC-18W"
 			(at 149.86 93.98 0)
-			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -5088,7 +5055,6 @@
 		)
 		(property "Datasheet" "https://www.microchip.com/en-us/product/mcp23008"
 			(at 149.86 96.52 0)
-			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -5096,9 +5062,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8-Bit I/O Expander with Serial Interface"
+		(property "Description" "IC - 8-Bit I/O Expander with Serial Interface"
 			(at 149.86 99.06 0)
-			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -5108,20 +5073,11 @@
 		)
 		(property "Mouser" "579-MCP23008-E/SO"
 			(at 149.86 101.6 0)
-			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
 				)
 				(hide yes)
-			)
-		)
-		(property "I2C" "@0x40"
-			(at 149.86 59.69 0)
-			(effects
-				(font
-					(size 1.15 1.15)
-				)
 			)
 		)
 		(pin "2"
@@ -5179,7 +5135,7 @@
 			(uuid "dfc2cc76-a9ae-4c6a-81ab-f072b8bbf1a0")
 		)
 		(instances
-			(project ""
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "U1")
 					(unit 1)
@@ -5205,7 +5161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-GND"
+		(property "Value" "GND"
 			(at 185.42 104.14 0)
 			(effects
 				(font
@@ -5245,7 +5201,7 @@
 			(uuid "3384d31e-b237-4d20-aafe-650962339110")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "#PWR08")
 					(unit 1)
@@ -5255,7 +5211,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:+VDD")
-		(at 132.08 35.56 0)
+		(at 132.08 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5263,7 +5219,7 @@
 		(dnp no)
 		(uuid "5d92ba57-17d7-429e-bdc9-e4bb7cabea57")
 		(property "Reference" "#PWR06"
-			(at 137.16 33.02 0)
+			(at 137.16 35.56 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5271,8 +5227,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-VBAT"
-			(at 132.08 30.48 0)
+		(property "Value" "+VDD"
+			(at 132.08 50.8 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5281,7 +5237,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 35.56 0)
+			(at 132.08 38.1 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5290,7 +5246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 35.56 0)
+			(at 132.08 38.1 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5299,16 +5255,8 @@
 			)
 		)
 		(property "Description" "VDD"
-			(at 132.08 30.48 0)
+			(at 132.08 33.02 0)
 			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
-				)
-			)
-		)
-		(property "Name" "VDD"
-			(at 132.08 30.48 0)
 			(effects
 				(font
 					(size 1.15 1.15)
@@ -5319,7 +5267,7 @@
 			(uuid "c61ab922-4174-46a9-b41c-d6595e8f5dd2")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "#PWR06")
 					(unit 1)
@@ -5375,9 +5323,10 @@
 		)
 		(property "Description" "Resistor"
 			(at 170.18 78.74 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
@@ -5410,7 +5359,7 @@
 			(uuid "b6ef668f-b718-4fd9-a0d7-c8e029bc23b1")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "R8")
 					(unit 1)
@@ -5448,6 +5397,7 @@
 		)
 		(property "Footprint" "tronixio:LED-SMD-1206"
 			(at 175.26 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -5457,6 +5407,7 @@
 		)
 		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216LSECK-J3-PRV.pdf"
 			(at 172.72 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -5466,15 +5417,7 @@
 		)
 		(property "Description" "Light Emitting Diode"
 			(at 185.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "604-APT3216LSECKJ3RV"
-			(at 170.18 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -5482,8 +5425,9 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "KINGBRIGHT-LED-1206-RED"
-			(at 177.8 91.44 0)
+		(property "Mouser" "604-APT3216LSECKJ3RV"
+			(at 170.18 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -5498,7 +5442,7 @@
 			(uuid "c67a309b-eaaf-4a81-9653-2cc0ca058f19")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "LED2")
 					(unit 1)
@@ -5507,8 +5451,8 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:RESISTOR-1206-4K7-5P")
-		(at 81.28 43.18 0)
+		(lib_id "tronixio:RESISTOR-0805-4K7-5P")
+		(at 81.28 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5516,7 +5460,7 @@
 		(dnp no)
 		(uuid "65c5f405-d3bb-453f-af0e-7a6ef1624f60")
 		(property "Reference" "R1"
-			(at 81.915 39.37 0)
+			(at 80.645 41.91 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5526,7 +5470,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 81.28 43.18 90)
+			(at 81.28 45.72 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5534,8 +5478,8 @@
 				)
 			)
 		)
-		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
-			(at 81.28 55.88 0)
+		(property "Footprint" "tronixio:RESISTOR-SMD-0805"
+			(at 81.28 58.42 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5545,7 +5489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 43.18 0)
+			(at 81.28 45.72 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5554,7 +5498,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 81.28 60.96 0)
+			(at 81.28 63.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5564,7 +5508,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 81.915 46.99 0)
+			(at 81.915 49.53 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5574,8 +5518,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "660-RK73B2BTTDD472J"
-			(at 81.28 58.42 0)
+		(property "Mouser" "660-RK73B2ATTDD472J"
+			(at 81.28 60.96 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5617,7 +5561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-GND"
+		(property "Value" "GND"
 			(at 231.14 104.14 0)
 			(effects
 				(font
@@ -5657,7 +5601,7 @@
 			(uuid "3d29f368-3da6-47c8-9d69-c6bfae7cee71")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "#PWR014")
 					(unit 1)
@@ -5666,7 +5610,7 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:HARWIN-200-M-1X03-JUMPER-VERTICAL")
+		(lib_id "tronixio:HARWIN-200-M-1X03-JUMPER-VERTICAL-TH")
 		(at 106.68 91.44 0)
 		(mirror y)
 		(unit 1)
@@ -5698,7 +5642,6 @@
 		)
 		(property "Footprint" "tronixio:HARWIN-M22-25103xx"
 			(at 106.68 106.68 0)
-			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -5708,7 +5651,6 @@
 		)
 		(property "Datasheet" "https://www.harwin.com/products/M22-2510346/"
 			(at 106.68 109.22 0)
-			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -5716,9 +5658,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "M22 Series - 2.00mm Pitch PCB Connector"
-			(at 106.68 114.3 0)
-			(do_not_autoplace yes)
+		(property "Description" "HEADER - M22 Series - 2.00mm Pitch PCB Connector"
+			(at 106.68 111.76 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5727,8 +5668,7 @@
 			)
 		)
 		(property "Mouser" "855-M22-25103"
-			(at 106.68 111.76 0)
-			(do_not_autoplace yes)
+			(at 106.68 114.3 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5784,6 +5724,7 @@
 		)
 		(property "Footprint" "tronixio:LED-SMD-1206"
 			(at 205.74 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -5793,6 +5734,7 @@
 		)
 		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216LSECK-J3-PRV.pdf"
 			(at 203.2 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -5802,15 +5744,7 @@
 		)
 		(property "Description" "Light Emitting Diode"
 			(at 215.9 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "604-APT3216LSECKJ3RV"
-			(at 200.66 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -5818,8 +5752,9 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "KINGBRIGHT-LED-1206-RED"
-			(at 208.28 91.44 0)
+		(property "Mouser" "604-APT3216LSECKJ3RV"
+			(at 200.66 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -5834,7 +5769,7 @@
 			(uuid "e2e3c596-904a-4f03-93de-762a967e489c")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "LED6")
 					(unit 1)
@@ -5890,9 +5825,10 @@
 		)
 		(property "Description" "Resistor"
 			(at 170.18 76.2 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
@@ -5925,7 +5861,7 @@
 			(uuid "fa713741-fa55-4601-9af2-5bf687900d0d")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "R7")
 					(unit 1)
@@ -5935,7 +5871,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:+VDD")
-		(at 86.36 35.56 0)
+		(at 86.36 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5943,7 +5879,7 @@
 		(dnp no)
 		(uuid "8b10aa7a-a3e5-4000-a806-6a2107159a0e")
 		(property "Reference" "#PWR02"
-			(at 91.44 33.02 0)
+			(at 91.44 35.56 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5951,8 +5887,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-VBAT"
-			(at 86.36 30.48 0)
+		(property "Value" "+VDD"
+			(at 86.36 50.8 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5961,7 +5897,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 35.56 0)
+			(at 86.36 38.1 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5970,7 +5906,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 35.56 0)
+			(at 86.36 38.1 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5979,16 +5915,8 @@
 			)
 		)
 		(property "Description" "VDD"
-			(at 86.36 30.48 0)
+			(at 86.36 33.02 0)
 			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
-				)
-			)
-		)
-		(property "Name" "VDD"
-			(at 86.36 30.48 0)
 			(effects
 				(font
 					(size 1.15 1.15)
@@ -6043,7 +5971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf"
+		(property "Datasheet" ""
 			(at 132.08 96.52 0)
 			(effects
 				(font
@@ -6092,15 +6020,6 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "CAPACITOR-1206-100N"
-			(at 132.08 104.14 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5b4b3cf4-53be-4553-bc36-eaa1c6cba0ce")
 		)
@@ -6108,7 +6027,7 @@
 			(uuid "2c200094-0566-4f33-b5bf-f4527f351719")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "C1")
 					(unit 1)
@@ -6134,7 +6053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-GND"
+		(property "Value" "GND"
 			(at 215.9 104.14 0)
 			(effects
 				(font
@@ -6174,7 +6093,7 @@
 			(uuid "ff1dbf16-1de0-4800-861f-cade843cf51f")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "#PWR012")
 					(unit 1)
@@ -6183,7 +6102,7 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:HARWIN-200-M-1X03-JUMPER-VERTICAL")
+		(lib_id "tronixio:HARWIN-200-M-1X03-JUMPER-VERTICAL-TH")
 		(at 119.38 91.44 0)
 		(mirror y)
 		(unit 1)
@@ -6215,7 +6134,6 @@
 		)
 		(property "Footprint" "tronixio:HARWIN-M22-25103xx"
 			(at 119.38 106.68 0)
-			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -6225,7 +6143,6 @@
 		)
 		(property "Datasheet" "https://www.harwin.com/products/M22-2510346/"
 			(at 119.38 109.22 0)
-			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -6233,9 +6150,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "M22 Series - 2.00mm Pitch PCB Connector"
-			(at 119.38 114.3 0)
-			(do_not_autoplace yes)
+		(property "Description" "HEADER - M22 Series - 2.00mm Pitch PCB Connector"
+			(at 119.38 111.76 0)
 			(effects
 				(font
 					(size 1 1)
@@ -6244,8 +6160,7 @@
 			)
 		)
 		(property "Mouser" "855-M22-25103"
-			(at 119.38 111.76 0)
-			(do_not_autoplace yes)
+			(at 119.38 114.3 0)
 			(effects
 				(font
 					(size 1 1)
@@ -6263,7 +6178,7 @@
 			(uuid "c751f965-0537-4652-aa43-981bb11c8467")
 		)
 		(instances
-			(project ""
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "JP5")
 					(unit 1)
@@ -6319,9 +6234,10 @@
 		)
 		(property "Description" "Resistor"
 			(at 170.18 71.12 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
@@ -6354,7 +6270,7 @@
 			(uuid "67dccb1f-6eda-4d8c-9636-193eb46870fe")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "R5")
 					(unit 1)
@@ -6392,6 +6308,7 @@
 		)
 		(property "Footprint" "tronixio:LED-SMD-1206"
 			(at 220.98 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -6401,6 +6318,7 @@
 		)
 		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216LSECK-J3-PRV.pdf"
 			(at 218.44 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -6410,15 +6328,7 @@
 		)
 		(property "Description" "Light Emitting Diode"
 			(at 231.14 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "604-APT3216LSECKJ3RV"
-			(at 215.9 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -6426,8 +6336,9 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "KINGBRIGHT-LED-1206-RED"
-			(at 223.52 91.44 0)
+		(property "Mouser" "604-APT3216LSECKJ3RV"
+			(at 215.9 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -6442,7 +6353,7 @@
 			(uuid "a664035a-1ba3-4400-adca-94b5a3668a02")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "LED8")
 					(unit 1)
@@ -6468,7 +6379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-GND"
+		(property "Value" "GND"
 			(at 119.38 106.68 0)
 			(effects
 				(font
@@ -6517,8 +6428,8 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:HARWIN-200-M-1X02-JUMPER-VERTICAL")
-		(at 81.28 53.34 0)
+		(lib_id "tronixio:HARWIN-200-M-1X02-JUMPER-VERTICAL-TH")
+		(at 81.28 55.88 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6528,16 +6439,6 @@
 		(fields_autoplaced yes)
 		(uuid "9ab77dc0-9a2f-4d8c-a47a-28f0f267a976")
 		(property "Reference" "JP1"
-			(at 78.74 52.07 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SCL"
 			(at 78.74 54.61 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6547,9 +6448,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "tronixio:HARWIN-M22-25102xx"
-			(at 81.28 66.04 0)
+		(property "Value" "SCL"
+			(at 78.74 57.15 0)
 			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.15 1.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "tronixio:HARWIN-M22-25102xx"
+			(at 81.28 68.58 0)
 			(effects
 				(font
 					(size 1 1)
@@ -6558,8 +6468,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.harwin.com/products/M22-2510246/"
-			(at 81.28 68.58 0)
-			(do_not_autoplace yes)
+			(at 81.28 71.12 0)
 			(effects
 				(font
 					(size 1 1)
@@ -6567,9 +6476,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "M22 Series - 2.00mm Pitch PCB Connector"
+		(property "Description" "HEADER - M22 Series - 2.00mm Pitch PCB Connector"
 			(at 81.28 73.66 0)
-			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -6578,8 +6486,7 @@
 			)
 		)
 		(property "Mouser" "855-M22-25102"
-			(at 81.28 71.12 0)
-			(do_not_autoplace yes)
+			(at 81.28 76.2 0)
 			(effects
 				(font
 					(size 1 1)
@@ -6594,7 +6501,7 @@
 			(uuid "803aa8da-2d49-4c71-bb1c-416e5a432292")
 		)
 		(instances
-			(project ""
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "JP1")
 					(unit 1)
@@ -6603,7 +6510,7 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:HARWIN-254-M-1X06-RIGHT-ANGLE")
+		(lib_id "tronixio:HARWIN-254-M-1X06-RIGHT-ANGLE-TH")
 		(at 93.98 132.08 0)
 		(mirror y)
 		(unit 1)
@@ -6646,17 +6553,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "M20 Series - 2.54mm Pitch PCB Connector"
+		(property "Description" "HEADER - M20 Series - 2.54mm Pitch PCB Connector"
 			(at 93.98 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "855-M20-975064"
-			(at 93.98 157.48 0)
 			(effects
 				(font
 					(size 1 1)
@@ -6664,8 +6562,8 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "HARWIN-254-M-1X06-RIGHT-ANGLE"
-			(at 93.98 149.86 0)
+		(property "Mouser" "855-M20-975064"
+			(at 93.98 157.48 0)
 			(effects
 				(font
 					(size 1 1)
@@ -6692,7 +6590,7 @@
 			(uuid "327c6440-dcd4-4f81-bca6-8502f592c9b1")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "K1")
 					(unit 1)
@@ -6718,7 +6616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-GND"
+		(property "Value" "GND"
 			(at 208.28 104.14 0)
 			(effects
 				(font
@@ -6758,7 +6656,7 @@
 			(uuid "ca84dc8b-684c-4ddc-ac55-daf226c2f1f8")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "#PWR011")
 					(unit 1)
@@ -6815,9 +6713,10 @@
 		)
 		(property "Description" "Polarized Capacitor"
 			(at 104.14 175.26 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
@@ -6886,8 +6785,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-VBAT"
-			(at 104.14 121.92 0)
+		(property "Value" "+VDD"
+			(at 104.14 139.7 0)
 			(effects
 				(font
 					(size 1 1)
@@ -6922,19 +6821,11 @@
 				)
 			)
 		)
-		(property "Name" "VDD"
-			(at 104.14 121.92 0)
-			(effects
-				(font
-					(size 1.15 1.15)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "3dd63084-e81c-4773-bf1a-590cb3cbb10e")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "#PWR020")
 					(unit 1)
@@ -7007,7 +6898,7 @@
 			)
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "U2")
 					(unit 1)
@@ -7033,7 +6924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-GND"
+		(property "Value" "GND"
 			(at 137.16 106.68 0)
 			(effects
 				(font
@@ -7073,7 +6964,7 @@
 			(uuid "c7a97fb2-25f1-4bf8-8d65-85a2a7650629")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "#PWR019")
 					(unit 1)
@@ -7111,6 +7002,7 @@
 		)
 		(property "Footprint" "tronixio:LED-SMD-1206"
 			(at 198.12 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -7120,6 +7012,7 @@
 		)
 		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216LSECK-J3-PRV.pdf"
 			(at 195.58 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -7129,15 +7022,7 @@
 		)
 		(property "Description" "Light Emitting Diode"
 			(at 208.28 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "604-APT3216LSECKJ3RV"
-			(at 193.04 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -7145,8 +7030,9 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "KINGBRIGHT-LED-1206-RED"
-			(at 200.66 91.44 0)
+		(property "Mouser" "604-APT3216LSECKJ3RV"
+			(at 193.04 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -7161,7 +7047,7 @@
 			(uuid "f8210126-f782-4001-8740-28a9b8ae6c50")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "LED5")
 					(unit 1)
@@ -7170,74 +7056,8 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:GND")
-		(at 170.18 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c7fd88e0-72a6-4454-ba59-3dff5184513c")
-		(property "Reference" "#PWR024"
-			(at 170.18 195.58 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "POWER-GND"
-			(at 170.18 198.12 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 190.5 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "GND"
-			(at 170.18 193.675 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "32146012-5ec0-4ac7-82e0-1ffdf8214b5f")
-		)
-		(instances
-			(project "hc595-led"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "tronixio:+VDD")
-		(at 119.38 35.56 0)
+		(at 119.38 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7245,7 +7065,7 @@
 		(dnp no)
 		(uuid "d24b58fb-5592-4a73-ad72-0ae2d8325ca2")
 		(property "Reference" "#PWR05"
-			(at 124.46 33.02 0)
+			(at 124.46 35.56 0)
 			(effects
 				(font
 					(size 1 1)
@@ -7253,8 +7073,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-VBAT"
-			(at 119.38 30.48 0)
+		(property "Value" "+VDD"
+			(at 119.38 50.8 0)
 			(effects
 				(font
 					(size 1 1)
@@ -7263,7 +7083,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 35.56 0)
+			(at 119.38 38.1 0)
 			(effects
 				(font
 					(size 1 1)
@@ -7272,7 +7092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 35.56 0)
+			(at 119.38 38.1 0)
 			(effects
 				(font
 					(size 1 1)
@@ -7281,16 +7101,8 @@
 			)
 		)
 		(property "Description" "VDD"
-			(at 119.38 30.48 0)
+			(at 119.38 33.02 0)
 			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
-				)
-			)
-		)
-		(property "Name" "VDD"
-			(at 119.38 30.48 0)
 			(effects
 				(font
 					(size 1.15 1.15)
@@ -7339,6 +7151,7 @@
 		)
 		(property "Footprint" "tronixio:LED-SMD-1206"
 			(at 213.36 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -7348,6 +7161,7 @@
 		)
 		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216LSECK-J3-PRV.pdf"
 			(at 210.82 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -7357,15 +7171,7 @@
 		)
 		(property "Description" "Light Emitting Diode"
 			(at 223.52 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "604-APT3216LSECKJ3RV"
-			(at 208.28 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -7373,8 +7179,9 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "KINGBRIGHT-LED-1206-RED"
-			(at 215.9 91.44 0)
+		(property "Mouser" "604-APT3216LSECKJ3RV"
+			(at 208.28 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -7389,7 +7196,7 @@
 			(uuid "c2a53308-85d2-4803-af17-f69e27fe6359")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "LED7")
 					(unit 1)
@@ -7445,9 +7252,10 @@
 		)
 		(property "Description" "Resistor"
 			(at 170.18 83.82 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 				(hide yes)
 			)
@@ -7480,7 +7288,7 @@
 			(uuid "ae9ee0d1-7495-4ea0-9c13-efc8bfccf6f7")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "R10")
 					(unit 1)
@@ -7518,6 +7326,7 @@
 		)
 		(property "Footprint" "tronixio:LED-SMD-1206"
 			(at 182.88 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -7527,6 +7336,7 @@
 		)
 		(property "Datasheet" "http://www.kingbrightusa.com/images/catalog/SPEC/APT3216LSECK-J3-PRV.pdf"
 			(at 180.34 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -7536,15 +7346,7 @@
 		)
 		(property "Description" "Light Emitting Diode"
 			(at 193.04 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "604-APT3216LSECKJ3RV"
-			(at 177.8 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -7552,8 +7354,9 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "KINGBRIGHT-LED-1206-RED"
-			(at 185.42 91.44 0)
+		(property "Mouser" "604-APT3216LSECKJ3RV"
+			(at 177.8 91.44 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -7568,7 +7371,7 @@
 			(uuid "530a104d-d462-4597-81e9-b191f04f988d")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "LED3")
 					(unit 1)
@@ -7594,7 +7397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-GND"
+		(property "Value" "GND"
 			(at 177.8 104.14 0)
 			(effects
 				(font
@@ -7634,7 +7437,7 @@
 			(uuid "76f7260d-cd98-4cbd-9e06-df3074c83b31")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "#PWR07")
 					(unit 1)
@@ -7660,7 +7463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-GND"
+		(property "Value" "GND"
 			(at 132.08 106.68 0)
 			(effects
 				(font
@@ -7700,7 +7503,7 @@
 			(uuid "36449420-391a-4892-9855-db28603774fc")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "#PWR018")
 					(unit 1)
@@ -7710,7 +7513,7 @@
 	)
 	(symbol
 		(lib_id "tronixio:+VDD")
-		(at 93.98 35.56 0)
+		(at 93.98 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7718,7 +7521,7 @@
 		(dnp no)
 		(uuid "e7072326-c70e-47a7-8c34-0a48a12a4832")
 		(property "Reference" "#PWR03"
-			(at 99.06 33.02 0)
+			(at 99.06 35.56 0)
 			(effects
 				(font
 					(size 1 1)
@@ -7726,8 +7529,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-VBAT"
-			(at 93.98 30.48 0)
+		(property "Value" "+VDD"
+			(at 93.98 50.8 0)
 			(effects
 				(font
 					(size 1 1)
@@ -7736,7 +7539,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 35.56 0)
+			(at 93.98 38.1 0)
 			(effects
 				(font
 					(size 1 1)
@@ -7745,7 +7548,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 35.56 0)
+			(at 93.98 38.1 0)
 			(effects
 				(font
 					(size 1 1)
@@ -7754,16 +7557,8 @@
 			)
 		)
 		(property "Description" "VDD"
-			(at 93.98 30.48 0)
+			(at 93.98 33.02 0)
 			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
-				)
-			)
-		)
-		(property "Name" "VDD"
-			(at 93.98 30.48 0)
 			(effects
 				(font
 					(size 1.15 1.15)
@@ -7800,7 +7595,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-GND"
+		(property "Value" "GND"
 			(at 99.06 187.96 0)
 			(effects
 				(font
@@ -7840,7 +7635,7 @@
 			(uuid "a45f0bde-b239-4a5c-bbfb-099b6b9c537d")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "#PWR021")
 					(unit 1)
@@ -7849,82 +7644,8 @@
 		)
 	)
 	(symbol
-		(lib_id "tronixio:+VDD")
-		(at 177.8 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fc54722e-43d3-4958-b314-96019cf0ccb6")
-		(property "Reference" "#PWR023"
-			(at 182.88 182.88 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "POWER-VBAT"
-			(at 177.8 180.34 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 185.42 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 185.42 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "VDD"
-			(at 177.8 180.34 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.15 1.15)
-				)
-			)
-		)
-		(property "Name" "VDD"
-			(at 177.8 180.34 0)
-			(effects
-				(font
-					(size 1.15 1.15)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "306738c7-a2d8-4d2e-becf-8abe5bbf5734")
-		)
-		(instances
-			(project "hc595-led"
-				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "tronixio:RESISTOR-1206-4K7-5P")
-		(at 86.36 43.18 0)
+		(lib_id "tronixio:RESISTOR-0805-4K7-5P")
+		(at 86.36 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7932,7 +7653,7 @@
 		(dnp no)
 		(uuid "fc5cb520-1fed-4aa8-a723-6f5c8ba07df0")
 		(property "Reference" "R2"
-			(at 86.995 39.37 0)
+			(at 85.725 41.91 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7942,7 +7663,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 86.36 43.18 90)
+			(at 86.36 45.72 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7950,8 +7671,8 @@
 				)
 			)
 		)
-		(property "Footprint" "tronixio:RESISTOR-SMD-1206"
-			(at 86.36 55.88 0)
+		(property "Footprint" "tronixio:RESISTOR-SMD-0805"
+			(at 86.36 58.42 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7961,7 +7682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 43.18 0)
+			(at 86.36 45.72 0)
 			(effects
 				(font
 					(size 1 1)
@@ -7970,7 +7691,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 86.36 60.96 0)
+			(at 86.36 63.5 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7980,7 +7701,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 86.995 46.99 0)
+			(at 86.995 49.53 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7990,8 +7711,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "660-RK73B2BTTDD472J"
-			(at 86.36 58.42 0)
+		(property "Mouser" "660-RK73B2ATTDD472J"
+			(at 86.36 60.96 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -8007,7 +7728,7 @@
 			(uuid "953b4b98-49ca-4589-b34b-219d9f74f9ae")
 		)
 		(instances
-			(project ""
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "R2")
 					(unit 1)
@@ -8033,7 +7754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "POWER-GND"
+		(property "Value" "GND"
 			(at 200.66 104.14 0)
 			(effects
 				(font
@@ -8073,7 +7794,7 @@
 			(uuid "dd8cf386-9c1e-4ac8-89c3-dc47f475f157")
 		)
 		(instances
-			(project "hc595-led"
+			(project "mcp23008-led"
 				(path "/5f96646c-bdf6-47e2-a01d-8588cc95727b"
 					(reference "#PWR010")
 					(unit 1)
